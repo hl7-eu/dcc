@@ -1,0 +1,109 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ImmunizationRecommendation-svc",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Medications"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/ImmunizationRecommendation-svc",
+  "version": "0.0.1",
+  "name": "ImmunizationRecommendationSvc",
+  "title": "ImmunizationRecommendation (SVC)",
+  "status": "active",
+  "description": "This profile defines how to represent Immunization Recommandations in FHIR for building a Smart vaccination Card.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "ImmunizationRecommendation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "ImmunizationRecommendation.patient",
+        "path": "ImmunizationRecommendation.patient",
+        "mustSupport": true
+      },
+      {
+        "id": "ImmunizationRecommendation.date",
+        "path": "ImmunizationRecommendation.date",
+        "mustSupport": true
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.vaccineCode",
+        "path": "ImmunizationRecommendation.recommendation.vaccineCode",
+        "short": "Generic description of the vaccine/prophylaxis or its component(s)"
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.targetDisease",
+        "path": "ImmunizationRecommendation.recommendation.targetDisease",
+        "short": "Disease or agent that the vaccination provides protection against"
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.forecastStatus",
+        "path": "ImmunizationRecommendation.recommendation.forecastStatus",
+        "mustSupport": true
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.dateCriterion",
+        "path": "ImmunizationRecommendation.recommendation.dateCriterion",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "code"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.dateCriterion:nextDose",
+        "path": "ImmunizationRecommendation.recommendation.dateCriterion",
+        "sliceName": "nextDose",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "ImmunizationRecommendation.recommendation.dateCriterion:nextDose.code",
+        "path": "ImmunizationRecommendation.recommendation.dateCriterion.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "30980-7",
+              "system": "http://loinc.org"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+== Suppressed Messages ==
+
+# No schematrons available for Logical Models
+	The link 'StructureDefinition-vaccinationCertificate.sch' for "Schematron" cannot be resolved
+	The link 'StructureDefinition-smartVaccinationCertificate.sch' for "Schematron" cannot be resolved
+	The resource must declare its jurisdiction to match the package id (hl7.fhir.eu.poc.svc, jurisdiction = urn:iso:std:iso:3166#EU) (for FSH: 'jurisdiction: urn:iso:std:iso:3166#EU "null"')
+
+	
+	
+	
+	
+
+

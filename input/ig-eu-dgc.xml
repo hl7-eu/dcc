@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
+<ImplementationGuide xmlns="http://hl7.org/fhir"
+                   	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<id value="hl7.eu.fhir.dgc"/>
+	<!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
+    <valueString value="resources-spreadsheet.xml"/>
+  </extension>-->
+	<url value="http://hl7.eu/fhir/ig/dgc/ImplementationGuide/hl7.eu.fhir.dgc"/>
+	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
+	<version value="0.0.1"/>
+	<name value="DigitalGreenCertificateIg"/>
+	<title value="EU Digital Green Certificate FHIR Implementation Guide"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<publisher value="Giorgio Cangioli"/>
+	<contact>
+		<telecom>
+			<!-- Or whatever URL and/or email address(es) are appropriate -->
+			<system value="email"/>
+			<value value="mailto:giorgio.cangioli@gmail.com"/>
+		</telecom>
+	</contact>
+	<description value="EU Digital Green Certificate FHIR Implementation Guide"/>
+	<jurisdiction>
+		<!-- This will drive SNOMED release used -->
+		<coding>
+			<!-- This is the code for universal -->
+			<!-- <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/> -->
+			<!-- <code value="150"/> -->
+			<!-- 			<system value="urn:iso:std:iso:3166"/>
+			<code value="EU"/> -->
+			<display value="Europe"/>
+			<!-- Change to this if the IG is country-specific -->
+			<system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+			<code value="001"/>
+		</coding>
+	</jurisdiction>
+	<packageId value="hl7.eu.fhir.dgc"/>
+	<!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
+	<license value="CC0-1.0"/>
+	<!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
+	<fhirVersion value="4.0.1"/>
+	<dependsOn>
+		<uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
+		<packageId value="hl7.fhir.uv.ips"/>
+		<version value="dev"/>
+	</dependsOn>
+		<!-- <dependsOn> -->
+		<!-- <uri value="http://fhir.org/guides/who/svc/ImplementationGuide/hl7.fhir.eu.poc.svc"/> -->
+		<!-- <packageId value="who.fhir.svc"/> -->
+		<!-- <version value="dev"/> -->
+	<!-- </dependsOn> -->
+	<definition>
+		<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-01"/>
+			</reference>
+			<name value="Two doses (Immunization)"/>
+			<description value="Czech vaccination example: 2 doses"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-02"/>
+			</reference>
+			<name value="Only first dose given (Immunization)"/>
+			<description value="Czech vaccination example: 1 dose given, second dose planned"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-03"/>
+			</reference>
+			<name value="Second dose not given (Immunization)"/>
+			<description value="Vaccination example: second dose not given (only immunization events)"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-04"/>
+			</reference>
+			<name value="Second dose not given (ImmunizationRecommendation)"/>
+			<description value="Vaccination example: second dose not given (Immunization and ImmunizationRecommendation)"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+		</resource>
+				<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-05"/>
+			</reference>
+			<name value="Only planned vaccinations (ImmunizationRecommendation)"/>
+			<description value="Vaccination example: only planned vaccinations"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+		</resource>
+				<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-06"/>
+			</reference>
+			<name value="Second dose not given due to adverse reaction"/>
+			<description value="Vaccination example: second dose not given due to adverse reaction(Immunization and ImmunizationRecommendation)"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+		</resource>
+		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
+      inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
+		<page>
+			<!-- The root will always be toc.html - the template will force it if you don't do it -->
+			<nameUrl value="toc.html"/>
+			<title value="Table of Contents"/>
+			<generation value="html"/>
+			<page>
+				<nameUrl value="index.html"/>
+				<title value="Smart Vaccination Card Proof of Concept - Home Page"/>
+				<generation value="markdown"/>
+			</page>
+			<!-- 			<page>
+				<nameUrl value="background.html"/>
+				<title value="Background"/>
+				<generation value="html"/>
+			</page>
+			<page>
+				<nameUrl value="spec.html"/>
+				<title value="Detailed Specification"/>
+				<generation value="markdown"/>
+			</page> -->
+			<page>
+				<nameUrl value="downloads.html"/>
+				<title value="Useful Downloads"/>
+				<generation value="html"/>
+			</page>
+			<page>
+				<nameUrl value="changes.html"/>
+				<title value="IG Change History"/>
+				<generation value="html"/>
+			</page>
+		</page>
+		<!-- copyright year is a mandatory parameter -->
+		<parameter>
+			<code value="copyrightyear"/>
+			<value value="2021+"/>
+		</parameter>
+		<!-- releaselabel should be the ballot status for HL7-published IGs. -->
+		<parameter>
+			<code value="releaselabel"/>
+			<value value="CI Build"/>
+		</parameter>
+		<parameter>
+			<code value="find-other-resources"/>
+			<value value="true"/>
+		</parameter>
+		<!--
+		<parameter>
+			<code value="logging"/>
+			<value value="generate"/>
+		</parameter>
+-->
+		<!-- Uncomment one or more of these if you want to limit which syntaxes are supported or want to disable the display of mappings
+    <parameter>
+      <code value="excludexml"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludejson"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludettl"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludemap"/>
+      <value value="true"/>
+    </parameter>-->
+	</definition>
+</ImplementationGuide>
