@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-	<id value="vaccinationCertificate"/>
-	<url value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"/>
+	<id value="vaccinationCertificatePv"/>
+	<url value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"/>
 	<name value="vaccinationCertificate"/>
-	<title value="EU Vaccination Certificate [LM]"/>
+	<title value="EU Vaccination Certificate - Private Venue [LM]"/>
 	<status value="draft"/>
 	<experimental value="true"/>
-	<description value="Logical Model representing the EU Vaccination Certificate Model"/>
+	<description value="Logical Model representing the EU Vaccination Certificate Model for Private Venue"/>
 	<!-- <jurisdiction> -->
 		<!-- This will drive SNOMED release used -->
 		<!-- <coding> -->
@@ -27,19 +27,19 @@
 	</mapping>
 	<kind value="logical"/>
 	<abstract value="true"/>
-	<type value="vaccinationCertificate"/>
+	<type value="vaccinationCertificatePv"/>
 	<baseDefinition value="http://hl7.org/fhir/StructureDefinition/Element"/>
 	<derivation value="specialization"/>
 	<differential>
-		<element id="vaccinationCertificate">
-			<path value="vaccinationCertificate"/>
-			<short value="EU Vaccination Certificate"/>
-			<definition value="EU Vaccination Certificate content"/>
+		<element id="vaccinationCertificatePv">
+			<path value="vaccinationCertificatePv"/>
+			<short value="EU Vaccination Certificate for Private Venue"/>
+			<definition value="EU Vaccination Certificate content for Private Venue"/>
 			<min value="0"/>
 			<max value="*"/>
 		</element>
-		<element id="vaccinationCertificate.subject">
-			<path value="vaccinationCertificate.subject"/>
+		<element id="vaccinationCertificatePv.subject">
+			<path value="vaccinationCertificatePv.subject"/>
 			<short value="Person identification"/>
 			<definition value="Person identification"/>
 			<min value="1"/>
@@ -47,12 +47,12 @@
 			<type>
 				<code value="BackboneElement"/>
 			</type>
-			<constraint>
+<!-- 			<constraint>
 				<key value="eu-svc-1"/>
 				<severity value="error"/>
 				<human value="If no Person identifier is provided then the date of birth shall be valued"/>
 				<expression value="identifier.exists() or birthDate.exists()"/>
-			</constraint>
+			</constraint> -->
 			<mapping>
 				<identity value="fhir-ig"/>
 				<map value="Composition.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-svc').subject"/>
@@ -62,22 +62,22 @@
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').patient"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.subject.name">
-			<path value="vaccinationCertificate.subject.name"/>
-			<short value="Person name"/>
-			<definition value="The legal name of the vaccinated person"/>
+		<element id="vaccinationCertificatePv.subject.name">
+			<path value="vaccinationCertificatePv.subject.name"/>
+			<short value="Person name: Initials"/>
+			<definition value="The initial of the legal name of the vaccinated person"/>
 			<min value="1"/>
 			<max value="*"/>
 			<type>
-				<code value="HumanName"/>
+				<code value="string"/>
 			</type>
 			<mapping>
 				<identity value="fhir-ig"/>
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').name"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.subject.identifier">
-			<path value="vaccinationCertificate.subject.identifier"/>
+<!-- 		<element id="vaccinationCertificatePv.subject.identifier">
+			<path value="vaccinationCertificatePv.subject.identifier"/>
 			<short value="Person identifier"/>
 			<definition value="An identifier of the vaccinated person, according to the policies applicable in each country. It should be captured what type of identifier is used. Examples: citizen ID card or identifier within the health system/IIS/e-registry."/>
 			<min value="0"/>
@@ -89,9 +89,9 @@
 				<identity value="fhir-ig"/>
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').identifier"/>
 			</mapping>
-		</element>
-		<element id="vaccinationCertificate.subject.sex">
-			<path value="vaccinationCertificate.subject.sex"/>
+		</element> -->
+		<!-- <element id="vaccinationCertificatePv.subject.sex">
+			<path value="vaccinationCertificatePv.subject.sex"/>
 			<short value="Sex"/>
 			<definition value="Administrative gender"/>
 			<min value="0"/>
@@ -104,8 +104,8 @@
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').gender"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.subject.birthDate">
-			<path value="vaccinationCertificate.subject.birthDate"/>
+		<element id="vaccinationCertificatePv.subject.birthDate">
+			<path value="vaccinationCertificatePv.subject.birthDate"/>
 			<short value="Person date of birth"/>
 			<definition value="Vaccinated person’s date of birth. Mandatory if no Person identifier is provided."/>
 			<min value="0"/>
@@ -117,9 +117,9 @@
 				<identity value="fhir-ig"/>
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').birthDate"/>
 			</mapping>
-		</element>
-		<element id="vaccinationCertificate.vaccination">
-			<path value="vaccinationCertificate.vaccination"/>
+		</element> -->
+		<element id="vaccinationCertificatePv.vaccination">
+			<path value="vaccinationCertificatePv.vaccination"/>
 			<short value="Vaccination / prophylaxis information"/>
 			<definition value="Vaccination / prophylaxis information"/>
 			<min value="1"/>
@@ -132,8 +132,8 @@
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc')"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.targetDisease">
-			<path value="vaccinationCertificate.vaccination.targetDisease"/>
+		<element id="vaccinationCertificatePv.vaccination.targetDisease">
+			<path value="vaccinationCertificatePv.vaccination.targetDisease"/>
 			<short value="Disease or agent targeted"/>
 			<definition value="Disease or agent that the vaccination provides protection against"/>
 			<min value="0"/>
@@ -146,8 +146,8 @@
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').protocolApplied.targetDisease"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.vaccineCode">
-			<path value="vaccinationCertificate.vaccination.vaccineCode"/>
+		<!-- <element id="vaccinationCertificatePv.vaccination.vaccineCode">
+			<path value="vaccinationCertificatePv.vaccination.vaccineCode"/>
 			<short value="Vaccine or prophylaxis"/>
 			<definition value="Generic description of the vaccine/Vaccine component(s) 
 Example:
@@ -165,8 +165,8 @@ J07BX03 covid-19 vaccines (temporary code, to be implemented in ATC 2022)
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').vaccineCode"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.vaccineProductName">
-			<path value="vaccinationCertificate.vaccination.vaccineProductName"/>
+		<element id="vaccinationCertificatePv.vaccination.vaccineProductName">
+			<path value="vaccinationCertificatePv.vaccination.vaccineProductName"/>
 			<short value="Vaccine medicinal product"/>
 			<definition value="Medicinal product name 
 Example: 
@@ -182,8 +182,8 @@ COMIRNATY concentrate for dispersion for injection
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').vaccineCode.text"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.vaccineMarketingAuthorizationHolder">
-			<path value="vaccinationCertificate.vaccination.vaccineMarketingAuthorizationHolder"/>
+		<element id="vaccinationCertificatePv.vaccination.vaccineMarketingAuthorizationHolder">
+			<path value="vaccinationCertificatePv.vaccination.vaccineMarketingAuthorizationHolder"/>
 			<short value="Marketing Authorization Holder"/>
 			<definition value="Marketing Authorisation Holder 
 Example: 
@@ -198,8 +198,8 @@ Pfizer BioNTech"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').manufacturer"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.doseNumber">
-			<path value="vaccinationCertificate.vaccination.doseNumber"/>
+		<element id="vaccinationCertificatePv.vaccination.doseNumber">
+			<path value="vaccinationCertificatePv.vaccination.doseNumber"/>
 			<short value="Number in a series of vaccinations / doses"/>
 			<definition value="Order in the vaccination course 
 Example: 1/2"/>
@@ -217,8 +217,8 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').protocolApplied.seriesDoses[x]"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.vaccineBatchNumber">
-			<path value="vaccinationCertificate.vaccination.vaccineBatchNumber"/>
+		<element id="vaccinationCertificatePv.vaccination.vaccineBatchNumber">
+			<path value="vaccinationCertificatePv.vaccination.vaccineBatchNumber"/>
 			<short value="Batch/lot number"/>
 			<definition value="A distinctive combination of numbers and/or letters which specifically identifies a batch"/>
 			<min value="0"/>
@@ -230,9 +230,9 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').lotNumber"/>
 			</mapping>
-		</element>
-		<element id="vaccinationCertificate.vaccination.dateOfVaccination">
-			<path value="vaccinationCertificate.vaccination.dateOfVaccination"/>
+		</element> -->
+		<element id="vaccinationCertificatePv.vaccination.dateOfVaccination">
+			<path value="vaccinationCertificatePv.vaccination.dateOfVaccination"/>
 			<short value="Date of vaccination"/>
 			<definition value="Date of vaccination"/>
 			<min value="1"/>
@@ -245,8 +245,8 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDatetime"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.administeringCentre">
-			<path value="vaccinationCertificate.vaccination.administeringCentre"/>
+	<!-- 	<element id="vaccinationCertificatePv.vaccination.administeringCentre">
+			<path value="vaccinationCertificatePv.vaccination.administeringCentre"/>
 			<short value="Administering centre"/>
 			<definition value="Name/code of administering centre or a health authority responsible for the vaccination event"/>
 			<min value="1"/>
@@ -263,8 +263,8 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').location"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.healthProfessionalIdentification">
-			<path value="vaccinationCertificate.vaccination.healthProfessionalIdentification"/>
+		<element id="vaccinationCertificatePv.vaccination.healthProfessionalIdentification">
+			<path value="vaccinationCertificatePv.vaccination.healthProfessionalIdentification"/>
 			<short value="Health Professional identification"/>
 			<definition value="Name or health professional code responsible for administering the vaccine or prophylaxis"/>
 			<min value="0"/>
@@ -277,8 +277,8 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').performer"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.countryOfVaccination">
-			<path value="vaccinationCertificate.vaccination.countryOfVaccination"/>
+		<element id="vaccinationCertificatePv.vaccination.countryOfVaccination">
+			<path value="vaccinationCertificatePv.vaccination.countryOfVaccination"/>
 			<short value="Country of vaccination"/>
 			<definition value="The country in which the individual has been vaccinated"/>
 			<min value="1"/>
@@ -291,8 +291,8 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').location.address.country"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.vaccination.dateNextDose">
-			<path value="vaccinationCertificate.vaccination.dateNextDose"/>
+		<element id="vaccinationCertificatePv.vaccination.dateNextDose">
+			<path value="vaccinationCertificatePv.vaccination.dateNextDose"/>
 			<short value="Next vaccination date"/>
 			<definition value="Date on which the next vaccination should be administered"/>
 			<min value="0"/>
@@ -304,9 +304,9 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="ImmunizationRecommendation.recommendation.where(dateCriterion='http://loinc.org#30980-7').value"/>
 			</mapping>
-		</element>
-		<element id="vaccinationCertificate.metaData">
-			<path value="vaccinationCertificate.metaData"/>
+		</element> -->
+		<element id="vaccinationCertificatePv.metaData">
+			<path value="vaccinationCertificatePv.metaData"/>
 			<short value="Certificate metadata"/>
 			<definition value="Certificate metadata"/>
 			<min value="0"/>
@@ -319,8 +319,8 @@ Example: 1/2"/>
 			<!-- <map value="Observation.device.identifier"/> -->
 			<!-- </mapping> -->
 		</element>
-		<element id="vaccinationCertificate.metaData.issuer">
-			<path value="vaccinationCertificate.metaData.issuer"/>
+		<element id="vaccinationCertificatePv.metaData.issuer">
+			<path value="vaccinationCertificatePv.metaData.issuer"/>
 			<short value="Certificate Issuer"/>
 			<definition value="Entity that has issued the certificate (allowing to check the certificate)"/>
 			<min value="1"/>
@@ -333,8 +333,8 @@ Example: 1/2"/>
 				<map value="Composition.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-svc').attester.party"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.metaData.certificateId">
-			<path value="vaccinationCertificate.metaData.certificateId"/>
+		<!-- <element id="vaccinationCertificatePv.metaData.certificateId">
+			<path value="vaccinationCertificatePv.metaData.certificateId"/>
 			<short value="Certificate identifier"/>
 			<definition value="Unique identifier of the certificate (UVCI), to be printed (human readable) into the certificate; the unique identifier can be included in the IIS"/>
 			<min value="1"/>
@@ -350,9 +350,9 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="Composition.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-svc').identifier"/>
 			</mapping>
-		</element>
-		<element id="vaccinationCertificate.metaData.startValidity">
-			<path value="vaccinationCertificate.metaData.startValidity"/>
+		</element> -->
+		<element id="vaccinationCertificatePv.metaData.startValidity">
+			<path value="vaccinationCertificatePv.metaData.startValidity"/>
 			<short value="Certificate valid from"/>
 			<definition value="Certificate valid from (required if known)"/>
 			<min value="0"/>
@@ -370,8 +370,8 @@ Example: 1/2"/>
 				<map value="Build.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Build-svc').identifier.period.start"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.metaData.endValidity">
-			<path value="vaccinationCertificate.metaData.endValidity"/>
+		<element id="vaccinationCertificatePv.metaData.endValidity">
+			<path value="vaccinationCertificatePv.metaData.endValidity"/>
 			<short value="Certificate valid until"/>
 			<definition value="Certificate valid until (validity can differ from the expected immunisation period)"/>
 			<min value="0"/>
@@ -385,8 +385,8 @@ Example: 1/2"/>
 				<map value="Build.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Build-svc').identifier.period.end"/>
 			</mapping>
 		</element>
-		<element id="vaccinationCertificate.metaData.certificateSchemaVersion">
-			<path value="vaccinationCertificate.metaData.certificateSchemaVersion"/>
+		<element id="vaccinationCertificatePv.metaData.certificateSchemaVersion">
+			<path value="vaccinationCertificatePv.metaData.certificateSchemaVersion"/>
 			<short value="Certificate schema version"/>
 			<definition value="Version of this minimum dataset definition - currently set at 1.0.0"/>
 			<min value="1"/>

@@ -10,7 +10,7 @@
 # │  supported properties, see:                                                                    │
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: gatekeeper
+id: hl7.eu.fhir.dgc
 canonical: http://hl7.eu/fhir/ig/dgc
 version: 0.0.1
 name: DigitalGreenCertificateIg
