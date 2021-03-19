@@ -58,7 +58,7 @@
 			</reference>
 			<name value="Two doses (Immunization)"/>
 			<description value="Czech vaccination example: 2 doses"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -66,7 +66,7 @@
 			</reference>
 			<name value="Only first dose given (Immunization)"/>
 			<description value="Czech vaccination example: 1 dose given, second dose planned"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -74,7 +74,7 @@
 			</reference>
 			<name value="Second dose not given (Immunization)"/>
 			<description value="Vaccination example: second dose not given (only immunization events)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -82,7 +82,7 @@
 			</reference>
 			<name value="Second dose not given (ImmunizationRecommendation)"/>
 			<description value="Vaccination example: second dose not given (Immunization and ImmunizationRecommendation)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 				<resource>
 			<reference>
@@ -90,7 +90,7 @@
 			</reference>
 			<name value="Only planned vaccinations (ImmunizationRecommendation)"/>
 			<description value="Vaccination example: only planned vaccinations"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 				<resource>
 			<reference>
@@ -98,7 +98,7 @@
 			</reference>
 			<name value="Second dose not given due to adverse reaction"/>
 			<description value="Vaccination example: second dose not given due to adverse reaction(Immunization and ImmunizationRecommendation)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-svc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->

@@ -4,7 +4,7 @@ Alias: os_profile = http://hl7.org/fhir/StructureDefinition/oxygensat
 Alias: bp_profile = http://hl7.org/fhir/StructureDefinition/bp
 Alias: hr_profile = http://hl7.org/fhir/StructureDefinition/heartrate
 Alias: vs_profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
-Alias: ips_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
+Alias: $Observation-results-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
 Alias: ips_lab_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips
 Alias: ips_path_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-pathology-uv-ips
 Alias: ips_rad_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips
@@ -23,10 +23,10 @@ Alias: $CodeableConcept-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  CompositionSvc
+Profile:  CompositionDGC
 Parent: $clinicaldocument
-Id: Composition-svc
-Title: "Composition (SVC)"
+Id: Composition-dgc
+Title: "Composition (Digital Green Certificate)"
 Description: "This profile defines how to represent a vaccination certificate in FHIR by using a Composition resource"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -48,8 +48,8 @@ Description: "This profile defines how to represent a vaccination certificate in
 * subject ^definition = "Who or what the composition is about. \r\nIn general a composition can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure).\r\nFor the IPS the subject is always the patient."
 * subject.reference 1.. MS
 * date MS
-* author ^short = "Who and/or what authored the SVC"
-* author ^definition = "Identifies who is responsible for the information in the SVC, not necessarily who typed it in."
+* author ^short = "Who and/or what authored the Digital Green Certificate"
+* author ^definition = "Identifies who is responsible for the information in the Digital Green Certificate, not necessarily who typed it in."
 * title MS
 * title ^short = "Smart Vaccination Card"
 * title ^definition = "Official human-readable label for the composition.\r\n\r\nFor this document should be \"Smart Vaccination Card\" or any equivalent translation"
@@ -65,9 +65,9 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section ^slicing.discriminator[0].path = "code"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open
-* section ^short = "Sections composing the SVC"
-* section ^definition = "The root of the sections that make up the SVC composition."
-* section contains   sectionImmunizations 1..1 MS
+* section ^short = "Sections composing the Digital Green Certificate"
+* section ^definition = "The root of the sections that make up the Digital Green Certificate composition."
+* section contains   sectionImmunizations 0..1 and sectionResults 0..1 
  
 
 * section[sectionImmunizations] ^short = "Immunizations Section"
@@ -86,26 +86,84 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section[sectionImmunizations].entry ^definition = "It defines the patient's current immunization status and pertinent immunization history.\r\nThe primary use case for the Immunization Section is to enable communication of a patient's immunization status.\r\nIt may contain the entire immunization history that is relevant to the period of time being summarized. This entry shall be used to document that no information about immunizations is available, or that no immunizations are known."
 * section[sectionImmunizations].entry contains immunization 0.. MS and immunizationRecommendation 0.. MS
 // * section[sectionImmunizations].entry[immunization] 0..
-* section[sectionImmunizations].entry[immunization] only Reference(ImmunizationSvc)
+* section[sectionImmunizations].entry[immunization] only Reference(ImmunizationDGC)
 * section[sectionImmunizations].emptyReason ..0
 * section[sectionImmunizations].emptyReason ^mustSupport = false
 * section[sectionImmunizations].section ..0
 * section[sectionImmunizations].section ^mustSupport = false
 
 // * section[sectionImmunizations].entry[immunizationRecommendation] 0..
-* section[sectionImmunizations].entry[immunizationRecommendation] only Reference(ImmunizationRecommendationSvc)
+* section[sectionImmunizations].entry[immunizationRecommendation] only Reference(ImmunizationRecommendationDGC)
 * section[sectionImmunizations].emptyReason ..0
 * section[sectionImmunizations].emptyReason ^mustSupport = false
 * section[sectionImmunizations].section ..0
 * section[sectionImmunizations].section ^mustSupport = false
 
+//--------------------
+
+* section[sectionResults] ^short = "Results Section"
+* section[sectionResults] ^definition = "The Results Section lists the test results relevant for the purpose of this certificate"
+* section[sectionResults].title 1.. MS
+* section[sectionResults].code 1.. MS
+* section[sectionResults].code only $CodeableConcept-uv-ips
+* section[sectionResults].code = $loinc#30954-2
+* section[sectionResults].text 1.. MS
+* section[sectionResults].text only Narrative
+* section[sectionResults].entry 1.. MS
+* section[sectionResults].entry ^slicing.discriminator[0].type = #profile
+* section[sectionResults].entry ^slicing.discriminator[0].path = "$this.resolve()"
+* section[sectionResults].entry ^slicing.discriminator[1].type = #type
+* section[sectionResults].entry ^slicing.discriminator[1].path = "$this.resolve()"
+* section[sectionResults].entry ^slicing.rules = #open
+* section[sectionResults].entry ^short = "Test result relevant for the purpose of this certificate"
+* section[sectionResults].entry ^definition = "Relevant observation results collected on the patient or produced on in-vitro biologic specimens collected from the patient. Some of these results may be laboratory results, others may be anatomic pathology results, others, radiology results, and others, clinical results."
+* section[sectionResults].entry contains observation 0.. MS and diagnosticReport 0.. 
+// * section[sectionResults].entry[observation] 0..
+* section[sectionResults].entry[observation] only Reference(ObservationDGC)
+* section[sectionResults].emptyReason ..0
+* section[sectionResults].emptyReason ^mustSupport = false
+* section[sectionResults].section ..0
+* section[sectionResults].section ^mustSupport = false
+
+// * section[sectionResults].entry[diagnosticReport] 0..
+* section[sectionResults].entry[diagnosticReport] only Reference(DiagnosticReport)
+* section[sectionResults].emptyReason ..0
+* section[sectionResults].emptyReason ^mustSupport = false
+* section[sectionResults].section ..0
+* section[sectionResults].section ^mustSupport = false
+
+
+//++++++++++++++++++++++++++++++++++++++++++
+Profile:  PatientDGC
+Parent:   $Patient-uv-ips
+Id:       Patient-dgc
+Title:    "Patient (Digital Green Certificate)"
+Description: "This profile defines how to represent Patient Data in a Digital Green Certificate."
+//-------------------------------------------------------------------------------------------
+
+/* ---- BEGIN
+* identifier -> "vaccinationCertificate.subject.identifier"
+* name -> "vaccinationCertificate.subject.name"
+* gender -> "vaccinationCertificate.subject.sex"
+* birthDate -> "vaccinationCertificate.subject.birthDate"
+---*/
+
+//++++++++++++++++++++++++++++++++++++++++++
+Profile:  ObservationDGC
+Parent:   $Observation-results-uv-ips
+Id:       Observation-dgc
+Title:    "Observation - Test Result (Digital Green Certificate)"
+Description: "This profile defines how to represent Test Results in a Digital Green Certificate."
+//-------------------------------------------------------------------------------------------
+* subject only Reference($Patient-uv-ips)
+* effective[x] only dateTime
 
 /*++++++++++++++++++++++++++ NOT USED FOR THE TIME BEING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ImmunizationNotDone
 Parent:   Immunization
-Id:       Immunization-notDone-svc
-Title:    "Immunization (SVC)"
-Description: "This profile defines how to represent Immunizations in FHIR for representing in a Smart vaccination Certificate a not given immunization."
+Id:       Immunization-notDone-dgc
+Title:    "Immunization (Digital Green Certificate)"
+Description: "This profile defines how to represent Immunizations in FHIR for representing in a Digital Green Certificate a not given immunization."
 
 //-------------------------------------------------------------------------------------------
 
@@ -119,10 +177,10 @@ Description: "This profile defines how to represent Immunizations in FHIR for re
 ==== */
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ImmunizationSvc
+Profile:  ImmunizationDGC
 Parent:   $Immunization-uv-ips
-Id:       Immunization-svc
-Title:    "Immunization (SVC)"
+Id:       Immunization-dgc
+Title:    "Immunization (Digital Green Certificate)"
 Description: "This profile defines how to represent Immunizations in FHIR for building a Smart vaccination Card."
 
 //-------------------------------------------------------------------------------------------
@@ -132,7 +190,7 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 * patient MS
 * occurrenceDateTime MS
 * location MS // check is really needed
-* location only Reference(LocationSvc)
+* location only Reference(LocationDGC)
 * manufacturer MS
 * lotNumber MS
 * performer MS
@@ -141,10 +199,10 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 * protocolApplied.seriesDoses[x] MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ImmunizationRecommendationSvc
+Profile:  ImmunizationRecommendationDGC
 Parent:   ImmunizationRecommendation
-Id:       ImmunizationRecommendation-svc
-Title:    "ImmunizationRecommendation (SVC)"
+Id:       ImmunizationRecommendation-dgc
+Title:    "ImmunizationRecommendation (Digital Green Certificate)"
 Description: "This profile defines how to represent Immunization Recommandations in FHIR for building a Smart vaccination Card."
 //-------------------------------------------------------------------------------------------
 
@@ -163,10 +221,10 @@ Description: "This profile defines how to represent Immunization Recommandations
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  LocationSvc
+Profile:  LocationDGC
 Parent:   Location
-Id:       Location-svc
-Title:    "Location (SVC)"
+Id:       Location-dgc
+Title:    "Location (Digital Green Certificate)"
 Description: "This profile defines how to represent Location in FHIR for building a Smart vaccination Card. This is used to describe optionally where the vaccination occured"
 
 //-------------------------------------------------------------------------------------------
@@ -174,10 +232,10 @@ Description: "This profile defines how to represent Location in FHIR for buildin
 * address.country 1..1 MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  BundleSvc
+Profile:  BundleDGC
 Parent: Bundle
-Id: Bundle-svc
-Title: "Bundle (SVC)"
+Id: Bundle-dgc
+Title: "Bundle (Digital Green Certificate)"
 Description: "This profile defines how to represent a vaccination certificate in FHIR by using a Bundle resource"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -207,14 +265,14 @@ Description: "This profile defines how to represent a vaccination certificate in
 	immunizationRecommendation 0.. MS
 
 * entry[composition].resource 1..1 MS
-* entry[composition].resource only CompositionSvc
+* entry[composition].resource only CompositionDGC
 	
 * entry[immunization].resource 1..1 MS
-// * entry[immunization].resource only ImmunizationSvc or ImmunizationNotDone
-* entry[immunization].resource only ImmunizationSvc
+// * entry[immunization].resource only ImmunizationDGC or ImmunizationNotDone
+* entry[immunization].resource only ImmunizationDGC
 
 * entry[immunizationRecommendation].resource 1..1 MS
-* entry[immunizationRecommendation].resource only ImmunizationRecommendationSvc
+* entry[immunizationRecommendation].resource only ImmunizationRecommendationDGC
 
 
 
