@@ -2332,3 +2332,69 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119305005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019 novel coronavirus antigen vaccine",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:98b92fde-a5f4-450c-9f84-e792caa7d9c3",
+    "timestamp" : "2021-03-20T09:55:26.840Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1119349007",
+      "display" : "SARS-CoV-2 mRNA vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1119305005",
+      "display" : "SARS-CoV-2 antigen vaccine"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

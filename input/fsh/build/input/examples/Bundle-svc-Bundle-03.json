@@ -1,0 +1,274 @@
+{
+  "resourceType": "Bundle",
+  "id": "svc-Bundle-03",
+  "identifier": {
+    "system": "http://hl7.eu/fhir/sid/uvci",
+    "value": "V1IT454557891308174803488707671418",
+    "period": {
+      "start": "2021-02-10"
+    }
+  },
+  "type": "document",
+  "timestamp": "2021-02-10T14:30:00+01:00",
+  "entry": [
+    {
+      "fullUrl": "urn:uuid:30551ce1-5a28-4356-b684-1e639094ad4d",
+      "resource": {
+        "resourceType": "Composition",
+        "id": "30551ce1-5a28-4356-b684-1e639094ad4d",
+        "identifier": {
+          "system": "urn:oid:2.16.724.4.8.10.200.10",
+          "value": "3f69e0a5-2177-4540-baab-7a5d0877428f"
+        },
+        "status": "final",
+        "type": {
+          "coding": [
+            {
+              "code": "82593-5",
+              "system": "http://loinc.org",
+              "display": "Immunization summary report"
+            }
+          ]
+        },
+        "subject": {
+          "reference": "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "date": "2021-02-10T14:30:00+01:00",
+        "author": [
+          {
+            "reference": "urn:uuid:d7a490a1-d267-4785-ac98-db56748827fb"
+          }
+        ],
+        "title": "Vaccine Certificate Covid-19",
+        "attester": [
+          {
+            "mode": "legal",
+            "time": "2020-12-27T14:30:00+01:00",
+            "party": {
+              "reference": "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7"
+            }
+          }
+        ],
+        "custodian": {
+          "reference": "urn:uuid:b66c1b23-21e9-4bd0-9cd7-edd806c126de"
+        },
+        "section": [
+          {
+            "title": "Vaccinations",
+            "code": {
+              "coding": [
+                {
+                  "code": "11369-6",
+                  "system": "http://loinc.org",
+                  "display": "Hx of Immunization"
+                }
+              ]
+            },
+            "text": {
+              "status": "generated",
+              "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table><thead><tr><th>Date</th><th>Product</th><th>Vaccine</th><th>Dose</th><th>Status</th></tr></thead><tbody><tr><td>2021-01-10</td><td>Comirnaty</td><td>COVID-19 mRNA Vaccine</td><td>1/2</td><td>completed</td></tr><tr><td>2021-02-07</td><td></td><td>COVID-19 mRNA Vaccine</td><td>2/2</td><td>Not Done (medical precaution)</td></tr></tbody></table></div>"
+            },
+            "entry": [
+              {
+                "reference": "urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec6"
+              },
+              {
+                "reference": "urn:uuid:47524493-846a-4a26-bae2-4ab03e60f02e"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8",
+      "resource": {
+        "resourceType": "Patient",
+        "id": "2b90dd2b-2dab-4c75-9bb9-a355e07401e8",
+        "identifier": [
+          {
+            "system": "http://hl7.it/sid/codiceFiscale",
+            "value": "RSSMRA97L67Z602C"
+          }
+        ],
+        "name": [
+          {
+            "family": "Rossi",
+            "given": [
+              "Maria"
+            ]
+          }
+        ],
+        "gender": "female",
+        "birthDate": "1997-07-28"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:c220e36c-eb67-4fc4-9ba1-2fabc52acec6",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "Inline-Instance-for-svc-Bundle-03-3",
+        "status": "completed",
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+            },
+            {
+              "code": "049283",
+              "system": "https://www.aifa.gov.it/aic",
+              "display": "COVID-19 Vaccine Moderna"
+            }
+          ],
+          "text": "COVID-19 Vaccine Moderna"
+        },
+        "patient": {
+          "reference": "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "occurrenceDateTime": "2021-01-10",
+        "location": {
+          "reference": "urn:uuid:55a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd8"
+        },
+        "manufacturer": {
+          "display": "MODERNA BIOTECH SPAIN, S.L."
+        },
+        "lotNumber": "B1235742",
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7",
+              "display": "Ospedale Careggi - Firenze"
+            }
+          },
+          {
+            "actor": {
+              "reference": "urn:uuid:d7a490a1-d267-4785-ac98-db56748827fb"
+            }
+          }
+        ],
+        "protocolApplied": [
+          {
+            "targetDisease": [
+              {
+                "coding": [
+                  {
+                    "code": "J12.82",
+                    "system": "http://hl7.org/fhir/sid/icd-10",
+                    "display": "Pneumonia due to coronavirus disease 2019"
+                  }
+                ]
+              }
+            ],
+            "doseNumberPositiveInt": 1,
+            "seriesDosesPositiveInt": 2
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:47524493-846a-4a26-bae2-4ab03e60f02e",
+      "resource": {
+        "resourceType": "Immunization",
+        "id": "47524493-846a-4a26-bae2-4ab03e60f02e",
+        "status": "not-done",
+        "statusReason": {
+          "coding": [
+            {
+              "code": "MEDPREC",
+              "system": "http://terminology.hl7.org/CodeSystem/v3-ActReason",
+              "display": "medical precaution"
+            }
+          ]
+        },
+        "vaccineCode": {
+          "coding": [
+            {
+              "code": "1119349007",
+              "system": "http://snomed.info/sct",
+              "display": "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+            }
+          ]
+        },
+        "patient": {
+          "reference": "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
+        },
+        "occurrenceDateTime": "2021-02-07",
+        "performer": [
+          {
+            "actor": {
+              "reference": "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7",
+              "display": "Ospedale Careggi - Firenze"
+            }
+          },
+          {
+            "actor": {
+              "reference": "urn:uuid:d7a490a1-d267-4785-ac98-db56748827fb"
+            }
+          }
+        ],
+        "recorded": "2021-02-07",
+        "protocolApplied": [
+          {
+            "doseNumberPositiveInt": 2,
+            "seriesDosesPositiveInt": 2
+          }
+        ]
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7",
+        "identifier": [
+          {
+            "system": "http://terminology.hl7.it/CodeSystem/minsan-hsp",
+            "value": "090903"
+          }
+        ],
+        "name": "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:55a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd8",
+      "resource": {
+        "resourceType": "Location",
+        "id": "55a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd8",
+        "name": "AZ. OSPEDALIERO - UNIVERSITARIA CAREGGI",
+        "address": {
+          "city": "Firenze",
+          "country": "IT"
+        }
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:b66c1b23-21e9-4bd0-9cd7-edd806c126de",
+      "resource": {
+        "resourceType": "Organization",
+        "id": "b66c1b23-21e9-4bd0-9cd7-edd806c126de",
+        "identifier": [
+          {
+            "system": "http://terminology.hl7.it/CodeSystem/minsan-regione",
+            "value": "090"
+          }
+        ],
+        "name": "Regione Toscana"
+      }
+    },
+    {
+      "fullUrl": "urn:uuid:d7a490a1-d267-4785-ac98-db56748827fb",
+      "resource": {
+        "resourceType": "Practitioner",
+        "id": "d7a490a1-d267-4785-ac98-db56748827fb",
+        "identifier": [
+          {
+            "system": "http://hl7.it/sid/codiceFiscale",
+            "value": "VRDRCR70H08H703B"
+          }
+        ]
+      }
+    }
+  ]
+}

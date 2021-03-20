@@ -1,25 +1,5 @@
-//============== ALIAS ===============
-Alias: temp_profile = http://hl7.org/fhir/StructureDefinition/bodytemp
-Alias: os_profile = http://hl7.org/fhir/StructureDefinition/oxygensat
-Alias: bp_profile = http://hl7.org/fhir/StructureDefinition/bp
-Alias: hr_profile = http://hl7.org/fhir/StructureDefinition/heartrate
-Alias: vs_profile = http://hl7.org/fhir/StructureDefinition/vitalsigns
-Alias: $Observation-results-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-uv-ips
-Alias: ips_lab_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-uv-ips
-Alias: ips_path_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-pathology-uv-ips
-Alias: ips_rad_result = http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-radiology-uv-ips
-Alias: $Patient-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips
-Alias: $MedicationStatement-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/MedicationStatement-uv-ips
-Alias: $Immunization-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips
-Alias: $clinicaldocument = http://hl7.org/fhir/StructureDefinition/clinicaldocument
-Alias: $CodeableConcept-uv-ips = http://hl7.org/fhir/uv/ips/StructureDefinition/CodeableConcept-uv-ips
-
-
-
 
 //====== Profiles =====================================
-
-
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -141,12 +121,7 @@ Title:    "Patient (Digital Green Certificate)"
 Description: "This profile defines how to represent Patient Data in a Digital Green Certificate."
 //-------------------------------------------------------------------------------------------
 
-/* ---- BEGIN
-* identifier -> "vaccinationCertificate.subject.identifier"
-* name -> "vaccinationCertificate.subject.name"
-* gender -> "vaccinationCertificate.subject.sex"
-* birthDate -> "vaccinationCertificate.subject.birthDate"
----*/
+// ---- maps are defined in the mapping.fsh file
 
 //++++++++++++++++++++++++++++++++++++++++++
 Profile:  ObservationDGC
@@ -185,18 +160,29 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 
 //-------------------------------------------------------------------------------------------
 
-* vaccineCode MS
-* vaccineCode.text 0..1 MS // brandName
+* vaccineCode.coding ^slicing.discriminator[0].type = #pattern
+* vaccineCode.coding ^slicing.discriminator[0].path = "code"
+* vaccineCode.coding ^slicing.ordered = false
+* vaccineCode.coding ^slicing.rules = #open
+* vaccineCode.coding ^short = "Type of vaccine"
+* vaccineCode.coding ^definition = "Vaccine code: it might be a code describing the kind of vaccine (e.g. ATC, ICD 11); it might be one of the IDMP identifiers; it might be a jurisdictional product code"
+* vaccineCode.coding contains   atcVaccines 0..1 and sctVaccines 0..1 and icd11Vaccines 0..1 
+* vaccineCode.coding[atcVaccines] from AtcCovid19Vaccines
+* vaccineCode.coding[sctVaccines] from SctCovid19Vaccines
+* vaccineCode.coding[icd11Vaccines] from Icd11Covid19Vaccines
+
+* vaccineCode.text ^short = "Name of the vaccine" // brandName
+
 * patient MS
 * occurrenceDateTime MS
 * location MS // check is really needed
 * location only Reference(LocationDGC)
-* manufacturer MS
-* lotNumber MS
+// * manufacturer MS
+// * lotNumber MS
 * performer MS
-* protocolApplied.targetDisease MS
-* protocolApplied.doseNumber[x] MS
-* protocolApplied.seriesDoses[x] MS
+// * protocolApplied.targetDisease MS
+// * protocolApplied.doseNumber[x] MS
+// * protocolApplied.seriesDoses[x] MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ImmunizationRecommendationDGC

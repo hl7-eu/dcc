@@ -1,0 +1,23 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "AtcCovid19Vaccines",
+  "id": "atc-vaccines-covid-19",
+  "title": "ATC Vaccine List (COVID-19)",
+  "description": "Vaccine List (COVID-19) from [ATC]",
+  "version": "0.0.1",
+  "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/atc-vaccines-covid-19",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.whocc.no/atc",
+        "concept": [
+          {
+            "code": "J07BX03",
+            "display": "covid-19 vaccines"
+          }
+        ]
+      }
+    ]
+  }
+}

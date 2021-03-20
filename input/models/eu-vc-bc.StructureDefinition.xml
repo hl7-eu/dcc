@@ -242,7 +242,7 @@ Example: 1/2"/>
 			</type>
 			<mapping>
 				<identity value="fhir-ig"/>
-				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDatetime"/>
+				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDateTime"/>
 			</mapping>
 		</element>
 		<!-- <element id="vaccinationCertificateBc.vaccination.administeringCentre">
