@@ -48,6 +48,14 @@
   "differential": {
     "element": [
       {
+        "id": "Observation.code",
+        "path": "Observation.code",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "http://hl7.eu/fhir/ig/dgc/ValueSet/loinc-tests-covid-19"
+        }
+      },
+      {
         "id": "Observation.subject",
         "path": "Observation.subject",
         "type": [

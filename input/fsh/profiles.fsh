@@ -131,6 +131,7 @@ Title:    "Observation - Test Result (Digital Green Certificate)"
 Description: "This profile defines how to represent Test Results in a Digital Green Certificate."
 //-------------------------------------------------------------------------------------------
 * subject only Reference($Patient-uv-ips)
+* code from LoincCovid19Tests (extensible)
 * effective[x] only dateTime
 
 /*++++++++++++++++++++++++++ NOT USED FOR THE TIME BEING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
