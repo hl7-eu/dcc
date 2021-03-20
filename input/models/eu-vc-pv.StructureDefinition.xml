@@ -47,12 +47,14 @@
 			<type>
 				<code value="BackboneElement"/>
 			</type>
-<!-- 			<constraint>
+		<!-- 
+			<constraint>
 				<key value="eu-svc-1"/>
 				<severity value="error"/>
 				<human value="If no Person identifier is provided then the date of birth shall be valued"/>
 				<expression value="identifier.exists() or birthDate.exists()"/>
-			</constraint> -->
+			</constraint> 
+		-->
 			<mapping>
 				<identity value="fhir-ig"/>
 				<map value="Composition.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-svc').subject"/>
@@ -76,7 +78,8 @@
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').name"/>
 			</mapping>
 		</element>
-<!-- 		<element id="vaccinationCertificatePv.subject.identifier">
+	<!-- 		
+		<element id="vaccinationCertificatePv.subject.identifier">
 			<path value="vaccinationCertificatePv.subject.identifier"/>
 			<short value="Person identifier"/>
 			<definition value="An identifier of the vaccinated person, according to the policies applicable in each country. It should be captured what type of identifier is used. Examples: citizen ID card or identifier within the health system/IIS/e-registry."/>
@@ -89,8 +92,10 @@
 				<identity value="fhir-ig"/>
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').identifier"/>
 			</mapping>
-		</element> -->
-		<!-- <element id="vaccinationCertificatePv.subject.sex">
+		</element> 
+	-->
+	<!-- 
+		<element id="vaccinationCertificatePv.subject.sex">
 			<path value="vaccinationCertificatePv.subject.sex"/>
 			<short value="Sex"/>
 			<definition value="Administrative gender"/>
@@ -104,12 +109,13 @@
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').gender"/>
 			</mapping>
 		</element>
+	-->
 		<element id="vaccinationCertificatePv.subject.birthDate">
 			<path value="vaccinationCertificatePv.subject.birthDate"/>
-			<short value="Person date of birth"/>
-			<definition value="Vaccinated person’s date of birth. Mandatory if no Person identifier is provided."/>
+			<short value="Partial person date of birth"/>
+			<definition value="Partial vaccinated person’s date of birth."/>
 			<min value="0"/>
-			<max value="*"/>
+			<max value="1"/>
 			<type>
 				<code value="dateTime"/>
 			</type>
@@ -117,7 +123,7 @@
 				<identity value="fhir-ig"/>
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').birthDate"/>
 			</mapping>
-		</element> -->
+		</element>
 		<element id="vaccinationCertificatePv.vaccination">
 			<path value="vaccinationCertificatePv.vaccination"/>
 			<short value="Vaccination / prophylaxis information"/>
@@ -198,6 +204,7 @@ Pfizer BioNTech"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').manufacturer"/>
 			</mapping>
 		</element>
+	-->
 		<element id="vaccinationCertificatePv.vaccination.doseNumber">
 			<path value="vaccinationCertificatePv.vaccination.doseNumber"/>
 			<short value="Number in a series of vaccinations / doses"/>
@@ -217,6 +224,7 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').protocolApplied.seriesDoses[x]"/>
 			</mapping>
 		</element>
+	<!--
 		<element id="vaccinationCertificatePv.vaccination.vaccineBatchNumber">
 			<path value="vaccinationCertificatePv.vaccination.vaccineBatchNumber"/>
 			<short value="Batch/lot number"/>
@@ -230,7 +238,9 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').lotNumber"/>
 			</mapping>
-		</element> -->
+		</element> 
+	-->
+	<!--
 		<element id="vaccinationCertificatePv.vaccination.dateOfVaccination">
 			<path value="vaccinationCertificatePv.vaccination.dateOfVaccination"/>
 			<short value="Date of vaccination"/>
@@ -242,10 +252,12 @@ Example: 1/2"/>
 			</type>
 			<mapping>
 				<identity value="fhir-ig"/>
-				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDateTime"/>
+				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDatetime"/>
 			</mapping>
 		</element>
-	<!-- 	<element id="vaccinationCertificatePv.vaccination.administeringCentre">
+	-->
+	<!--
+		<element id="vaccinationCertificatePv.vaccination.administeringCentre">
 			<path value="vaccinationCertificatePv.vaccination.administeringCentre"/>
 			<short value="Administering centre"/>
 			<definition value="Name/code of administering centre or a health authority responsible for the vaccination event"/>
@@ -304,7 +316,8 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="ImmunizationRecommendation.recommendation.where(dateCriterion='http://loinc.org#30980-7').value"/>
 			</mapping>
-		</element> -->
+		</element> 
+	-->
 		<element id="vaccinationCertificatePv.metaData">
 			<path value="vaccinationCertificatePv.metaData"/>
 			<short value="Certificate metadata"/>
@@ -333,7 +346,7 @@ Example: 1/2"/>
 				<map value="Composition.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-svc').attester.party"/>
 			</mapping>
 		</element>
-		<!-- <element id="vaccinationCertificatePv.metaData.certificateId">
+		<element id="vaccinationCertificatePv.metaData.certificateId">
 			<path value="vaccinationCertificatePv.metaData.certificateId"/>
 			<short value="Certificate identifier"/>
 			<definition value="Unique identifier of the certificate (UVCI), to be printed (human readable) into the certificate; the unique identifier can be included in the IIS"/>
@@ -350,7 +363,7 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="Composition.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Composition-svc').identifier"/>
 			</mapping>
-		</element> -->
+		</element>
 		<element id="vaccinationCertificatePv.metaData.startValidity">
 			<path value="vaccinationCertificatePv.metaData.startValidity"/>
 			<short value="Certificate valid from"/>

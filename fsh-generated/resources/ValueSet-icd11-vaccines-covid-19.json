@@ -1,0 +1,83 @@
+{
+  "resourceType": "ValueSet",
+  "status": "draft",
+  "name": "Icd11Covid19Vaccines",
+  "id": "icd11-vaccines-covid-19",
+  "title": "ICD11 Vaccine List (COVID-19)",
+  "description": "Vaccine List (COVID-19) from [ICD 11]",
+  "version": "0.0.1",
+  "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/icd11-vaccines-covid-19",
+  "compose": {
+    "include": [
+      {
+        "system": "http://id.who.int/icd11/mms",
+        "concept": [
+          {
+            "code": "XM1NL1",
+            "display": "COVID-19 vaccine, inactivated virus"
+          },
+          {
+            "code": "XM5DF6",
+            "display": "COVID-19 vaccine, live attenuated virus"
+          },
+          {
+            "code": "XM9QW8",
+            "display": "COVID-19 vaccine, non-replicating viral vector"
+          },
+          {
+            "code": "XM0CX4",
+            "display": "COVID-19 vaccine, replicating viral vector"
+          },
+          {
+            "code": "XM5JC5",
+            "display": "COVID-19 vaccine, virus protein subunit"
+          },
+          {
+            "code": "XM1J92",
+            "display": "COVID-19 vaccine, virus like particle (VLP)"
+          },
+          {
+            "code": "XM6AT1",
+            "display": "COVID-19 vaccine, DNA based"
+          },
+          {
+            "code": "XM6AT1",
+            "display": "COVID-19 vaccine, DNA based"
+          },
+          {
+            "code": "XM1NL1",
+            "display": "COVID-19 vaccine, inactivated virus"
+          },
+          {
+            "code": "XM5DF6",
+            "display": "COVID-19 vaccine, live attenuated virus"
+          },
+          {
+            "code": "XM9QW8",
+            "display": "COVID-19 vaccine, non-replicating viral vector"
+          },
+          {
+            "code": "XM0CX4",
+            "display": "COVID-19 vaccine, replicating viral vector"
+          },
+          {
+            "code": "XM5JC5",
+            "display": "COVID-19 vaccine, virus protein subunit"
+          },
+          {
+            "code": "XM1J92",
+            "display": "COVID-19 vaccine, virus like particle (VLP)"
+          },
+          {
+            "code": "XM6AT1",
+            "display": "COVID-19 vaccine, DNA based"
+          },
+          {
+            "code": "XM6AT1",
+            "display": "COVID-19 vaccine, DNA based"
+          }
+        ]
+      }
+    ]
+  }
+}

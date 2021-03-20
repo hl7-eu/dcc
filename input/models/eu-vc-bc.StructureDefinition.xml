@@ -76,7 +76,7 @@
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').name"/>
 			</mapping>
 		</element>
-	<!-- 	<element id="vaccinationCertificateBc.subject.identifier">
+	 	<element id="vaccinationCertificateBc.subject.identifier">
 			<path value="vaccinationCertificateBc.subject.identifier"/>
 			<short value="Person identifier"/>
 			<definition value="An identifier of the vaccinated person, according to the policies applicable in each country. It should be captured what type of identifier is used. Examples: citizen ID card or identifier within the health system/IIS/e-registry."/>
@@ -90,6 +90,7 @@
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').identifier"/>
 			</mapping>
 		</element>
+	<!--
 		<element id="vaccinationCertificateBc.subject.sex">
 			<path value="vaccinationCertificateBc.subject.sex"/>
 			<short value="Sex"/>
@@ -104,6 +105,7 @@
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').gender"/>
 			</mapping>
 		</element>
+	-->
 		<element id="vaccinationCertificateBc.subject.birthDate">
 			<path value="vaccinationCertificateBc.subject.birthDate"/>
 			<short value="Person date of birth"/>
@@ -117,7 +119,7 @@
 				<identity value="fhir-ig"/>
 				<map value="Patient.conformsTo('http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips').birthDate"/>
 			</mapping>
-		</element> -->
+		</element>
 		<element id="vaccinationCertificateBc.vaccination">
 			<path value="vaccinationCertificateBc.vaccination"/>
 			<short value="Vaccination / prophylaxis information"/>
@@ -146,7 +148,7 @@
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').protocolApplied.targetDisease"/>
 			</mapping>
 		</element>
-		<!-- <element id="vaccinationCertificateBc.vaccination.vaccineCode">
+		<element id="vaccinationCertificateBc.vaccination.vaccineCode">
 			<path value="vaccinationCertificateBc.vaccination.vaccineCode"/>
 			<short value="Vaccine or prophylaxis"/>
 			<definition value="Generic description of the vaccine/Vaccine component(s) 
@@ -217,6 +219,7 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').protocolApplied.seriesDoses[x]"/>
 			</mapping>
 		</element>
+	<!--
 		<element id="vaccinationCertificateBc.vaccination.vaccineBatchNumber">
 			<path value="vaccinationCertificateBc.vaccination.vaccineBatchNumber"/>
 			<short value="Batch/lot number"/>
@@ -230,7 +233,8 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').lotNumber"/>
 			</mapping>
-		</element> -->
+		</element> 
+	-->
 		<element id="vaccinationCertificateBc.vaccination.dateOfVaccination">
 			<path value="vaccinationCertificateBc.vaccination.dateOfVaccination"/>
 			<short value="Date of vaccination"/>
@@ -242,10 +246,11 @@ Example: 1/2"/>
 			</type>
 			<mapping>
 				<identity value="fhir-ig"/>
-				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDateTime"/>
+				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').occurrenceDatetime"/>
 			</mapping>
 		</element>
-		<!-- <element id="vaccinationCertificateBc.vaccination.administeringCentre">
+	<!-- 
+		<element id="vaccinationCertificateBc.vaccination.administeringCentre">
 			<path value="vaccinationCertificateBc.vaccination.administeringCentre"/>
 			<short value="Administering centre"/>
 			<definition value="Name/code of administering centre or a health authority responsible for the vaccination event"/>
@@ -277,6 +282,7 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').performer"/>
 			</mapping>
 		</element>
+	-->
 		<element id="vaccinationCertificateBc.vaccination.countryOfVaccination">
 			<path value="vaccinationCertificateBc.vaccination.countryOfVaccination"/>
 			<short value="Country of vaccination"/>
@@ -291,6 +297,7 @@ Example: 1/2"/>
 				<map value="Immunization.conformsTo('http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-svc').location.address.country"/>
 			</mapping>
 		</element>
+	<!--
 		<element id="vaccinationCertificateBc.vaccination.dateNextDose">
 			<path value="vaccinationCertificateBc.vaccination.dateNextDose"/>
 			<short value="Next vaccination date"/>
@@ -304,7 +311,8 @@ Example: 1/2"/>
 				<identity value="fhir-ig"/>
 				<map value="ImmunizationRecommendation.recommendation.where(dateCriterion='http://loinc.org#30980-7').value"/>
 			</mapping>
-		</element> -->
+		</element> 
+	-->
 		<element id="vaccinationCertificateBc.metaData">
 			<path value="vaccinationCertificateBc.metaData"/>
 			<short value="Certificate metadata"/>

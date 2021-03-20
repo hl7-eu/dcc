@@ -1,0 +1,245 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Immunization-dgc",
+  "url": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc",
+  "version": "0.0.1",
+  "name": "ImmunizationDGC",
+  "title": "Immunization (Digital Green Certificate)",
+  "status": "active",
+  "description": "This profile defines how to represent Immunizations in FHIR for building a Smart vaccination Card.",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "cda",
+      "uri": "http://hl7.org/v3/cda",
+      "name": "CDA (R2)"
+    },
+    {
+      "identity": "immunization-to-lm",
+      "name": "EU Vaccination Certificate",
+      "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Immunization",
+  "baseDefinition": "http://hl7.org/fhir/uv/ips/StructureDefinition/Immunization-uv-ips",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Immunization",
+        "path": "Immunization",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.vaccineCode",
+        "path": "Immunization.vaccineCode"
+      },
+      {
+        "id": "Immunization.vaccineCode.coding",
+        "path": "Immunization.vaccineCode.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "code"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "short": "Type of vaccine",
+        "definition": "Vaccine code: it might be a code describing the kind of vaccine (e.g. ATC, ICD 11); it might be one of the IDMP identifiers; it might be a jurisdictional product code",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.vaccineCode"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.vaccineCode.coding:atcVaccines",
+        "path": "Immunization.vaccineCode.coding",
+        "sliceName": "atcVaccines",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.eu/fhir/ig/dgc/ValueSet/atc-vaccines-covid-19"
+        }
+      },
+      {
+        "id": "Immunization.vaccineCode.coding:sctVaccines",
+        "path": "Immunization.vaccineCode.coding",
+        "sliceName": "sctVaccines",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.eu/fhir/ig/dgc/ValueSet/sct-vaccines-covid-19"
+        }
+      },
+      {
+        "id": "Immunization.vaccineCode.coding:icd11Vaccines",
+        "path": "Immunization.vaccineCode.coding",
+        "sliceName": "icd11Vaccines",
+        "min": 0,
+        "max": "1",
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.eu/fhir/ig/dgc/ValueSet/icd11-vaccines-covid-19"
+        }
+      },
+      {
+        "id": "Immunization.vaccineCode.text",
+        "path": "Immunization.vaccineCode.text",
+        "short": "Name of the vaccine",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.vaccineProductName"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.occurrenceDateTime",
+        "path": "Immunization.occurrenceDateTime",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.dateOfVaccination"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.location",
+        "path": "Immunization.location",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.eu/fhir/ig/dgc/StructureDefinition/Location-dgc"
+            ]
+          }
+        ],
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.administeringCentre"
+          },
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.countryOfVaccination"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.manufacturer",
+        "path": "Immunization.manufacturer",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.subject.identifier"
+          },
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.vaccineMarketingAuthorizationHolder"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.lotNumber",
+        "path": "Immunization.lotNumber",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.vaccineBatchNumber"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.performer",
+        "path": "Immunization.performer",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.administeringCentre"
+          },
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.healthProfessionalIdentification"
+          },
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.healthProfessionalIdentification"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.protocolApplied.targetDisease",
+        "path": "Immunization.protocolApplied.targetDisease",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.targetDisease"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.protocolApplied.doseNumber[x]",
+        "path": "Immunization.protocolApplied.doseNumber[x]",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.doseNumber"
+          }
+        ]
+      },
+      {
+        "id": "Immunization.protocolApplied.seriesDoses[x]",
+        "path": "Immunization.protocolApplied.seriesDoses[x]",
+        "mapping": [
+          {
+            "identity": "immunization-to-lm",
+            "map": "vaccinationCertificate.vaccination.doseNumber"
+          }
+        ]
+      }
+    ]
+  }
+}
