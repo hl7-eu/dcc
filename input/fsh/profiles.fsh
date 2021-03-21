@@ -215,8 +215,21 @@ Title:    "Location (Digital Green Certificate)"
 Description: "This profile defines how to represent Location in FHIR for building a Smart vaccination Card. This is used to describe optionally where the vaccination occured"
 
 //-------------------------------------------------------------------------------------------
-
 * address.country 1..1 MS
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Profile:  BinaryQRDGC
+Parent:   Binary
+Id:       Binary-qr-dgc
+Title:    "Binary QR code (Digital Green Certificate)"
+Description: "This profile defines how to represent the Digital Green Certificate QR code with a Binary resource"
+
+//-------------------------------------------------------------------------------------------
+* contentType	MS // Σ	1..1	code	MimeType of the binary content ADD MIME types used
+// * securityContext	0..1	Reference(Any)	Identifies another resource to use as proxy when enforcing access control
+* data	1..1 MS //	base64Binary	The actual content
+
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  BundleDGC
@@ -227,10 +240,10 @@ Description: "This profile defines how to represent a vaccination certificate in
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 * ^publisher = "Giorgio Cangioli"
-* ^purpose = "An International Patient Summary (IPS) document is an electronic health record extract containing essential healthcare information about a subject of care, comprising at least the required elements of the IPS dataset. The IPS dataset is minimal and non-exhaustive; specialty-agnostic and condition-independent; but still clinically relevant. As specified in EN 17269 and ISO/DIS 27269, it is designed for supporting the use case scenario for ‘unplanned, cross border care’, but it is not limited to it. It is intended to be international, i.e., to provide generic solutions for global application beyond a particular region or country."
+* ^purpose = "The Digital Green Certificate is dsigned to facilitate safe free movement inside the EU during the COVID-19 pandemic. The Digital Green Certificate will be a proof that a person has been vaccinated against COVID-19, received a negative test result or recovered from COVID-19"
 * . MS
-* . ^short = "Smart Vaccination Card Bundle"
-* . ^definition = "Smart Vaccination Card Bundle. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
+* . ^short = "Digital Green Certificate Bundle"
+* . ^definition = "Digital Green Certificate Bundle. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
 * identifier 1.. MS
 * identifier.system = "http://hl7.eu/fhir/sid/uvci" // temporary solution
 * identifier.system ^short = "(temporary URL)" 
@@ -249,7 +262,8 @@ Description: "This profile defines how to represent a vaccination certificate in
 * entry contains 
 	composition  1..1 MS and  
 	immunization 0.. MS and
-	immunizationRecommendation 0.. MS
+	immunizationRecommendation 0.. MS and
+	binary 0.. 
 
 * entry[composition].resource 1..1 MS
 * entry[composition].resource only CompositionDGC
@@ -261,6 +275,7 @@ Description: "This profile defines how to represent a vaccination certificate in
 * entry[immunizationRecommendation].resource 1..1 MS
 * entry[immunizationRecommendation].resource only ImmunizationRecommendationDGC
 
-
+* entry[binary].resource 1..1 MS
+* entry[binary].resource only BinaryQRDGC
 
  

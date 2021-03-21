@@ -23,12 +23,15 @@ Usage: #example
 * entry[4].resource = Inline-Instance-for-svc-Bundle-07-5
 * entry[5].fullUrl = "urn:uuid:411603a2-81d6-415b-9a1d-ca016ff57dd6"  // Location
 * entry[5].resource = Inline-Instance-for-svc-Bundle-07-6
-
+* entry[6].fullUrl = "urn:uuid:ef187374-9ee4-4eaa-ad5c-06ddfdc5b825"  // Binary
+* entry[6].resource = Inline-Instance-for-svc-Bundle-07-7
 
 
 Instance: Inline-Instance-for-svc-Bundle-07-1
 InstanceOf: Composition
 Usage: #inline
+
+/*=============== 
 * text.status = #additional
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">
 	<div>
@@ -56,6 +59,8 @@ Usage: #inline
 		<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAAAAACMfPpKAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAfElEQVQYlU2QWwrEMAwDR0vuf+XZj8qJSyjIyNYjAkAMQNFhkBCKzoNiin70kxKBN41ENuf7+9AZWQOGRx/2m4TeKy2YO0GyDpwszW5EUCs/ur78NZtGvSa8azdPDGttsonot8LtDFNnrs4yLSbuJk0ajnV3vevhCxUj4Q+R11n764g4WgAAAABJRU5ErkJggg==\"/>
 	</div>
 </div>"
+
+==== */
 
 * id = "1afa55c0-ba99-4d76-90d4-87c947b379d6"
 * identifier.system = "urn:oid:2.16.724.4.8.10.200.10"
@@ -129,6 +134,8 @@ Usage: #inline
 * protocolApplied[0].targetDisease[0] = $sct#840533007 "SARS-CoV-2"
 * protocolApplied[0].doseNumberPositiveInt = 1
 * protocolApplied[0].seriesDosesPositiveInt = 2
+
+
 Instance: Inline-Instance-for-svc-Bundle-07-4
 InstanceOf: ImmunizationRecommendation
 Usage: #inline
@@ -142,6 +149,7 @@ Usage: #inline
 * recommendation[0].dateCriterion[0].value = "2020-12-23"
 * recommendation[0].doseNumberPositiveInt = 2
 * recommendation[0].seriesDosesPositiveInt = 2
+
 Instance: Inline-Instance-for-svc-Bundle-07-5
 InstanceOf: Organization
 Usage: #inline
@@ -149,6 +157,7 @@ Usage: #inline
 * identifier[0].system = "urn:oid:1.2.203"
 * identifier[0].value = "24341"
 * name = "Ministry of Health of the Czech Republic"
+
 Instance: Inline-Instance-for-svc-Bundle-07-6
 InstanceOf: Location
 Usage: #inline
@@ -156,3 +165,9 @@ Usage: #inline
 * name = "Hospital Na Františku Prague"
 * address.city = "Prague"
 * address.country = "CZ"
+
+Instance: Inline-Instance-for-svc-Bundle-07-7
+InstanceOf: Binary
+Usage: #inline
+* contentType = #image/png
+* data = "iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAAAAACMfPpKAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAfElEQVQYlU2QWwrEMAwDR0vuf+XZj8qJSyjIyNYjAkAMQNFhkBCKzoNiin70kxKBN41ENuf7+9AZWQOGRx/2m4TeKy2YO0GyDpwszW5EUCs/ur78NZtGvSa8azdPDGttsonot8LtDFNnrs4yLSbuJk0ajnV3vevhCxUj4Q+R11n764g4WgAAAABJRU5ErkJggg=="

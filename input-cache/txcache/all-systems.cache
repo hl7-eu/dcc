@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "image/png"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "image/png",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
