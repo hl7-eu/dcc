@@ -46,10 +46,10 @@
 		<packageId value="hl7.fhir.uv.ips"/>
 		<version value="dev"/>
 	</dependsOn>
-		<!-- <dependsOn> -->
-		<!-- <uri value="http://fhir.org/guides/who/svc/ImplementationGuide/hl7.fhir.eu.poc.svc"/> -->
-		<!-- <packageId value="who.fhir.svc"/> -->
-		<!-- <version value="dev"/> -->
+	<!-- <dependsOn> -->
+	<!-- <uri value="http://fhir.org/guides/who/svc/ImplementationGuide/hl7.fhir.eu.poc.svc"/> -->
+	<!-- <packageId value="who.fhir.svc"/> -->
+	<!-- <version value="dev"/> -->
 	<!-- </dependsOn> -->
 	<definition>
 		<resource>
@@ -84,7 +84,7 @@
 			<description value="Vaccination example: second dose not given (Immunization and ImmunizationRecommendation)"/>
 			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
-				<resource>
+		<resource>
 			<reference>
 				<reference value="Bundle/svc-Bundle-05"/>
 			</reference>
@@ -92,12 +92,20 @@
 			<description value="Vaccination example: only planned vaccinations"/>
 			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
-				<resource>
+		<resource>
 			<reference>
 				<reference value="Bundle/svc-Bundle-06"/>
 			</reference>
 			<name value="Second dose not given due to adverse reaction"/>
 			<description value="Vaccination example: second dose not given due to adverse reaction(Immunization and ImmunizationRecommendation)"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-07"/>
+			</reference>
+			<name value="Only first dose given + QR (Immunization)"/>
+			<description value="Czech vaccination example: 1 dose given, second dose planned with QR code"/>
 			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
