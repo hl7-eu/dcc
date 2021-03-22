@@ -2,10 +2,10 @@ Alias: SCT = http://snomed.info/sct
 
 //------------------------------------------------
 
-ValueSet:      SctCovid19Vaccines
-Id:	       sct-vaccines-covid-19
-Title:	       "SNOMED CT Vaccine List (COVID-19)"
-Description:   "Vaccine List (COVID-19) from [SNOMED CT]"
+ValueSet:      SctEUCovid19Vaccines
+Id:	       sct-eu-vaccines-covid-19
+Title:	       "EU SNOMED CT Vaccine List (COVID-19)"
+Description:   "EU Vaccine List (COVID-19) from [SNOMED CT]"
 
 * ^status = #draft
 * SCT#1142178009 
