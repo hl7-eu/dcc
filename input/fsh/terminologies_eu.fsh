@@ -6,7 +6,7 @@ Alias: EMA = http://ema.europa.eu/registration
 
 ValueSet:      Covid19Vaccines
 Id:	       vaccines-covid-19
-Title:	       "SNOMED CT Vaccine List (COVID-19)"
+Title:	       "Vaccine List (COVID-19)"
 Description:   "Vaccine List (COVID-19)"
 
 * ^status = #draft
@@ -26,3 +26,4 @@ Description:   "Vaccine Name List (COVID-19)"
 * EMA#EMEA/H/C/005735 "Comirnaty"
 * EMA#EMEA/H/C/005735 "COVID-19 Vaccine Moderna"
 * EMA#EMEA/H/C/005675 "COVID-19 Vaccine AstraZeneca"
+* EMA#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
