@@ -1,5 +1,8 @@
-input-cache
-fsh-generated
-output
-temp
-template
+publisher.jar
+/output/
+/temp/
+/template/
+package-list.json
+.index.json
+/fsh-generated/
+/input-cache/
