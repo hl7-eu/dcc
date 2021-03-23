@@ -20,8 +20,8 @@ Description:   "Vaccine List (COVID-19)"
 
 Instance: Covid19VaccinesSnomedToICD11Map
 InstanceOf: ConceptMap
-Title:	       "COVID-19 Vaccines SSNOMED CT To ICD11 Map"
-Description:   "COVID-19 Vaccines SSNOMED CT To ICD11 Map"
+Title:	       "COVID-19 Vaccines SNOMED CT To ICD11 Map"
+Description:   "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * status = #draft
 * sourceUri = SCT
 * targetUri = "http://id.who.int/icd11/mms" // is this correct? aren't these icd-11 codes from the foundation layer?

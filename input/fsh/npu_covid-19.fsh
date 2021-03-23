@@ -16,8 +16,8 @@ Description:   "Rapid Test List (COVID-19) from [NPU]"
 
 ValueSet:      NPUCovid19NonRapidTests
 Id:	   npu-covid-19-non-rapid-tests
-Title:	       "NPU Test List, non-rapid (COVID-19)"
-Description:   "Test List, non-rapid (COVID-19) from [NPU]"
+Title:	       "NPU Test List, Non-Rapid (COVID-19)"
+Description:   "Test List, Non-Rapid (COVID-19) from [NPU]"
 
 // all covid-19 tests but the rapid ag tests
 * NPU#NPU59097	"Syst(spec.)—Severe acute respiratory syndrome coronavirus 2(RNA); arb.c.(proc.) = ?"
