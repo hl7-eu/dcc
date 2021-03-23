@@ -3,6 +3,9 @@ Alias: ATC = http://www.whocc.no/atc
 Alias: EMA = http://ema.europa.eu/registration
 Alias: LOINC = http://loinc.org
 Alias: NULLFLAVOR = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
+Alias: ICD10int = http://hl7.org/fhir/sid/icd-10
+
+
 //------------------------------------------------
 
 ValueSet:      Covid19Vaccines
@@ -61,5 +64,25 @@ Description:   "COVID-19 Laboratory Methods"
 * LOINC#LP217197-5 "Immunoassay"
 * LOINC#LP6323-2 "Immunofluorescence (IF)"
 * NULLFLAVOR#OTH "Other"
+
+//------------------------------------------------
+// disease or agent
+
+ValueSet:      Covid19Diseases
+Id:	       covid-19-diseases
+Title:	       "COVID-19 Diseases"
+Description:   "COVID-19 Diseases"
+* ^status = #draft
+* SCT#840539006 "COVID-19"
+* ICD10int#U07.1
+* ICD10int#U07.2
+
+ValueSet:      Covid19Agents
+Id:	       covid-19-agents
+Title:	       "COVID-19 Agents"
+Description:   "COVID-19 Agents"
+* ^status = #draft
+* SCT#840533007 "SARS-CoV-2"
+
 
 
