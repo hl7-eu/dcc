@@ -84,5 +84,38 @@ Description:   "COVID-19 Agents"
 * ^status = #draft
 * SCT#840533007 "SARS-CoV-2"
 
+//------------------------------------------------
+// sample origin
+// nasopharyngeal swab, oropharyngeal swab, nasal swab, saliva
+// checked: all in SNOMED GPS
+
+ValueSet:      Covid19SampleOrigin
+Id:	       covid-19-sample-origin
+Title:	       "COVID-19 Sample Origin"
+Description:   "COVID-19 Sample Origin - Specimen types"
+* ^status = #draft
+* SCT#258500001 "Nasopharyngeal swab" 
+* SCT#461911000124106 "Oropharyngeal swab" 
+* SCT#472881004 "Pharyngeal swab"
+* SCT#472901003 "Swab from nasal sinus"
+* SCT#119342007 "Saliva specimen"
+* SCT#119297000 "Blood specimen"
+* SCT#119361006 "Plasma specimen"
+* SCT#119364003 "Serum specimen"
+* SCT#122592007 "Acellular blood (serum or plasma) specimen"
+
+
+
+//------------------------------------------------
+// result
+// checked: all in SNOMED GPS
+
+ValueSet:      Covid19LabResult
+Id:	       covid-19-lab-result
+Title:	       "COVID-19 Lab Result"
+Description:   "COVID-19 Lab Result"
+* ^status = #draft
+* SCT#260373001 "Detected"
+* SCT#260415000 "Not detected"
 
 
