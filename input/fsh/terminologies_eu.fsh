@@ -1,6 +1,7 @@
 Alias: SCT = http://snomed.info/sct
 Alias: ATC = http://www.whocc.no/atc
 Alias: EMA = http://ema.europa.eu/registration
+Alias: TEMPVACCINE = http://tempvaccine.eu
 Alias: LOINC = http://loinc.org
 Alias: NULLFLAVOR = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: ICD10int = http://hl7.org/fhir/sid/icd-10
@@ -24,7 +25,7 @@ Title:	       "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 Description:   "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * status = #draft
 * sourceUri = SCT
-* targetUri = "http://id.who.int/icd11/mms" // is this correct? aren't these icd-11 codes from the foundation layer?
+* targetUri = "http://id.who.int/icd11/mms" // MMS, or should it be Foundation Component?
 * group[+].element[+].code = #1119349007
 * group[=].element[=].target[+].code = #hejsan
 * group[=].element[=].target[=].equivalence = #equivalent
@@ -39,12 +40,12 @@ Id:	       vaccines-covid-19-names
 Title:	       "Vaccine Name List (COVID-19)"
 Description:   "Vaccine Name List (COVID-19)"
 // Are these codes correct and relevant, are there alternative codes?
-// Source LOINC Parts file 5.1-Beta, LOINC 2.69
 * ^status = #draft
 * EMA#EMEA/H/C/005735 "Comirnaty"
-* EMA#EMEA/H/C/005735 "COVID-19 Vaccine Moderna" // same code as Comirnaty
+* EMA#EMEA/H/C/005791 "COVID-19 Vaccine Moderna"
 * EMA#EMEA/H/C/005675 "COVID-19 Vaccine AstraZeneca"
 * EMA#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
+* TEMPVACCINE#sputnik-v "Sputnik V"
 
 
 //------------------------------------------------
@@ -74,15 +75,15 @@ Title:	       "COVID-19 Diseases"
 Description:   "COVID-19 Diseases"
 * ^status = #draft
 * SCT#840539006 "COVID-19"
-* ICD10int#U07.1
-* ICD10int#U07.2
+// * ICD10int#U07.1 "COVID-19, virus identified"
+// * ICD10int#U07.2 "COVID-19, virus not identified"
 
-ValueSet:      Covid19Agents
-Id:	       covid-19-agents
-Title:	       "COVID-19 Agents"
-Description:   "COVID-19 Agents"
-* ^status = #draft
-* SCT#840533007 "SARS-CoV-2"
+// ValueSet:      Covid19Agents
+// Id:	       covid-19-agents
+// Title:	       "COVID-19 Agents"
+// Description:   "COVID-19 Agents"
+// * ^status = #draft
+// * SCT#840533007 "SARS-CoV-2"
 
 //------------------------------------------------
 // sample origin
@@ -99,12 +100,19 @@ Description:   "COVID-19 Sample Origin - Specimen types"
 * SCT#461911000124106 "Oropharyngeal swab" 
 * SCT#472881004 "Pharyngeal swab"
 * SCT#472901003 "Swab from nasal sinus"
+* SCT#258529004 "Throat swab"
 * SCT#119342007 "Saliva specimen"
 * SCT#119297000 "Blood specimen"
 * SCT#119361006 "Plasma specimen"
 * SCT#119364003 "Serum specimen"
+* SCT#122555007 "Venous blood specimen"
 * SCT#122592007 "Acellular blood (serum or plasma) specimen"
-
+* SCT#122554006 "Capillary blood specimen"
+* SCT#697989009 "Anterior nares swab"
+* SCT#871810001 "Mid-turbinate nasal swab"
+* SCT#258467004 "Nasopharyngeal washings"
+* SCT#258411007 "Nasopharyngeal aspirate"
+* SCT#258607008 "Bronchoalveolar lavage fluid sample"
 
 
 //------------------------------------------------
