@@ -88,6 +88,7 @@ Description:   "COVID-19 Agents"
 // sample origin
 // nasopharyngeal swab, oropharyngeal swab, nasal swab, saliva
 // checked: all in SNOMED GPS
+// cf. https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html
 
 ValueSet:      Covid19SampleOrigin
 Id:	       covid-19-sample-origin
@@ -109,6 +110,7 @@ Description:   "COVID-19 Sample Origin - Specimen types"
 //------------------------------------------------
 // result
 // checked: all in SNOMED GPS
+// cf. https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html
 
 ValueSet:      Covid19LabResult
 Id:	       covid-19-lab-result
