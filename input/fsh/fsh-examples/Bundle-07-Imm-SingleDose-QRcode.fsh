@@ -169,5 +169,6 @@ Usage: #inline
 Instance: Inline-Instance-for-svc-Bundle-07-7
 InstanceOf: Binary
 Usage: #inline
+* id = "ef187374-9ee4-4eaa-ad5c-06ddfdc5b825"
 * contentType = #image/png
 * data = "iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAAAAACMfPpKAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAfElEQVQYlU2QWwrEMAwDR0vuf+XZj8qJSyjIyNYjAkAMQNFhkBCKzoNiin70kxKBN41ENuf7+9AZWQOGRx/2m4TeKy2YO0GyDpwszW5EUCs/ur78NZtGvSa8azdPDGttsonot8LtDFNnrs4yLSbuJk0ajnV3vevhCxUj4Q+R11n764g4WgAAAABJRU5ErkJggg=="

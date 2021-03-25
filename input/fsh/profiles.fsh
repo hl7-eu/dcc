@@ -162,7 +162,7 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 //-------------------------------------------------------------------------------------------
 
 * vaccineCode.coding ^slicing.discriminator[0].type = #pattern
-* vaccineCode.coding ^slicing.discriminator[0].path = "code"
+* vaccineCode.coding ^slicing.discriminator[0].path = "$this"
 * vaccineCode.coding ^slicing.ordered = false
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding ^short = "Type of vaccine"
@@ -260,13 +260,18 @@ Description: "This profile defines how to represent a vaccination certificate in
 * entry ^definition = "It lists and describes the types of entries allowed for this document."
 
 * entry contains 
-	composition  1..1 MS and  
+	composition  1..1 MS and
+	patient 1..1	MS and
 	immunization 0.. MS and
 	immunizationRecommendation 0.. MS and
+	testResult 0.. MS and
 	binary 0.. 
 
 * entry[composition].resource 1..1 MS
 * entry[composition].resource only CompositionDGC
+	
+* entry[patient].resource 1..1 MS
+* entry[patient].resource only PatientDGC
 	
 * entry[immunization].resource 1..1 MS
 // * entry[immunization].resource only ImmunizationDGC or ImmunizationNotDone
@@ -274,6 +279,9 @@ Description: "This profile defines how to represent a vaccination certificate in
 
 * entry[immunizationRecommendation].resource 1..1 MS
 * entry[immunizationRecommendation].resource only ImmunizationRecommendationDGC
+
+* entry[testResult].resource 1..1 MS
+* entry[testResult].resource only ObservationDGC
 
 * entry[binary].resource 1..1 MS
 * entry[binary].resource only BinaryQRDGC
