@@ -2398,3 +2398,133 @@ e: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "J07BX03",
+        "display" : "covid-19 vaccines"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code ,{http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"]; The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : "warning",
+  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://id.who.int/icd11/mms",
+      "concept" : [{
+        "code" : "XM1NL1",
+        "display" : "COVID-19 vaccine, inactivated virus"
+      },
+      {
+        "code" : "XM5DF6",
+        "display" : "COVID-19 vaccine, live attenuated virus"
+      },
+      {
+        "code" : "XM9QW8",
+        "display" : "COVID-19 vaccine, non-replicating viral vector"
+      },
+      {
+        "code" : "XM0CX4",
+        "display" : "COVID-19 vaccine, replicating viral vector"
+      },
+      {
+        "code" : "XM5JC5",
+        "display" : "COVID-19 vaccine, virus protein subunit"
+      },
+      {
+        "code" : "XM1J92",
+        "display" : "COVID-19 vaccine, virus like particle (VLP)"
+      },
+      {
+        "code" : "XM6AT1",
+        "display" : "COVID-19 vaccine, DNA based"
+      },
+      {
+        "code" : "XM6AT1",
+        "display" : "COVID-19 vaccine, DNA based"
+      },
+      {
+        "code" : "XM1NL1",
+        "display" : "COVID-19 vaccine, inactivated virus"
+      },
+      {
+        "code" : "XM5DF6",
+        "display" : "COVID-19 vaccine, live attenuated virus"
+      },
+      {
+        "code" : "XM9QW8",
+        "display" : "COVID-19 vaccine, non-replicating viral vector"
+      },
+      {
+        "code" : "XM0CX4",
+        "display" : "COVID-19 vaccine, replicating viral vector"
+      },
+      {
+        "code" : "XM5JC5",
+        "display" : "COVID-19 vaccine, virus protein subunit"
+      },
+      {
+        "code" : "XM1J92",
+        "display" : "COVID-19 vaccine, virus like particle (VLP)"
+      },
+      {
+        "code" : "XM6AT1",
+        "display" : "COVID-19 vaccine, DNA based"
+      },
+      {
+        "code" : "XM6AT1",
+        "display" : "COVID-19 vaccine, DNA based"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : "warning",
+  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
