@@ -24,12 +24,48 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+  },
   "status" : "active",
   "expansion" : {
     "identifier" : "urn:uuid:458f31a6-40d8-4534-abbc-3fa4b3934134",
     "timestamp" : "2021-03-20T09:55:25.371Z",
     "parameter" : [{
       "name" : "limitedExpansion",
+      "valueBoolean" : true
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : false, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "J07BX03",
+        "display" : "covid-19 vaccines"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:78abb050-a549-4863-b291-28c26d88460f",
+    "timestamp" : "2021-03-26T09:10:21.668Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "excludeNested",
       "valueBoolean" : true
     }]
   }

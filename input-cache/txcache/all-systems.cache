@@ -15,3 +15,38 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://ema.europa.eu/registration",
+      "concept" : [{
+        "code" : "EMEA/H/C/005735",
+        "display" : "Comirnaty"
+      },
+      {
+        "code" : "EMEA/H/C/005791",
+        "display" : "COVID-19 Vaccine Moderna"
+      },
+      {
+        "code" : "EMEA/H/C/005675",
+        "display" : "COVID-19 Vaccine AstraZeneca"
+      },
+      {
+        "code" : "EMEA/H/C/005737",
+        "display" : "COVID-19 Vaccine Janssen"
+      }]
+    },
+    {
+      "system" : "http://tempvaccine.eu",
+      "concept" : [{
+        "code" : "sputnik-v",
+        "display" : "Sputnik V"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://ema.europa.eu/registration"
+}
+-------------------------------------------------------------------------------------

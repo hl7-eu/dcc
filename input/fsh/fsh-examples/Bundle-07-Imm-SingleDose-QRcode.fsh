@@ -101,6 +101,9 @@ Usage: #inline
 </div>"
 * section[0].entry[0].reference = "urn:uuid:cc9b611a-99b4-4342-a716-4bfbba1d0d1a"
 * section[0].entry[1].reference = "urn:uuid:8de24625-d0bf-451c-bdb1-fbe63ffaa01e"
+* section[1].entry[0].reference = "urn:uuid:ef187374-9ee4-4eaa-ad5c-06ddfdc5b825"
+
+
 Instance: Inline-Instance-for-svc-Bundle-07-2
 InstanceOf: Patient
 Usage: #inline

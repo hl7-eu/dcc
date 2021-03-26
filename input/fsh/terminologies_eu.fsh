@@ -1,10 +1,6 @@
-Alias: SCT = http://snomed.info/sct
-Alias: ATC = http://www.whocc.no/atc
-Alias: EMA = http://ema.europa.eu/registration
-Alias: TEMPVACCINE = http://tempvaccine.eu
-Alias: LOINC = http://loinc.org
-Alias: NULLFLAVOR = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
-Alias: ICD10int = http://hl7.org/fhir/sid/icd-10
+
+
+
 
 
 //------------------------------------------------
@@ -14,17 +10,17 @@ Id:	       vaccines-covid-19
 Title:	       "Vaccine List (COVID-19)"
 Description:   "Vaccine List (COVID-19)"
 * ^status = #draft
-// * SCT#1142178009 "SARS-CoV-2 vaccine"
-* SCT#1119349007 "SARS-CoV-2 mRNA vaccine"
-* SCT#1119305005 "SARS-CoV-2 antigen vaccine"
-* ATC#J07BX03 "covid-19 vaccines"
+// * $sct#1142178009 "SARS-CoV-2 vaccine"
+* $sct#1119349007 "SARS-CoV-2 mRNA vaccine"
+* $sct#1119305005 "SARS-CoV-2 antigen vaccine"
+* $atc#J07BX03 "covid-19 vaccines"
 
 Instance: Covid19VaccinesSnomedToICD11Map
 InstanceOf: ConceptMap
 Title:	       "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 Description:   "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * status = #draft
-* sourceUri = SCT
+* sourceUri = $sct
 * targetUri = "http://id.who.int/icd11/mms" // MMS, or should it be Foundation Component?
 * group[+].element[+].code = #1119349007
 * group[=].element[=].target[+].code = #hejsan
@@ -41,30 +37,30 @@ Title:	       "Vaccine Name List (COVID-19)"
 Description:   "Vaccine Name List (COVID-19)"
 // Are these codes correct and relevant, are there alternative codes?
 * ^status = #draft
-* EMA#EMEA/H/C/005735 "Comirnaty"
-* EMA#EMEA/H/C/005791 "COVID-19 Vaccine Moderna"
-* EMA#EMEA/H/C/005675 "COVID-19 Vaccine AstraZeneca"
-* EMA#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
-* TEMPVACCINE#sputnik-v "Sputnik V"
+* $ema#EMEA/H/C/005735 "Comirnaty"
+* $ema#EMEA/H/C/005791 "COVID-19 Vaccine Moderna"
+* $ema#EMEA/H/C/005675 "COVID-19 Vaccine AstraZeneca"
+* $ema#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
+* $tempVaccine-eu#sputnik-v "Sputnik V"
 
 
 //------------------------------------------------
 // lab method/type value set
 // nothing relevant in <<272394005 | Technique (qualifier value) | AND ^787778008 |Global Patient Set|
-// map from SNOMED CT non-GPS -> LOINC part codes?
+// map from SNOMED CT non-GPS -> $loinc part codes?
 
 ValueSet:      Covid19LabMethods
 Id:	       covid-19-lab-methods
 Title:	       "COVID-19 Lab Methods"
 Description:   "COVID-19 Laboratory Methods"
 * ^status = #draft
-* LOINC#LP6464-4 "Nucleic acid amplification with probe detection"
-* LOINC#LP217198-3 "Rapid immunoassay"
-* LOINC#LP6404-0 "Molecular genetics"
-* LOINC#LP150045-5 "Sequencing"
-* LOINC#LP217197-5 "Immunoassay"
-* LOINC#LP6323-2 "Immunofluorescence (IF)"
-* NULLFLAVOR#OTH "Other"
+* $loinc#LP6464-4 "Nucleic acid amplification with probe detection"
+* $loinc#LP217198-3 "Rapid immunoassay"
+* $loinc#LP6404-0 "Molecular genetics"
+* $loinc#LP150045-5 "Sequencing"
+* $loinc#LP217197-5 "Immunoassay"
+* $loinc#LP6323-2 "Immunofluorescence (IF)"
+* $v3-NullFlavor#OTH "Other"
 
 //------------------------------------------------
 // disease or agent
@@ -74,16 +70,16 @@ Id:	       covid-19-diseases
 Title:	       "COVID-19 Diseases"
 Description:   "COVID-19 Diseases"
 * ^status = #draft
-* SCT#840539006 "COVID-19"
-// * ICD10int#U07.1 "COVID-19, virus identified"
-// * ICD10int#U07.2 "COVID-19, virus not identified"
+* $sct#840539006 "COVID-19"
+// * $icd-10#U07.1 "COVID-19, virus identified"
+// * $icd-10#U07.2 "COVID-19, virus not identified"
 
 // ValueSet:      Covid19Agents
 // Id:	       covid-19-agents
 // Title:	       "COVID-19 Agents"
 // Description:   "COVID-19 Agents"
 // * ^status = #draft
-// * SCT#840533007 "SARS-CoV-2"
+// * $sct#840533007 "SARS-CoV-2"
 
 //------------------------------------------------
 // sample origin
@@ -96,27 +92,27 @@ Id:	       covid-19-sample-origin
 Title:	       "COVID-19 Sample Origin"
 Description:   "COVID-19 Sample Origin - Specimen types"
 * ^status = #draft
-* SCT#258500001 "Nasopharyngeal swab" 
-* SCT#258411007 "Nasopharyngeal aspirate"
-* SCT#258467004 "Nasopharyngeal washings"
-* SCT#461911000124106 "Oropharyngeal swab" 
-* SCT#472881004 "Pharyngeal swab"
-* SCT#871810001 "Mid-turbinate nasal swab"
-* SCT#445297001 "Swab of internal nose"
-* SCT#697989009 "Anterior nares swab"
-* SCT#258529004 "Throat swab"
-* SCT#445447003 "Specimen from trachea obtained by aspiration"
-* SCT#309171007 "Lower respiratory fluid sample"
-* SCT#258607008 "Bronchoalveolar lavage fluid sample"
-* SCT#119342007 "Saliva specimen"
-* SCT#119334006 "Sputum specimen"
-* SCT#119297000 "Blood specimen"
-* SCT#119361006 "Plasma specimen"
-* SCT#119364003 "Serum specimen"
-* SCT#122555007 "Venous blood specimen"
-* SCT#122592007 "Acellular blood (serum or plasma) specimen"
-* SCT#122554006 "Capillary blood specimen"
-* SCT#440500007 "Dried blood spot specimen"
+* $sct#258500001 "Nasopharyngeal swab" 
+* $sct#258411007 "Nasopharyngeal aspirate"
+* $sct#258467004 "Nasopharyngeal washings"
+* $sct#461911000124106 "Oropharyngeal swab" 
+* $sct#472881004 "Pharyngeal swab"
+* $sct#871810001 "Mid-turbinate nasal swab"
+* $sct#445297001 "Swab of internal nose"
+* $sct#697989009 "Anterior nares swab"
+* $sct#258529004 "Throat swab"
+* $sct#445447003 "Specimen from trachea obtained by aspiration"
+* $sct#309171007 "Lower respiratory fluid sample"
+* $sct#258607008 "Bronchoalveolar lavage fluid sample"
+* $sct#119342007 "Saliva specimen"
+* $sct#119334006 "Sputum specimen"
+* $sct#119297000 "Blood specimen"
+* $sct#119361006 "Plasma specimen"
+* $sct#119364003 "Serum specimen"
+* $sct#122555007 "Venous blood specimen"
+* $sct#122592007 "Acellular blood (serum or plasma) specimen"
+* $sct#122554006 "Capillary blood specimen"
+* $sct#440500007 "Dried blood spot specimen"
 
 //------------------------------------------------
 // result
@@ -128,8 +124,8 @@ Id:	       covid-19-lab-result
 Title:	       "COVID-19 Lab Result"
 Description:   "COVID-19 Lab Result"
 * ^status = #draft
-* SCT#260373001 "Detected"
-* SCT#260415000 "Not detected"
+* $sct#260373001 "Detected"
+* $sct#260415000 "Not detected"
 
 
 //------------------------------------------------
@@ -137,6 +133,13 @@ Description:   "COVID-19 Lab Result"
 
 
 ValueSet:      Covid19LabTestManufacturerAndName
+Id:	       covid-19-lab-test-manufacturer-and-name
+Title:	       "COVID-19 Lab Test Manufacturer And Name"
+Description:   "COVID-19 Lab Test Manufacturer And Name"
+* ^status = #draft
+* codes from system Covid19LabTestManufacturerAndName
+
+CodeSystem:      Covid19LabTestManufacturerAndName
 Id:	       covid-19-lab-test-manufacturer-and-name
 Title:	       "COVID-19 Lab Test Manufacturer And Name"
 Description:   "COVID-19 Lab Test Manufacturer And Name"

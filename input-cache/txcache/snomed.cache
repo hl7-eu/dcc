@@ -2528,3 +2528,543 @@ v: {
   "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840539006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Disease caused by 2019 novel coronavirus",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260373001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Detected",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260415000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Not detected",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258500001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nasopharyngeal swab",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258411007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nasopharyngeal aspirate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258467004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nasopharyngeal washings",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "461911000124106"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab specimen from oropharynx (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "472881004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab from pharynx",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "871810001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab specimen from nasal mid-turbinate (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "445297001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab of internal nose (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "697989009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Anterior nares swab",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258529004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "TS - Throat swab",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "445447003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Specimen from trachea obtained by aspiration (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "309171007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lower respiratory fluid sample",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258607008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bronchoalveolar lavage fluid sample",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119342007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Saliva specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119334006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sputum specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119297000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Blood specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119361006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Plasma specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119364003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Serum specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122555007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Venous blood specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122592007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Acellular blood (serum or plasma) specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122554006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Capillary blood specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "440500007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Blood spot specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d66d5180-80ff-4c61-a7c1-868aebe367bb",
+    "timestamp" : "2021-03-26T09:10:15.387Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "840539006",
+      "display" : "COVID-19"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260373001",
+        "display" : "Detected"
+      },
+      {
+        "code" : "260415000",
+        "display" : "Not detected"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:77dcf183-0990-48fa-a020-292b1dede4b0",
+    "timestamp" : "2021-03-23T21:33:14.637Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260373001",
+      "display" : "Detected"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "260415000",
+      "display" : "Not detected"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "258500001",
+        "display" : "Nasopharyngeal swab"
+      },
+      {
+        "code" : "258411007",
+        "display" : "Nasopharyngeal aspirate"
+      },
+      {
+        "code" : "258467004",
+        "display" : "Nasopharyngeal washings"
+      },
+      {
+        "code" : "461911000124106",
+        "display" : "Oropharyngeal swab"
+      },
+      {
+        "code" : "472881004",
+        "display" : "Pharyngeal swab"
+      },
+      {
+        "code" : "871810001",
+        "display" : "Mid-turbinate nasal swab"
+      },
+      {
+        "code" : "445297001",
+        "display" : "Swab of internal nose"
+      },
+      {
+        "code" : "697989009",
+        "display" : "Anterior nares swab"
+      },
+      {
+        "code" : "258529004",
+        "display" : "Throat swab"
+      },
+      {
+        "code" : "445447003",
+        "display" : "Specimen from trachea obtained by aspiration"
+      },
+      {
+        "code" : "309171007",
+        "display" : "Lower respiratory fluid sample"
+      },
+      {
+        "code" : "258607008",
+        "display" : "Bronchoalveolar lavage fluid sample"
+      },
+      {
+        "code" : "119342007",
+        "display" : "Saliva specimen"
+      },
+      {
+        "code" : "119334006",
+        "display" : "Sputum specimen"
+      },
+      {
+        "code" : "119297000",
+        "display" : "Blood specimen"
+      },
+      {
+        "code" : "119361006",
+        "display" : "Plasma specimen"
+      },
+      {
+        "code" : "119364003",
+        "display" : "Serum specimen"
+      },
+      {
+        "code" : "122555007",
+        "display" : "Venous blood specimen"
+      },
+      {
+        "code" : "122592007",
+        "display" : "Acellular blood (serum or plasma) specimen"
+      },
+      {
+        "code" : "122554006",
+        "display" : "Capillary blood specimen"
+      },
+      {
+        "code" : "440500007",
+        "display" : "Dried blood spot specimen"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:0261ce66-d7af-40e2-ba7c-a7c5e039fee3",
+    "timestamp" : "2021-03-26T09:10:16.777Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "258500001",
+      "display" : "Nasopharyngeal swab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "258411007",
+      "display" : "Nasopharyngeal aspirate"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "258467004",
+      "display" : "Nasopharyngeal washings"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "461911000124106",
+      "display" : "Oropharyngeal swab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "472881004",
+      "display" : "Pharyngeal swab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "871810001",
+      "display" : "Mid-turbinate nasal swab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445297001",
+      "display" : "Swab of internal nose"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "697989009",
+      "display" : "Anterior nares swab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "258529004",
+      "display" : "Throat swab"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "445447003",
+      "display" : "Specimen from trachea obtained by aspiration"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "309171007",
+      "display" : "Lower respiratory fluid sample"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "258607008",
+      "display" : "Bronchoalveolar lavage fluid sample"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "119342007",
+      "display" : "Saliva specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "119334006",
+      "display" : "Sputum specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "119297000",
+      "display" : "Blood specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "119361006",
+      "display" : "Plasma specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "119364003",
+      "display" : "Serum specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "122555007",
+      "display" : "Venous blood specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "122592007",
+      "display" : "Acellular blood (serum or plasma) specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "122554006",
+      "display" : "Capillary blood specimen"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "440500007",
+      "display" : "Dried blood spot specimen"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
