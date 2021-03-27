@@ -108,6 +108,46 @@
 			<description value="Czech vaccination example: 1 dose given, second dose planned with QR code"/>
 			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
 		</resource>
+		<resource>
+			<reference>
+				<reference value="Bundle/svc-Bundle-08"/>
+			</reference>
+			<name value="Two doses given (Immunization)"/>
+			<description value="Italian vaccination example: 2 dose given"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Patient/example-it-1"/>
+			</reference>
+			<name value="Patient"/>
+			<description value="Example of Italian patient"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Patient-dgc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Organization/org-example-it"/>
+			</reference>
+			<name value="Organization"/>
+			<description value="Example of Italian Organization (azienda sanitaria)"/>
+			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/> -->
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/example-it-1-1"/>
+			</reference>
+			<name value="Immunization"/>
+			<description value="Example of Vaccination with COVID-19 mRNA vaccine"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc"/>
+		</resource>
+		<resource>
+			<reference>
+				<reference value="Immunization/example-it-1-2"/>
+			</reference>
+			<name value="Immunization"/>
+			<description value="Example of Vaccination with COVID-19 mRNA vaccine"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc"/>
+		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
 		<page>
@@ -120,16 +160,21 @@
 				<title value="EU Digital Green Certificate - Home Page"/>
 				<generation value="markdown"/>
 			</page>
-			<!-- 			<page>
-				<nameUrl value="background.html"/>
-				<title value="Background"/>
-				<generation value="html"/>
+			<page>
+				<nameUrl value="models.html"/>
+				<title value="Logical Models"/>
+				<generation value="markdown"/>
 			</page>
 			<page>
-				<nameUrl value="spec.html"/>
-				<title value="Detailed Specification"/>
+				<nameUrl value="profiles.html"/>
+				<title value="FHIR Profiles"/>
 				<generation value="markdown"/>
-			</page> -->
+			</page>
+			<page>
+				<nameUrl value="terminologies.html"/>
+				<title value="Terminologies"/>
+				<generation value="markdown"/>
+			</page>
 			<page>
 				<nameUrl value="downloads.html"/>
 				<title value="Useful Downloads"/>

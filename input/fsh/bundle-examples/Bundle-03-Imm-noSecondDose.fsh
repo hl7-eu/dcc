@@ -1,9 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-Alias: $sct = http://snomed.info/sct
-Alias: $aic = https://www.aifa.gov.it/aic // temporary URL
-Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
-
 Instance: svc-Bundle-03
 // REVIEW
 InstanceOf: Bundle

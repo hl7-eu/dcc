@@ -13,6 +13,13 @@ Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
 Alias: $ema = http://ema.europa.eu/registration
 Alias: $tempVaccine-eu = http://tempvaccine.eu
+Alias: $mef-ae-comuni = http://terminology.hl7.it/CodeSystem/mef-ae-comuni
+Alias: $it-tipoEntita = http://terminology.hl7.it/CodeSystem/it-tipoEntita
+Alias: $dug = http://registry.geodati.gov.it/dug
+Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $aic = https://www.aifa.gov.it/aic // temporary URL
+Alias: $istat-unitaAmministrativeTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
+Alias: $minsan-regione = http://terminology.hl7.it/CodeSystem/minsan-regione
 
 
 //----------- Profiles

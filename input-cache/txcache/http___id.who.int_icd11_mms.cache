@@ -21,6 +21,16 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://id.who.int/icd11/mms",
+  "code" : "XM6AT1"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://id.who.int/icd11/mms\" is not known (encountered paired with code = \"XM6AT1\"); The code provided (http://id.who.int/icd11/mms#XM6AT1) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://id.who.int/icd11/mms",
   "code" : "XM9QW8"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
@@ -59,16 +69,6 @@ v: {
   "error" : "The code system \"http://id.who.int/icd11/mms\" is not known (encountered paired with code = \"XM1J92\"); The code provided (http://id.who.int/icd11/mms#XM1J92) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://id.who.int/icd11/mms",
-  "code" : "XM6AT1"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code system \"http://id.who.int/icd11/mms\" is not known (encountered paired with code = \"XM6AT1\"); The code provided (http://id.who.int/icd11/mms#XM6AT1) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -83,36 +83,8 @@ v: {
         "display" : "COVID-19 vaccine, live attenuated virus"
       },
       {
-        "code" : "XM9QW8",
-        "display" : "COVID-19 vaccine, non-replicating viral vector"
-      },
-      {
-        "code" : "XM0CX4",
-        "display" : "COVID-19 vaccine, replicating viral vector"
-      },
-      {
-        "code" : "XM5JC5",
-        "display" : "COVID-19 vaccine, virus protein subunit"
-      },
-      {
-        "code" : "XM1J92",
-        "display" : "COVID-19 vaccine, virus like particle (VLP)"
-      },
-      {
         "code" : "XM6AT1",
         "display" : "COVID-19 vaccine, DNA based"
-      },
-      {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
-      },
-      {
-        "code" : "XM1NL1",
-        "display" : "COVID-19 vaccine, inactivated virus"
-      },
-      {
-        "code" : "XM5DF6",
-        "display" : "COVID-19 vaccine, live attenuated virus"
       },
       {
         "code" : "XM9QW8",
@@ -129,14 +101,6 @@ v: {
       {
         "code" : "XM1J92",
         "display" : "COVID-19 vaccine, virus like particle (VLP)"
-      },
-      {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
-      },
-      {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
       }]
     }]
   }

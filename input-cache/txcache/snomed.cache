@@ -1,6 +1,266 @@
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "840539006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Disease caused by 2019 novel coronavirus",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260373001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Detected",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "260415000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Not detected",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258500001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nasopharyngeal swab",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258411007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nasopharyngeal aspirate",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258467004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Nasopharyngeal washings",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "461911000124106"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab specimen from oropharynx (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "472881004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab from pharynx",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "871810001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab specimen from nasal mid-turbinate (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "445297001"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Swab of internal nose (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "697989009"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Anterior nares swab",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258529004"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "TS - Throat swab",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "445447003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Specimen from trachea obtained by aspiration (specimen)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "309171007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Lower respiratory fluid sample",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "258607008"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Bronchoalveolar lavage fluid sample",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119342007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Saliva specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119334006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Sputum specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119297000"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Blood specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119361006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Plasma specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "119364003"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Serum specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122555007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Venous blood specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122592007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Acellular blood (serum or plasma) specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "122554006"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Capillary blood specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "440500007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Blood spot specimen",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119305005"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019 novel coronavirus antigen vaccine",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "1119349007",
   "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -1616,6 +1876,100 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "J07BX03",
+        "display" : "covid-19 vaccines"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code ,{http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"]; The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : "warning",
+  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://id.who.int/icd11/mms",
+      "concept" : [{
+        "code" : "XM1NL1",
+        "display" : "COVID-19 vaccine, inactivated virus"
+      },
+      {
+        "code" : "XM5DF6",
+        "display" : "COVID-19 vaccine, live attenuated virus"
+      },
+      {
+        "code" : "XM6AT1",
+        "display" : "COVID-19 vaccine, DNA based"
+      },
+      {
+        "code" : "XM9QW8",
+        "display" : "COVID-19 vaccine, non-replicating viral vector"
+      },
+      {
+        "code" : "XM0CX4",
+        "display" : "COVID-19 vaccine, replicating viral vector"
+      },
+      {
+        "code" : "XM5JC5",
+        "display" : "COVID-19 vaccine, virus protein subunit"
+      },
+      {
+        "code" : "XM1J92",
+        "display" : "COVID-19 vaccine, virus like particle (VLP)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : "warning",
+  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "840533007",
   "display" : "SARS-CoV-2"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
@@ -2334,438 +2688,357 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "1119349007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus (organism)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119305005"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019 novel coronavirus antigen vaccine",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1119349007",
-        "display" : "SARS-CoV-2 mRNA vaccine"
-      },
-      {
-        "code" : "1119305005",
-        "display" : "SARS-CoV-2 antigen vaccine"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:98b92fde-a5f4-450c-9f84-e792caa7d9c3",
-    "timestamp" : "2021-03-20T09:55:26.840Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "1119349007",
-      "display" : "SARS-CoV-2 mRNA vaccine"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1119305005",
-      "display" : "SARS-CoV-2 antigen vaccine"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.whocc.no/atc",
-      "concept" : [{
-        "code" : "J07BX03",
-        "display" : "covid-19 vaccines"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code ,{http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"]; The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1119349007",
-        "display" : "SARS-CoV-2 mRNA vaccine"
-      },
-      {
-        "code" : "1119305005",
-        "display" : "SARS-CoV-2 antigen vaccine"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "display" : "2019-nCoV",
   "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus (organism)"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
     "include" : [{
-      "system" : "http://id.who.int/icd11/mms",
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
       "concept" : [{
-        "code" : "XM1NL1",
-        "display" : "COVID-19 vaccine, inactivated virus"
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
       },
       {
-        "code" : "XM5DF6",
-        "display" : "COVID-19 vaccine, live attenuated virus"
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
       },
       {
-        "code" : "XM9QW8",
-        "display" : "COVID-19 vaccine, non-replicating viral vector"
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
       },
       {
-        "code" : "XM0CX4",
-        "display" : "COVID-19 vaccine, replicating viral vector"
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
       },
       {
-        "code" : "XM5JC5",
-        "display" : "COVID-19 vaccine, virus protein subunit"
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
       },
       {
-        "code" : "XM1J92",
-        "display" : "COVID-19 vaccine, virus like particle (VLP)"
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
       },
       {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
       },
       {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
       },
       {
-        "code" : "XM1NL1",
-        "display" : "COVID-19 vaccine, inactivated virus"
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
       },
       {
-        "code" : "XM5DF6",
-        "display" : "COVID-19 vaccine, live attenuated virus"
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
       },
       {
-        "code" : "XM9QW8",
-        "display" : "COVID-19 vaccine, non-replicating viral vector"
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
       },
       {
-        "code" : "XM0CX4",
-        "display" : "COVID-19 vaccine, replicating viral vector"
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
       },
       {
-        "code" : "XM5JC5",
-        "display" : "COVID-19 vaccine, virus protein subunit"
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
       },
       {
-        "code" : "XM1J92",
-        "display" : "COVID-19 vaccine, virus like particle (VLP)"
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
       },
       {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
       },
       {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
       }]
     }]
   }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "display" : "2019-nCoV",
   "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "840539006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus (organism)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
-  "display" : "Disease caused by 2019 novel coronavirus",
-  "severity" : null,
-  "error" : ""
+  "display" : "2019-nCoV",
+  "severity" : "warning",
+  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "260373001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus (organism)"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Detected",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "260415000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Not detected",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258500001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nasopharyngeal swab",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258411007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nasopharyngeal aspirate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258467004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nasopharyngeal washings",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "461911000124106"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab specimen from oropharynx (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "472881004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab from pharynx",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "871810001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab specimen from nasal mid-turbinate (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "445297001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab of internal nose (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "697989009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Anterior nares swab",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258529004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "TS - Throat swab",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "445447003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Specimen from trachea obtained by aspiration (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "309171007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Lower respiratory fluid sample",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258607008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Bronchoalveolar lavage fluid sample",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119342007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Saliva specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119334006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Sputum specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119297000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Blood specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119361006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Plasma specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119364003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Serum specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "122555007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Venous blood specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "122592007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Acellular blood (serum or plasma) specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "122554006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Capillary blood specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "440500007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Blood spot specimen",
-  "severity" : null,
-  "error" : ""
+  "display" : "2019-nCoV",
+  "severity" : "warning",
+  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
@@ -2785,8 +3058,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:d66d5180-80ff-4c61-a7c1-868aebe367bb",
-    "timestamp" : "2021-03-26T09:10:15.387Z",
+    "identifier" : "urn:uuid:5d3a9f73-edfc-45eb-8c38-ad1888df10c6",
+    "timestamp" : "2021-03-27T18:31:54.185Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3062,6 +3335,52 @@ e: {
       "system" : "http://snomed.info/sct",
       "code" : "440500007",
       "display" : "Dried blood spot specimen"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:94add0e9-2af5-4eda-a95d-4b5cc0bc74fc",
+    "timestamp" : "2021-03-27T18:32:00.638Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1119349007",
+      "display" : "SARS-CoV-2 mRNA vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1119305005",
+      "display" : "SARS-CoV-2 antigen vaccine"
     }]
   }
 },
