@@ -39,7 +39,8 @@ Description:   "Vaccine Name List (COVID-19)"
 * ^status = #draft
 * $ema#EMEA/H/C/005735 "Comirnaty"
 * $ema#EMEA/H/C/005791 "COVID-19 Vaccine Moderna"
-* $ema#EMEA/H/C/005675 "COVID-19 Vaccine AstraZeneca"
+// https://www.ema.europa.eu/en/medicines/human/EPAR/vaxzevria-previously-covid-19-vaccine-astrazeneca
+* $ema#EMEA/H/C/005675 "Vaxzevria (previously COVID-19 Vaccine AstraZeneca)"
 * $ema#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
 * $tempVaccine-eu#sputnik-v "Sputnik V"
 
