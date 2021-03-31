@@ -1,6 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-Alias: $sct = http://snomed.info/sct
 Instance: svc-Bundle-07
 InstanceOf: Bundle
 Usage: #example

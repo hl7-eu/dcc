@@ -9,6 +9,172 @@ v: {
   "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03",
+  "display" : "covid-19 vaccines"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03",
+  "display" : "covid-19 vaccines"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "787859002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'VaccinesUvIps' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03",
+  "display" : "covid-19 vaccines"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "J07BX03",
+        "display" : "covid-19 vaccines"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03",
+  "display" : "covid-19 vaccines"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'SctCovid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03",
+  "display" : "covid-19 vaccines"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://id.who.int/icd11/mms",
+      "concept" : [{
+        "code" : "XM1NL1",
+        "display" : "COVID-19 vaccine, inactivated virus"
+      },
+      {
+        "code" : "XM5DF6",
+        "display" : "COVID-19 vaccine, live attenuated virus"
+      },
+      {
+        "code" : "XM6AT1",
+        "display" : "COVID-19 vaccine, DNA based"
+      },
+      {
+        "code" : "XM9QW8",
+        "display" : "COVID-19 vaccine, non-replicating viral vector"
+      },
+      {
+        "code" : "XM0CX4",
+        "display" : "COVID-19 vaccine, replicating viral vector"
+      },
+      {
+        "code" : "XM5JC5",
+        "display" : "COVID-19 vaccine, virus protein subunit"
+      },
+      {
+        "code" : "XM1J92",
+        "display" : "COVID-19 vaccine, virus like particle (VLP)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'Icd11Covid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://www.whocc.no/atc",
+  "code" : "J07BX03",
+  "display" : "covid-19 vaccines"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
 {"hierarchical" : true, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -24,14 +190,10 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
-  },
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:458f31a6-40d8-4534-abbc-3fa4b3934134",
-    "timestamp" : "2021-03-20T09:55:25.371Z",
+    "identifier" : "urn:uuid:36025a54-7ab4-425a-8a79-12884f163c5e",
+    "timestamp" : "2021-03-27T18:31:53.607Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -58,8 +220,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:78abb050-a549-4863-b291-28c26d88460f",
-    "timestamp" : "2021-03-26T09:10:21.668Z",
+    "identifier" : "urn:uuid:25d6723e-84fc-4e45-8e8d-133eb57fb1ac",
+    "timestamp" : "2021-03-22T18:30:09.622Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

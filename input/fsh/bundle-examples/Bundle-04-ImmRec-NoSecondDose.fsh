@@ -1,7 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $sct = http://snomed.info/sct
-Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
-
 Instance: svc-Bundle-04
 // REVIEW
 InstanceOf: Bundle
