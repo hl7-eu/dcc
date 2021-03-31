@@ -38,16 +38,16 @@ Description:   "Vaccine Name List (COVID-19)"
 // Are these codes correct and relevant, are there alternative codes?
 * ^status = #draft
 * $ema#EU/1/20/1528 "Comirnaty"
-* $ema#EMEA/H/C/005791 "COVID-19 Vaccine Moderna"
+* $ema#EU/1/20/1507 "COVID-19 Vaccine Moderna"
 // https://www.ema.europa.eu/en/medicines/human/EPAR/vaxzevria-previously-covid-19-vaccine-astrazeneca
-* $ema#EMEA/H/C/005675 "Vaxzevria (previously COVID-19 Vaccine AstraZeneca)"
-* $ema#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
+* $ema#EU/1/21/1529 "Vaxzevria"
+* $ema#EU/1/20/1525	 "COVID-19 Vaccine Janssen"
 * $tempVaccine-eu#sputnik-v "Sputnik V"
 * $tempVaccine-eu#CVnCoV "CVnCoV"
 * $tempVaccine-eu#Convidecia "Convidecia"
 * $tempVaccine-eu#EpiVacCorona "EpiVacCorona"	
 * $tempVaccine-eu#BBIBP-CorV "BBIBP-CorV"
-* $tempVaccine-eu#CoronaVac "CoronaVac"
+* $tempVaccine-eu#CoronaVac "CoronaVac" 
 
 
 //------------------------------------------------
