@@ -37,11 +37,16 @@ Title:	       "Vaccine Name List (COVID-19)"
 Description:   "Vaccine Name List (COVID-19)"
 // Are these codes correct and relevant, are there alternative codes?
 * ^status = #draft
-* $ema#EMEA/H/C/005735 "Comirnaty"
+* $ema#EU/1/20/1528 "Comirnaty"
 * $ema#EMEA/H/C/005791 "COVID-19 Vaccine Moderna"
 * $ema#EMEA/H/C/005675 "COVID-19 Vaccine AstraZeneca"
 * $ema#EMEA/H/C/005737 "COVID-19 Vaccine Janssen"
 * $tempVaccine-eu#sputnik-v "Sputnik V"
+* $tempVaccine-eu#CVnCoV "CVnCoV"
+* $tempVaccine-eu#Convidecia "Convidecia"
+* $tempVaccine-eu#EpiVacCorona "EpiVacCorona"	
+* $tempVaccine-eu#BBIBP-CorV "BBIBP-CorV"
+* $tempVaccine-eu#CoronaVac "CoronaVac"
 
 
 //------------------------------------------------
