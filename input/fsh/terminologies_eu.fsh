@@ -66,7 +66,7 @@ Description:   "COVID-19 Laboratory Methods"
 * $loinc#LP150045-5 "Sequencing"
 * $loinc#LP217197-5 "Immunoassay"
 * $loinc#LP6323-2 "Immunofluorescence (IF)"
-* $v3-NullFlavor#OTH "Other"
+// * $v3-NullFlavor#OTH "Other"
 
 //------------------------------------------------
 // disease or agent
@@ -130,7 +130,7 @@ Id:	       covid-19-lab-result
 Title:	       "COVID-19 Lab Result"
 Description:   "COVID-19 Lab Result"
 * ^status = #draft
-* $sct#260373001 "Detected"
+// * $sct#260373001 "Detected"
 * $sct#260415000 "Not detected"
 
 
