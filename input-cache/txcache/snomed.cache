@@ -3056,6 +3056,10 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-gen 2021</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-840539006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006\">840539006</a></td><td>COVID-19</td><td/></tr></table></div>"
+  },
   "status" : "active",
   "expansion" : {
     "identifier" : "urn:uuid:5d3a9f73-edfc-45eb-8c38-ad1888df10c6",
@@ -3385,5 +3389,223 @@ e: {
   }
 },
   "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "260415000",
+        "display" : "Not detected"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b93af8a9-a934-4a4b-aad2-edab37dc94fd",
+    "timestamp" : "2021-04-01T17:10:35.419Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "260415000",
+      "display" : "Not detected"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus (organism)"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code ,{http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"]; The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "787859002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "J07BX03",
+        "display" : "covid-19 vaccines"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------

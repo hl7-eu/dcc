@@ -182,15 +182,16 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 // * lotNumber MS
 * performer MS
 // * protocolApplied.targetDisease MS
-* protocolApplied.targetDisease MS
+// * protocolApplied.targetDisease MS
 * protocolApplied.targetDisease.coding ^slicing.discriminator[0].type = #pattern
-* protocolApplied.targetDisease.coding ^slicing.discriminator[0].path = "this"
+* protocolApplied.targetDisease.coding ^slicing.discriminator[0].path = "$this"
 * protocolApplied.targetDisease.coding ^slicing.ordered = false
 * protocolApplied.targetDisease.coding ^slicing.rules = #open
 * protocolApplied.targetDisease.coding contains sctCovid19Diseases 1..1
+* protocolApplied.targetDisease.coding[sctCovid19Diseases] MS
 * protocolApplied.targetDisease.coding[sctCovid19Diseases] from Covid19Diseases
-// * protocolApplied.doseNumber[x] MS
-// * protocolApplied.seriesDoses[x] MS
+* protocolApplied.doseNumberPositiveInt MS
+* protocolApplied.seriesDosesPositiveInt MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ImmunizationRecommendationDGC

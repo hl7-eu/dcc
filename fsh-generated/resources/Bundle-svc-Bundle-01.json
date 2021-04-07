@@ -139,7 +139,7 @@
             {
               "code": "1119349007",
               "system": "http://snomed.info/sct",
-              "display": "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+              "display": "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
             }
           ],
           "text": "Comirnaty"
@@ -192,7 +192,7 @@
             {
               "code": "1119349007",
               "system": "http://snomed.info/sct",
-              "display": "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+              "display": "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
             }
           ],
           "text": "Comirnaty"

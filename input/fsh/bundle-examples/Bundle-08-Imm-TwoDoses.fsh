@@ -140,7 +140,7 @@ InstanceOf: Immunization
 Usage: #inline
 * id = "c4b6cb5d-9968-4624-9247-f00e13a43f8c"
 * status = #completed
-* vaccineCode.coding[1] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode.coding[1] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * vaccineCode.coding[0] = $aic#049269018 "0,45 ML- CONCENTRATO PER DISPERSIONE INIETTABILE- VIA INTRAMUSCOLARE- FLACONCINO (VETRO) 0,45 ML (6 DOSI)- 195 FLACONCINI MULTIDOSE (1170 DOSI)"
 * vaccineCode.coding[2] = $atc#J07BX03 "covid-19 vaccines"
 * vaccineCode.coding[3] = $icd11#XM6AT1	"COVID-19 vaccine, DNA based" // To be checked
@@ -161,7 +161,7 @@ Usage: #inline
 
 * protocolApplied[0].targetDisease[0] = $icd-10#J12.82 "Pneumonia due to coronavirus disease 2019" 
 * protocolApplied[0].targetDisease[1] = $icd11#XN109 "SARS-CoV-2"
-* protocolApplied[0].targetDisease[2] = $sct#840533007 "2019 novel coronavirus (organism)"
+* protocolApplied[0].targetDisease[2] = $sct#840533007 "2019 novel coronavirus"
 * protocolApplied[0].doseNumberPositiveInt = 1
 // * protocolApplied[0].seriesDosesPositiveInt = 2
 
@@ -172,7 +172,7 @@ Usage: #inline
 
 * id = "025589f0-2e11-45f5-a63d-375cbf600eb7"
 * status = #completed
-* vaccineCode.coding[1] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode.coding[1] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * vaccineCode.coding[0] = $aic#049269018 "0,45 ML- CONCENTRATO PER DISPERSIONE INIETTABILE- VIA INTRAMUSCOLARE- FLACONCINO (VETRO) 0,45 ML (6 DOSI)- 195 FLACONCINI MULTIDOSE (1170 DOSI)"
 * vaccineCode.coding[2] = $atc#J07BX03 "covid-19 vaccines"
 * vaccineCode.coding[3] = $icd11#XM6AT1	"COVID-19 vaccine, DNA based" // To be checked
@@ -188,7 +188,7 @@ Usage: #inline
 * performer[0].actor.display = "Az. USL Toscana centro"
 * protocolApplied[0].targetDisease[0] = $icd-10#J12.82 "Pneumonia due to coronavirus disease 2019" 
 * protocolApplied[0].targetDisease[1] = $icd11#XN109 "SARS-CoV-2"
-* protocolApplied[0].targetDisease[2] = $sct#840533007 "2019 novel coronavirus (organism)"
+* protocolApplied[0].targetDisease[2] = $sct#840533007 "2019 novel coronavirus"
 * protocolApplied[0].doseNumberPositiveInt = 2
 
 Instance: Inline-Instance-for-svc-Bundle-08-5
@@ -197,7 +197,7 @@ Usage: #inline
 * id = "c42c2a63-1852-4ec9-8cdc-c400ccf3d19d"
 * identifier[0].system = "http://hl7.it/sid/fls"
 * identifier[0].value = "090201"
-* identifier[1].system = "http://hl7.it/sid/vda/asl"
+* identifier[1].system = "http://hl7.it/sid/toscana/asl"
 * identifier[1].value = "201"
 * identifier[2].system = "http://hl7.it/sid/partitaIva"
 * identifier[2].value = "06593810481 " 

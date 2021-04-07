@@ -21,3 +21,25 @@ v: {
   "error" : "Code \"J12.82\" not found; The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/sid/icd-10",
+  "code" : "J12.82",
+  "display" : "Pneumonia due to coronavirus disease 2019"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "Code \"J12.82\" not found; The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------

@@ -15,11 +15,16 @@ Description:   "Vaccine List (COVID-19)"
 * $sct#1119305005 "SARS-CoV-2 antigen vaccine"
 * $atc#J07BX03 "covid-19 vaccines"
 
+//------------------------------------------------
 Instance: Covid19VaccinesSnomedToICD11Map
 InstanceOf: ConceptMap
 Title:	       "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 Description:   "COVID-19 Vaccines SNOMED CT To ICD11 Map"
+
+* name = "Covid19VaccinesSnomedToICD11Map"
+* title = "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * status = #draft
+* description = "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * sourceUri = $sct
 * targetUri = "http://id.who.int/icd11/mms" // MMS, or should it be Foundation Component?
 * group[+].element[+].code = #1119349007

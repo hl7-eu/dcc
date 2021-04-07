@@ -1083,3 +1083,58 @@ e: {
   "error" : "Error from server: Unable to provide support for code system http://ema.europa.eu/registration"
 }
 -------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://ema.europa.eu/registration",
+      "concept" : [{
+        "code" : "EU/1/20/1528",
+        "display" : "Comirnaty"
+      },
+      {
+        "code" : "EU/1/20/1507",
+        "display" : "COVID-19 Vaccine Moderna"
+      },
+      {
+        "code" : "EU/1/21/1529",
+        "display" : "Vaxzevria"
+      },
+      {
+        "code" : "EU/1/20/1525",
+        "display" : "COVID-19 Vaccine Janssen"
+      }]
+    },
+    {
+      "system" : "http://tempvaccine.eu",
+      "concept" : [{
+        "code" : "sputnik-v",
+        "display" : "Sputnik V"
+      },
+      {
+        "code" : "CVnCoV",
+        "display" : "CVnCoV"
+      },
+      {
+        "code" : "Convidecia",
+        "display" : "Convidecia"
+      },
+      {
+        "code" : "EpiVacCorona",
+        "display" : "EpiVacCorona"
+      },
+      {
+        "code" : "BBIBP-CorV",
+        "display" : "BBIBP-CorV"
+      },
+      {
+        "code" : "CoronaVac",
+        "display" : "CoronaVac"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://ema.europa.eu/registration"
+}
+-------------------------------------------------------------------------------------

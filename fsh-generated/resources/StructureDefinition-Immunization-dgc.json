@@ -106,17 +106,6 @@
         }
       },
       {
-        "id": "Immunization.vaccineCode.coding:icd11Vaccines",
-        "path": "Immunization.vaccineCode.coding",
-        "sliceName": "icd11Vaccines",
-        "min": 0,
-        "max": "1",
-        "binding": {
-          "strength": "required",
-          "valueSet": "http://hl7.eu/fhir/ig/dgc/ValueSet/icd11-vaccines-covid-19"
-        }
-      },
-      {
         "id": "Immunization.vaccineCode.text",
         "path": "Immunization.vaccineCode.text",
         "short": "Name of the vaccine",
@@ -221,8 +210,45 @@
         ]
       },
       {
+        "id": "Immunization.protocolApplied.targetDisease.coding",
+        "path": "Immunization.protocolApplied.targetDisease.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Immunization.protocolApplied.targetDisease.coding:sctCovid19Diseases",
+        "path": "Immunization.protocolApplied.targetDisease.coding",
+        "sliceName": "sctCovid19Diseases",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.eu/fhir/ig/dgc/ValueSet/covid-19-diseases"
+        }
+      },
+      {
         "id": "Immunization.protocolApplied.doseNumber[x]",
         "path": "Immunization.protocolApplied.doseNumber[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "mapping": [
           {
             "identity": "immunization-to-lm",
@@ -231,14 +257,48 @@
         ]
       },
       {
+        "id": "Immunization.protocolApplied.doseNumberPositiveInt",
+        "path": "Immunization.protocolApplied.doseNumberPositiveInt",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "positiveInt"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Immunization.protocolApplied.seriesDoses[x]",
         "path": "Immunization.protocolApplied.seriesDoses[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "mapping": [
           {
             "identity": "immunization-to-lm",
             "map": "vaccinationCertificate.vaccination.doseNumber"
           }
         ]
+      },
+      {
+        "id": "Immunization.protocolApplied.seriesDosesPositiveInt",
+        "path": "Immunization.protocolApplied.seriesDosesPositiveInt",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "positiveInt"
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

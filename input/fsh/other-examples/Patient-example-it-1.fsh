@@ -5,11 +5,6 @@ Usage: #example
 * extension[0].valueAddress.country = "Italia"
 * extension[0].valueAddress.country.extension[0].url = "http://hl7.org/fhir/StructureDefinition/iso21090-SC-coding"
 * extension[0].valueAddress.country.extension[0].valueCoding = $mef-ae-comuni#F979 "NUORO"
-* identifier[0].extension[0].url = "http://hl7.it/fhir/StructureDefinition/recordCertification"
-* identifier[0].extension[0].extension[0].url = "when"
-* identifier[0].extension[0].extension[0].valueDateTime = "2020-04-06"
-* identifier[0].extension[0].extension[1].url = "who"
-* identifier[0].extension[0].extension[1].valueCodeableConcept = $it-tipoEntita#mef "Ministero Economia e Finanze"
 * identifier[0].system = "http://hl7.it/sid/codiceFiscale"
 * identifier[0].value = "LGHDNT71E01D612Q"
 * active = true
@@ -18,8 +13,6 @@ Usage: #example
 * name[0].given[0] = "DANTE"
 * gender = #male
 * birthDate = "1971-05-01"
-* address[0].extension[0].url = "http://hl7.org/fhir/StructureDefinition/address-official"
-* address[0].extension[0].valueBoolean = true
 * address[0].use = #home
 * address[0].type = #postal
 * address[0].text = "Viale della Repubblica 12, PANTIGLIATE - 20090 - Italia"
@@ -39,8 +32,6 @@ Usage: #example
 * address[0].city = "PANTIGLIATE"
 * address[0].postalCode = "20090"
 * address[0].country = "Italia"
-* address[1].extension[0].url = "http://hl7.org/fhir/StructureDefinition/address-official"
-* address[1].extension[0].valueBoolean = false
 * address[1].use = #home
 * address[1].type = #postal
 * address[1].text = "Via Capitolina 27 - interno 5b - 34131 - TRIESTE"

@@ -111,7 +111,7 @@ Usage: #inline
 * patient.reference = "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
 * date = "2021-02-05"
 // * authority.reference = "urn:uuid:b66c1b23-21e9-4bd0-9cd7-edd806c126de"
-* recommendation[0].vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* recommendation[0].vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 
 /*======
 * recommendation[0].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#due
@@ -165,7 +165,7 @@ InstanceOf: Immunization
 Usage: #inline
 * id = "42befbaf-eba8-44ec-b7d6-0e4a996e0760"
 * status = #completed
-* vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * vaccineCode.coding[1] = $aic#049283 "COVID-19 Vaccine Moderna"
 * vaccineCode.text = "COVID-19 Vaccine Moderna"
 * patient.reference = "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"

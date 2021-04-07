@@ -57,7 +57,7 @@ Usage: #definition
 * differential.element[5].id = "CovidTestCertificate.test"
 * differential.element[5].path = "CovidTestCertificate.test"
 * differential.element[5].short = "Person date of birth"
-* differential.element[5].definition = ""
+* differential.element[5].definition = "COVID-19 Test information"
 * differential.element[5].min = 0
 * differential.element[5].max = "*"
 * differential.element[5].type.code = #BackboneElement
@@ -105,7 +105,7 @@ Usage: #definition
 * differential.element[11].type.code = #CodeableConcept
 * differential.element[12].id = "CovidTestCertificate.test.specimenCollection.dateTime"
 * differential.element[12].path = "CovidTestCertificate.test.specimenCollection.dateTime"
-* differential.element[12].short = "Sample origin (optional) "
+* differential.element[12].short = "Sample origin (optional)"
 * differential.element[12].definition = "Date and time when the sample was collected. Complete date, with time and time zone, following ISO 8601"
 * differential.element[12].min = 0
 * differential.element[12].max = "*"
@@ -127,7 +127,7 @@ Usage: #definition
 * differential.element[15].id = "CovidTestCertificate.test.result.value"
 * differential.element[15].path = "CovidTestCertificate.test.result.value"
 * differential.element[15].short = "Date and time of the test result production"
-* differential.element[15].definition = "For example, negative, positive, inconclusive or void. SNOMED CT "
+* differential.element[15].definition = "For example, negative, positive, inconclusive or void. SNOMED CT"
 * differential.element[15].min = 1
 * differential.element[15].max = "1"
 * differential.element[15].type.code = #CodeableConcept

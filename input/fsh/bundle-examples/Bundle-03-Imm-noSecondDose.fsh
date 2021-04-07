@@ -67,7 +67,7 @@ Instance: Inline-Instance-for-svc-Bundle-03-3
 InstanceOf: Immunization
 Usage: #inline
 * status = #completed
-* vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * vaccineCode.coding[1] = $aic#049283 "COVID-19 Vaccine Moderna"
 * vaccineCode.text = "COVID-19 Vaccine Moderna"
 * patient.reference = "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
@@ -89,7 +89,7 @@ Usage: #inline
 * id = "47524493-846a-4a26-bae2-4ab03e60f02e"
 * status = #not-done
 * statusReason = http://terminology.hl7.org/CodeSystem/v3-ActReason#MEDPREC	"medical precaution"
-* vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * patient.reference = "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
 * occurrenceDateTime = "2021-02-07" // Consider the data-absent-reason case
 * performer[0].actor.reference = "urn:uuid:45a5c5b1-4ec1-4d60-b4b2-ff5a84a41fd7" 
