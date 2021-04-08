@@ -3609,3 +3609,69 @@ v: {
   "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1240581000000104"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 detected (finding)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1240591000000102"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 not detected",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1240581000000104",
+        "display" : "Severe acute respiratory syndrome coronavirus 2 detected"
+      },
+      {
+        "code" : "1240591000000102",
+        "display" : "Severe acute respiratory syndrome coronavirus 2 not detected"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:1dde0316-2ba1-4ad4-b31e-e2451124a40b",
+    "timestamp" : "2021-04-08T17:19:27.560Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1240581000000104",
+      "display" : "Severe acute respiratory syndrome coronavirus 2 detected"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1240591000000102",
+      "display" : "Severe acute respiratory syndrome coronavirus 2 not detected"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

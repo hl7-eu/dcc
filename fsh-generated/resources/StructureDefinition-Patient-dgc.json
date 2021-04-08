@@ -35,9 +35,19 @@
       "name": "LOINC code for the element"
     },
     {
-      "identity": "patient-to-lm",
-      "name": "EU Vaccination Certificate",
+      "identity": "patient-to-md",
+      "name": "Vaccination Certificate (Medical)",
       "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
+    },
+    {
+      "identity": "patient-to-bc",
+      "name": "Vaccination Certificate (Border Control)",
+      "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
+    },
+    {
+      "identity": "patient-to-pv",
+      "name": "Vaccination Certificate (Private Venue)",
+      "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
     }
   ],
   "kind": "resource",
@@ -52,8 +62,12 @@
         "path": "Patient.identifier",
         "mapping": [
           {
-            "identity": "patient-to-lm",
+            "identity": "patient-to-md",
             "map": "vaccinationCertificate.subject.identifier"
+          },
+          {
+            "identity": "patient-to-bc",
+            "map": "vaccinationCertificateBc.subject.identifier"
           }
         ]
       },
@@ -62,8 +76,16 @@
         "path": "Patient.name",
         "mapping": [
           {
-            "identity": "patient-to-lm",
+            "identity": "patient-to-md",
             "map": "vaccinationCertificate.subject.name"
+          },
+          {
+            "identity": "patient-to-bc",
+            "map": "vaccinationCertificateBc.subject.name"
+          },
+          {
+            "identity": "patient-to-pv",
+            "map": "vaccinationCertificatePv.subject.name"
           }
         ]
       },
@@ -72,7 +94,7 @@
         "path": "Patient.gender",
         "mapping": [
           {
-            "identity": "patient-to-lm",
+            "identity": "patient-to-md",
             "map": "vaccinationCertificate.subject.sex"
           }
         ]
@@ -82,8 +104,16 @@
         "path": "Patient.birthDate",
         "mapping": [
           {
-            "identity": "patient-to-lm",
+            "identity": "patient-to-md",
             "map": "vaccinationCertificate.subject.birthDate"
+          },
+          {
+            "identity": "patient-to-bc",
+            "map": "vaccinationCertificateBc.subject.birthDate"
+          },
+          {
+            "identity": "patient-to-pv",
+            "map": "vaccinationCertificatePv.subject.birthDate"
           }
         ]
       }
