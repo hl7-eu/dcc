@@ -97,7 +97,7 @@ Description:   "COVID-19 Diseases"
 // nasopharyngeal swab, oropharyngeal swab, nasal swab, saliva
 // checked: all in SNOMED GPS
 // Source: https://www.cdc.gov/csels/dls/sars-cov-2-livd-codes.html
-
+/*
 ValueSet:      Covid19SampleOrigin
 Id:	       covid-19-sample-origin
 Title:	       "COVID-19 Sample Origin"
@@ -124,6 +124,7 @@ Description:   "COVID-19 Sample Origin - Specimen types"
 * $sct#122592007 "Acellular blood (serum or plasma) specimen"
 * $sct#122554006 "Capillary blood specimen"
 * $sct#440500007 "Dried blood spot specimen"
+*/
 
 //------------------------------------------------
 // result
@@ -135,8 +136,8 @@ Id:	       covid-19-lab-result
 Title:	       "COVID-19 Lab Result"
 Description:   "COVID-19 Lab Result"
 * ^status = #draft
-// * $sct#260373001 "Detected"
-* $sct#260415000 "Not detected"
+* $sct#1240581000000104	"Severe acute respiratory syndrome coronavirus 2 detected"
+* $sct#1240591000000102 "Severe acute respiratory syndrome coronavirus 2 not detected"
 
 
 //------------------------------------------------
