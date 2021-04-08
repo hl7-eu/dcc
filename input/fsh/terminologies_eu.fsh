@@ -166,16 +166,11 @@ Id:	       covid-19-lab-test-manufacturer-and-name
 Title:	       "COVID-19 Lab Test Manufacturer And Name"
 Description:   "COVID-19 Lab Test Manufacturer And Name"
 * ^status = #draft
-* codes from system Covid19LabTestManufacturerAndName
+* $jrc#1232 "Abbott Rapid Diagnostics Panbio™ COVID-19 Ag Rapid Test"
+* $jrc#1065 "Becton Dickinson BD Veritor System for Rapid Deteciton os SARS-CoV-2"
 
-CodeSystem:      Covid19LabTestManufacturerAndName
-Id:	       covid-19-lab-test-manufacturer-and-name
-Title:	       "COVID-19 Lab Test Manufacturer And Name"
-Description:   "COVID-19 Lab Test Manufacturer And Name"
-* ^status = #draft
-* #1 "Abbott Rapid Diagnostics Panbio™ COVID-19 Ag Rapid Test"
+/*
 * #2 "AMEDA Labordiagnostik GmbH AMP Rapid Test SARS-CoV-2 Ag"
-* #3 "Becton Dickinson BD Veritor System for Rapid Deteciton os SARS-CoV-2"
 * #4 "Beijing Lepu Medical Technology SARS-CoV-2 Antigen Rapid Test Kit (Colloidal Gold immunochromatography)"
 * #5 "Beijing Wantai Biological Pharmacy Enterprise Co Ltd WANTAI SARS-CoV-2 Ag Rapid Test (FIA)"
 * #6 "BIONOTE NowCheck® COVID-19 Ag Test"
@@ -199,3 +194,4 @@ Description:   "COVID-19 Lab Test Manufacturer And Name"
 * #24 "Siemens Healthineers CLINITEST Rapid COVID-19 Antigen Test"
 * #25 "Xiamen Boson Biotech Co Rapid SARS-CoV-2 Antigen Test card"
 * #26 "Zhejiang Orient Gene Biotech Co.,Ltd Coronavirus Ag Rapid Test Cassette (Swab)"
+*/
