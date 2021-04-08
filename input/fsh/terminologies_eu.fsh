@@ -55,6 +55,23 @@ Description:   "Vaccine Name List (COVID-19)"
 * $tempVaccine-eu#CoronaVac "CoronaVac" 
 
 
+ValueSet:      Covid19VaccineAuthHolders
+Id:	       vaccines-covid-19-auth-holders
+Title:	       "Vaccine marketing authorization holder or Vaccine manufacturer (COVID-19)"
+Description:   "Vaccine marketing authorization holder or Vaccine manufacturer (COVID-19)"
+// Are these codes correct and relevant, are there alternative codes?
+* ^status = #draft
+* $spor#ORG-100001699	"AstraZeneca AB"
+* $spor#ORG-100030215	"Biontech Manufacturing GmbH"
+* $spor#ORG-100001417	"Janssen-Cilag International"
+* $spor#ORG-100031184	"Moderna Biotech Spain S.L."
+* $spor#ORG-100006270	"Curevac AG"
+* $spor#ORG-100013793	"CanSino Biologics"
+* $spor#ORG-100020693	"China Sinopharm International Corp. - Beijing location"
+* $spor#ORG-100010771	"Sinopharm Weiqida Europe Pharmaceutical s.r.o. - Prague location"
+* $spor#ORG-100024420	"Sinopharm Zhijun (Shenzhen) Pharmaceutical Co. Ltd. - Shenzhen location"
+* $spor#ORG-100032020	"Novavax CZ AS"
+
 //------------------------------------------------
 // lab method/type value set
 // nothing relevant in <<272394005 | Technique (qualifier value) | AND ^787778008 |Global Patient Set|

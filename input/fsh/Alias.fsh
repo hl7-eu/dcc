@@ -19,6 +19,7 @@ Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $aic = https://www.aifa.gov.it/aic // temporary URL
 Alias: $istat-unitaAmministrativeTerritoriali = http://terminology.hl7.it/CodeSystem/istat-unitaAmministrativeTerritoriali
 Alias: $minsan-regione = http://terminology.hl7.it/CodeSystem/minsan-regione
+Alias: $spor = https://spor.ema.europa.eu/omswi
 
 
 //----------- Profiles
