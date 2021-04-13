@@ -164,10 +164,12 @@ Description:   "COVID-19 Lab Result"
 ValueSet:      Covid19LabTestManufacturerAndName
 Id:	       covid-19-lab-test-manufacturer-and-name
 Title:	       "COVID-19 Lab Test Manufacturer And Name"
-Description:   "COVID-19 Lab Test Manufacturer And Name"
+Description:   "Examples of COVID-19 Lab Test Manufacturer And Name from http://covid-19-diagnostics.jrc.ec.europa.eu/devices?manufacturer&text_name&marking&rapid_diag&format&target_type&field-1=HSC%20mutual%20recognition%20%28RAT%29&value-1=1&search_method=AND#form_content"
 * ^status = #draft
 * $jrc#1232 "Abbott Rapid Diagnostics Panbio™ COVID-19 Ag Rapid Test"
 * $jrc#1065 "Becton Dickinson BD Veritor System for Rapid Deteciton os SARS-CoV-2"
+
+// https://covid-19-diagnostics.jrc.ec.europa.eu/devices/detail/1232
 
 /*
 * #2 "AMEDA Labordiagnostik GmbH AMP Rapid Test SARS-CoV-2 Ag"
