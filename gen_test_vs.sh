@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # a script to generate a FHIR ValueSet from the JSON file provided by JRC
-jq '{ 
+
+curl https://covid-19-diagnostics.jrc.ec.europa.eu/devices/hsc-common-recogition-rat | jq '{ 
   "resourceType": "ValueSet", 
   "status": "draft", 
   "name": "Covid19LabTestManufacturerAndName", 
@@ -15,5 +16,5 @@ jq '{
       { 
         "system": "https://covid-19-diagnostics.jrc.ec.europa.eu/devices", 
         "concept": [ .deviceList | .[] | { "code": .id_device, "display": (.manufacturer.name + ", " + .commercial_name) }
-] } ] } }' $1
+] } ] } }'
 
