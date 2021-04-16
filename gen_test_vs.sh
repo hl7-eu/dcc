@@ -2,7 +2,7 @@
 
 # a script to generate a FHIR ValueSet from the JSON file provided by JRC
 
-curl https://covid-19-diagnostics.jrc.ec.europa.eu/devices/hsc-common-recogition-rat | jq '{ 
+curl https://covid-19-diagnostics.jrc.ec.europa.eu/devices/hsc-common-recognition-rat | jq '{ 
   "resourceType": "ValueSet", 
   "status": "draft", 
   "name": "Covid19LabTestManufacturerAndName", 
