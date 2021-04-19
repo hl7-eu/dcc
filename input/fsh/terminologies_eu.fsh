@@ -84,10 +84,10 @@ Description:   "COVID-19 Laboratory Methods"
 * ^status = #draft
 * $loinc#LP6464-4 "Nucleic acid amplification with probe detection"
 * $loinc#LP217198-3 "Rapid immunoassay"
-* $loinc#LP6404-0 "Molecular genetics"
-* $loinc#LP150045-5 "Sequencing"
-* $loinc#LP217197-5 "Immunoassay"
-* $loinc#LP6323-2 "Immunofluorescence (IF)"
+// * $loinc#LP6404-0 "Molecular genetics"
+// * $loinc#LP150045-5 "Sequencing"
+// * $loinc#LP217197-5 "Immunoassay"
+// * $loinc#LP6323-2 "Immunofluorescence (IF)"
 // * $v3-NullFlavor#OTH "Other"
 
 //------------------------------------------------
