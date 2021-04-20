@@ -19,7 +19,7 @@ Description: "This profile defines how to represent a vaccination certificate in
 * identifier MS
 * status MS
 * type only $CodeableConcept-uv-ips
-* type = $loinc#82593-5  
+* type = $loinc#82593-5
 * type MS
 * type ^short = "Kind of composition (\"Smart Vaccination Card\")"
 * type ^definition = "Specifies that this composition refers to a Smart Vaccination Card (Loinc \"11369-6\")"
@@ -47,8 +47,8 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section ^slicing.rules = #open
 * section ^short = "Sections composing the Digital Green Certificate"
 * section ^definition = "The root of the sections that make up the Digital Green Certificate composition."
-* section contains   sectionImmunizations 0..1 and sectionResults 0..1 
- 
+* section contains   sectionImmunizations 0..1 and sectionResults 0..1
+
 
 * section[sectionImmunizations] ^short = "Immunizations Section"
 * section[sectionImmunizations] ^definition = "The Immunizations Section lists the relevant vaccinations taken by a patient's."
@@ -97,7 +97,7 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section[sectionResults].entry ^slicing.rules = #open
 * section[sectionResults].entry ^short = "Test result relevant for the purpose of this certificate"
 * section[sectionResults].entry ^definition = "Relevant observation results collected on the patient or produced on in-vitro biologic specimens collected from the patient. Some of these results may be laboratory results, others may be anatomic pathology results, others, radiology results, and others, clinical results."
-* section[sectionResults].entry contains observation 0.. MS and diagnosticReport 0.. 
+* section[sectionResults].entry contains observation 0.. MS and diagnosticReport 0..
 // * section[sectionResults].entry[observation] 0..
 * section[sectionResults].entry[observation] only Reference(ObservationDGC)
 * section[sectionResults].emptyReason ..0
@@ -167,10 +167,10 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding ^short = "Type of vaccine"
 * vaccineCode.coding ^definition = "Vaccine code: it might be a code describing the kind of vaccine (e.g. ATC, ICD 11); it might be one of the IDMP identifiers; it might be a jurisdictional product code"
-* vaccineCode.coding contains   atcVaccines 0..1 and sctVaccines 0..1 and icd11Vaccines 0..1 
+* vaccineCode.coding contains   atcVaccines 0..1 and sctVaccines 0..1 // and icd11Vaccines 0..1
 * vaccineCode.coding[atcVaccines] from AtcCovid19Vaccines
 * vaccineCode.coding[sctVaccines] from SctCovid19Vaccines
-* vaccineCode.coding[icd11Vaccines] from Icd11Covid19Vaccines
+//* vaccineCode.coding[icd11Vaccines] from Icd11Covid19Vaccines  icd11 has not been selected by SGS
 
 * vaccineCode.text ^short = "Name of the vaccine" // brandName
 
@@ -182,8 +182,16 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 // * lotNumber MS
 * performer MS
 // * protocolApplied.targetDisease MS
-// * protocolApplied.doseNumber[x] MS
-// * protocolApplied.seriesDoses[x] MS
+// * protocolApplied.targetDisease MS
+* protocolApplied.targetDisease.coding ^slicing.discriminator[0].type = #pattern
+* protocolApplied.targetDisease.coding ^slicing.discriminator[0].path = "$this"
+* protocolApplied.targetDisease.coding ^slicing.ordered = false
+* protocolApplied.targetDisease.coding ^slicing.rules = #open
+* protocolApplied.targetDisease.coding contains sctCovid19Diseases 1..1
+* protocolApplied.targetDisease.coding[sctCovid19Diseases] MS
+* protocolApplied.targetDisease.coding[sctCovid19Diseases] from Covid19Diseases
+* protocolApplied.doseNumberPositiveInt MS
+* protocolApplied.seriesDosesPositiveInt MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ImmunizationRecommendationDGC
@@ -240,13 +248,13 @@ Description: "This profile defines how to represent a vaccination certificate in
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 * ^publisher = "Giorgio Cangioli"
-* ^purpose = "The Digital Green Certificate is dsigned to facilitate safe free movement inside the EU during the COVID-19 pandemic. The Digital Green Certificate will be a proof that a person has been vaccinated against COVID-19, received a negative test result or recovered from COVID-19"
+* ^purpose = "The Digital Green Certificate is designed to facilitate safe free movement inside the EU during the COVID-19 pandemic. The Digital Green Certificate will be a proof that a person has been vaccinated against COVID-19, received a negative test result or recovered from COVID-19"
 * . MS
 * . ^short = "Digital Green Certificate Bundle"
 * . ^definition = "Digital Green Certificate Bundle. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
 * identifier 1.. MS
 * identifier.system = "http://hl7.eu/fhir/sid/uvci" // temporary solution
-* identifier.system ^short = "(temporary URL)" 
+* identifier.system ^short = "(temporary URL)"
 * identifier.period MS
 * type = #document
 * type MS
@@ -259,20 +267,20 @@ Description: "This profile defines how to represent a vaccination certificate in
 * entry ^short = "Entries to be included in this bundle."
 * entry ^definition = "It lists and describes the types of entries allowed for this document."
 
-* entry contains 
+* entry contains
 	composition  1..1 MS and
 	patient 1..1	MS and
 	immunization 0.. MS and
 	immunizationRecommendation 0.. MS and
 	testResult 0.. MS and
-	binary 0.. 
+	binary 0..
 
 * entry[composition].resource 1..1 MS
 * entry[composition].resource only CompositionDGC
-	
+
 * entry[patient].resource 1..1 MS
 * entry[patient].resource only PatientDGC
-	
+
 * entry[immunization].resource 1..1 MS
 // * entry[immunization].resource only ImmunizationDGC or ImmunizationNotDone
 * entry[immunization].resource only ImmunizationDGC
@@ -286,4 +294,4 @@ Description: "This profile defines how to represent a vaccination certificate in
 * entry[binary].resource 1..1 MS
 * entry[binary].resource only BinaryQRDGC
 
- 
+

@@ -21,36 +21,8 @@
             "display": "COVID-19 vaccine, live attenuated virus"
           },
           {
-            "code": "XM9QW8",
-            "display": "COVID-19 vaccine, non-replicating viral vector"
-          },
-          {
-            "code": "XM0CX4",
-            "display": "COVID-19 vaccine, replicating viral vector"
-          },
-          {
-            "code": "XM5JC5",
-            "display": "COVID-19 vaccine, virus protein subunit"
-          },
-          {
-            "code": "XM1J92",
-            "display": "COVID-19 vaccine, virus like particle (VLP)"
-          },
-          {
             "code": "XM6AT1",
             "display": "COVID-19 vaccine, DNA based"
-          },
-          {
-            "code": "XM6AT1",
-            "display": "COVID-19 vaccine, DNA based"
-          },
-          {
-            "code": "XM1NL1",
-            "display": "COVID-19 vaccine, inactivated virus"
-          },
-          {
-            "code": "XM5DF6",
-            "display": "COVID-19 vaccine, live attenuated virus"
           },
           {
             "code": "XM9QW8",
@@ -67,14 +39,6 @@
           {
             "code": "XM1J92",
             "display": "COVID-19 vaccine, virus like particle (VLP)"
-          },
-          {
-            "code": "XM6AT1",
-            "display": "COVID-19 vaccine, DNA based"
-          },
-          {
-            "code": "XM6AT1",
-            "display": "COVID-19 vaccine, DNA based"
           }
         ]
       }

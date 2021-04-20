@@ -1,6 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-Alias: $sct = http://snomed.info/sct
 Instance: svc-Bundle-07
 InstanceOf: Bundle
 Usage: #example
@@ -101,6 +98,9 @@ Usage: #inline
 </div>"
 * section[0].entry[0].reference = "urn:uuid:cc9b611a-99b4-4342-a716-4bfbba1d0d1a"
 * section[0].entry[1].reference = "urn:uuid:8de24625-d0bf-451c-bdb1-fbe63ffaa01e"
+* section[1].entry[0].reference = "urn:uuid:ef187374-9ee4-4eaa-ad5c-06ddfdc5b825"
+
+
 Instance: Inline-Instance-for-svc-Bundle-07-2
 InstanceOf: Patient
 Usage: #inline
@@ -123,7 +123,7 @@ InstanceOf: Immunization
 Usage: #inline
 * id = "cc9b611a-99b4-4342-a716-4bfbba1d0d1a"
 * status = #completed
-* vaccineCode = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * vaccineCode.text = "Comirnaty"
 * patient.reference = "urn:uuid:c32fd63f-8705-4e6f-aab6-a64cd64fb938"
 * occurrenceDateTime = "2020-12-02"
@@ -143,7 +143,7 @@ Usage: #inline
 * patient.reference = "urn:uuid:c32fd63f-8705-4e6f-aab6-a64cd64fb938"
 * date = "2020-12-02"
 * authority.reference = "urn:uuid:fa5b4571-9347-41be-b102-c201f7da329b"
-* recommendation[0].vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* recommendation[0].vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * recommendation[0].forecastStatus = $Immunization-recommendation-status#due "The patient is due for their next vaccination"
 * recommendation[0].dateCriterion[0].code = $loinc#30980-7 "Date vaccine due"
 * recommendation[0].dateCriterion[0].value = "2020-12-23"

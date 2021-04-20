@@ -6,3 +6,5 @@ package-list.json
 .index.json
 /fsh-generated/
 /input-cache/
+/go-fsh
+/_test

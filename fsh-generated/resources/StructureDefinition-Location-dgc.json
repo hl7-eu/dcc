@@ -28,6 +28,21 @@
       "identity": "w5",
       "uri": "http://hl7.org/fhir/fivews",
       "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "location-to-md",
+      "name": "Vaccination Certificate (Medical)",
+      "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
+    },
+    {
+      "identity": "location-to-bc",
+      "name": "Vaccination Certificate (Border Control)",
+      "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
+    },
+    {
+      "identity": "location-to-pv",
+      "name": "Vaccination Certificate (Private Venue)",
+      "uri": "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
     }
   ],
   "kind": "resource",
@@ -38,10 +53,30 @@
   "differential": {
     "element": [
       {
+        "id": "Location",
+        "path": "Location",
+        "mapping": [
+          {
+            "identity": "location-to-md",
+            "map": "vaccinationCertificate.vaccination.administeringCentre"
+          }
+        ]
+      },
+      {
         "id": "Location.address.country",
         "path": "Location.address.country",
         "min": 1,
-        "mustSupport": true
+        "mustSupport": true,
+        "mapping": [
+          {
+            "identity": "location-to-md",
+            "map": "vaccinationCertificate.vaccination.countryOfVaccination"
+          },
+          {
+            "identity": "location-to-bc",
+            "map": "vaccinationCertificateBc.vaccination.countryOfVaccination"
+          }
+        ]
       }
     ]
   }

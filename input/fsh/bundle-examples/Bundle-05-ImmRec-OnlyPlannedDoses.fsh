@@ -1,7 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $sct = http://snomed.info/sct
-Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10
-
 Instance: svc-Bundle-05
 // REVIEW
 InstanceOf: Bundle
@@ -85,7 +81,7 @@ Usage: #inline
 * patient.reference = "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
 * date = "2021-02-05"
 // * authority.reference = "urn:uuid:b66c1b23-21e9-4bd0-9cd7-edd806c126de"
-* recommendation[0].vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* recommendation[0].vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * recommendation[0].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#due
 * recommendation[0].dateCriterion[0].code = $loinc#30980-7 	"Date vaccine due"
 * recommendation[0].dateCriterion[0].value = "2021-01-10"
@@ -93,7 +89,7 @@ Usage: #inline
 * recommendation[0].seriesDosesPositiveInt = 2
 // * recommendation[1].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#contraindicated
 // * recommendation[1].forecastReason = http://terminology.hl7.org/CodeSystem/v3-ActReason#MEDPREC	"medical precaution"
-* recommendation[1].vaccineCode.coding[0] = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* recommendation[1].vaccineCode.coding[0] = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * recommendation[1].forecastStatus = http://terminology.hl7.org/CodeSystem/immunization-recommendation-status#due
 * recommendation[1].dateCriterion[0].code = $loinc#30980-7 	"Date vaccine due"
 * recommendation[1].dateCriterion[0].value = "2021-02-07"

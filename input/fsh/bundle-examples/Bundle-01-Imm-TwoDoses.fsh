@@ -1,7 +1,3 @@
-Alias: $loinc = http://loinc.org
-Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-Alias: $sct = http://snomed.info/sct
-
 Instance: svc-Bundle-01
 InstanceOf: Bundle
 Usage: #example
@@ -70,7 +66,7 @@ Instance: c220e36c-eb67-4fc4-9ba1-2fabc52acec6
 InstanceOf: Immunization
 Usage: #inline
 * status = #completed
-* vaccineCode = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 * vaccineCode.text = "Comirnaty"
 * patient.reference = "urn:uuid:2b90dd2b-2dab-4c75-9bb9-a355e07401e8"
 * occurrenceDateTime = "2020-12-02"
@@ -87,7 +83,7 @@ InstanceOf: Immunization
 Usage: #inline
 * id = "47524493-846a-4a26-bae2-4ab03e60f02e"
 * status = #completed
-* vaccineCode = $sct#1119349007 "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+* vaccineCode = $sct#1119349007 "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 // * vaccineCode = $sct#333521006 - used for testing the slicing error
 * vaccineCode.text = "Comirnaty"
 * vaccineCode.text = "Comirnaty"
