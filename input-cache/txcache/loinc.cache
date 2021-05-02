@@ -1375,6 +1375,10 @@ v: {
 e: {
   "valueSet" : {
   "resourceType" : "ValueSet",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 0 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr></table></div>"
+  },
   "status" : "active",
   "expansion" : {
     "identifier" : "urn:uuid:bb33262c-4e99-4454-ada8-42c00ad878ab",
@@ -2427,6 +2431,72 @@ e: {
       "system" : "http://loinc.org",
       "code" : "96122-7",
       "display" : "SARS-related coronavirus E gene [Presence] in Upper respiratory specimen by NAA with probe detection"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "75505-8"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Diseases with serologic evidence of immunity",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://loinc.org",
+  "code" : "59784-9"
+}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Disease with presumed immunity",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "75505-8",
+        "display" : "Diseases with serologic evidence of immunity"
+      },
+      {
+        "code" : "59784-9",
+        "display" : "Disease with presumed immunity"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:ea40ff1c-45ee-460f-818f-6132b7d6fefd",
+    "timestamp" : "2021-05-02T19:40:35.893Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://loinc.org|2.69"
+    }],
+    "contains" : [{
+      "system" : "http://loinc.org",
+      "code" : "75505-8",
+      "display" : "Diseases with serologic evidence of immunity"
+    },
+    {
+      "system" : "http://loinc.org",
+      "code" : "59784-9",
+      "display" : "Disease with presumed immunity"
     }]
   }
 },
