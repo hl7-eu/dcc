@@ -16,7 +16,7 @@
   "name": "LocationDGC",
   "title": "Location (Digital Green Certificate)",
   "status": "active",
-  "description": "This profile defines how to represent Location in FHIR for building a Smart vaccination Card. This is used to describe optionally where the vaccination occured",
+  "description": "This profile defines how to represent Location in FHIR for building a Digital Green Certificate. This is used to describe optionally where the vaccination occured",
   "fhirVersion": "4.0.1",
   "mapping": [
     {

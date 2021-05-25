@@ -1,8 +1,20 @@
 //============== ALIAS ===============
 
 
+
+
 //====== Value Set =====================================
 
+ValueSet:      LoincDiseaseWithImmunity
+Id:	       loinc-disease-immunity
+Title:	       "LOINC Disease with Immunity"
+Description:   "Disease with Immunity [LOINC]"
+
+* ^status = #draft
+* $loinc#75505-8 "Diseases with serologic evidence of immunity"
+* $loinc#59784-9 "Disease with presumed immunity"
+
+// -------------------------------------------------------
 ValueSet:      Icd11Covid19Vaccines
 Id:	       icd11-vaccines-covid-19
 Title:	       "ICD11 Vaccine List (COVID-19)"

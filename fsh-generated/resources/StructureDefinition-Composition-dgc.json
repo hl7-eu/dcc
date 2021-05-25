@@ -47,8 +47,8 @@
       {
         "id": "Composition",
         "path": "Composition",
-        "short": "Smart Vaccination Card composition",
-        "definition": "Smart Vaccination Card composition. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained.",
+        "short": "Digital Green Certificate composition",
+        "definition": "Digital Green Certificate composition. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained.",
         "mustSupport": true
       },
       {
@@ -69,8 +69,8 @@
       {
         "id": "Composition.type",
         "path": "Composition.type",
-        "short": "Kind of composition (\"Smart Vaccination Card\")",
-        "definition": "Specifies that this composition refers to a Smart Vaccination Card (Loinc \"11369-6\")",
+        "short": "Kind of composition (\"Digital Green Certificate\")",
+        "definition": "Specifies that this composition refers to a Digital Green Certificate (Loinc \"11369-6\")",
         "type": [
           {
             "code": "CodeableConcept",
@@ -123,8 +123,8 @@
       {
         "id": "Composition.title",
         "path": "Composition.title",
-        "short": "Smart Vaccination Card",
-        "definition": "Official human-readable label for the composition.\r\n\r\nFor this document should be \"Smart Vaccination Card\" or any equivalent translation",
+        "short": "Digital Green Certificate",
+        "definition": "Official human-readable label for the composition.\r\n\r\nFor this document should be \"Digital Green Certificate\" or any equivalent translation",
         "mustSupport": true
       },
       {

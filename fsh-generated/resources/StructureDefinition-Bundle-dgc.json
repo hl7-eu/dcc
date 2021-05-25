@@ -218,21 +218,22 @@
         "mustSupport": true
       },
       {
-        "id": "Bundle.entry:binary",
+        "id": "Bundle.entry:immunity",
         "path": "Bundle.entry",
-        "sliceName": "binary",
+        "sliceName": "immunity",
         "min": 0,
-        "max": "*"
+        "max": "*",
+        "mustSupport": true
       },
       {
-        "id": "Bundle.entry:binary.resource",
+        "id": "Bundle.entry:immunity.resource",
         "path": "Bundle.entry.resource",
         "min": 1,
         "type": [
           {
-            "code": "Binary",
+            "code": "Observation",
             "profile": [
-              "http://hl7.eu/fhir/ig/dgc/StructureDefinition/Binary-qr-dgc"
+              "http://hl7.eu/fhir/ig/dgc/StructureDefinition/Observation-CovidImmunity"
             ]
           }
         ],

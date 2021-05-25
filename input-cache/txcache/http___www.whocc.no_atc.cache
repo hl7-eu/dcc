@@ -122,52 +122,6 @@ v: {
   "system" : "http://www.whocc.no/atc",
   "code" : "J07BX03",
   "display" : "covid-19 vaccines"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://id.who.int/icd11/mms",
-      "concept" : [{
-        "code" : "XM1NL1",
-        "display" : "COVID-19 vaccine, inactivated virus"
-      },
-      {
-        "code" : "XM5DF6",
-        "display" : "COVID-19 vaccine, live attenuated virus"
-      },
-      {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
-      },
-      {
-        "code" : "XM9QW8",
-        "display" : "COVID-19 vaccine, non-replicating viral vector"
-      },
-      {
-        "code" : "XM0CX4",
-        "display" : "COVID-19 vaccine, replicating viral vector"
-      },
-      {
-        "code" : "XM5JC5",
-        "display" : "COVID-19 vaccine, virus protein subunit"
-      },
-      {
-        "code" : "XM1J92",
-        "display" : "COVID-19 vaccine, virus like particle (VLP)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code \"J07BX03\" is not valid in the system http://www.whocc.no/atc; The code provided (http://www.whocc.no/atc#J07BX03) is not valid in the value set 'Icd11Covid19Vaccines' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://www.whocc.no/atc",
-  "code" : "J07BX03",
-  "display" : "covid-19 vaccines"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "",
@@ -192,8 +146,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:36025a54-7ab4-425a-8a79-12884f163c5e",
-    "timestamp" : "2021-03-27T18:31:53.607Z",
+    "identifier" : "urn:uuid:c99bee12-215e-456a-8a49-2930d26fc7b0",
+    "timestamp" : "2021-04-28T18:01:05.171Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -220,8 +174,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:25d6723e-84fc-4e45-8e8d-133eb57fb1ac",
-    "timestamp" : "2021-03-22T18:30:09.622Z",
+    "identifier" : "urn:uuid:efb66aba-1d8c-4f9e-90e7-934003b103b5",
+    "timestamp" : "2021-04-28T18:01:13.093Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true

@@ -11,230 +11,20 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "260373001"
+  "code" : "1240581000000104"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Detected",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 detected (finding)",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "260415000"
+  "code" : "1240591000000102"
 }, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Not detected",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258500001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nasopharyngeal swab",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258411007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nasopharyngeal aspirate",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258467004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Nasopharyngeal washings",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "461911000124106"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab specimen from oropharynx (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "472881004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab from pharynx",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "871810001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab specimen from nasal mid-turbinate (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "445297001"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Swab of internal nose (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "697989009"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Anterior nares swab",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258529004"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "TS - Throat swab",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "445447003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Specimen from trachea obtained by aspiration (specimen)",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "309171007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Lower respiratory fluid sample",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "258607008"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Bronchoalveolar lavage fluid sample",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119342007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Saliva specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119334006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Sputum specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119297000"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Blood specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119361006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Plasma specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "119364003"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Serum specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "122555007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Venous blood specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "122592007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Acellular blood (serum or plasma) specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "122554006"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Capillary blood specimen",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "440500007"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Blood spot specimen",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 not detected",
   "severity" : null,
   "error" : ""
 }
@@ -262,12 +52,12 @@ v: {
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -1047,7 +837,7 @@ v: {
 {"code" : {
   "system" : "http://snomed.info/sct",
   "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
   "compose" : {
@@ -1815,8 +1605,8 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
+  "severity" : null,
+  "error" : ""
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -1845,1638 +1635,6 @@ v: {
     }]
   }
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "descendent-of",
-        "value" : "787859002"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.whocc.no/atc",
-      "concept" : [{
-        "code" : "J07BX03",
-        "display" : "covid-19 vaccines"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code ,{http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"]; The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1119349007",
-        "display" : "SARS-CoV-2 mRNA vaccine"
-      },
-      {
-        "code" : "1119305005",
-        "display" : "SARS-CoV-2 antigen vaccine"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://id.who.int/icd11/mms",
-      "concept" : [{
-        "code" : "XM1NL1",
-        "display" : "COVID-19 vaccine, inactivated virus"
-      },
-      {
-        "code" : "XM5DF6",
-        "display" : "COVID-19 vaccine, live attenuated virus"
-      },
-      {
-        "code" : "XM6AT1",
-        "display" : "COVID-19 vaccine, DNA based"
-      },
-      {
-        "code" : "XM9QW8",
-        "display" : "COVID-19 vaccine, non-replicating viral vector"
-      },
-      {
-        "code" : "XM0CX4",
-        "display" : "COVID-19 vaccine, replicating viral vector"
-      },
-      {
-        "code" : "XM5JC5",
-        "display" : "COVID-19 vaccine, virus protein subunit"
-      },
-      {
-        "code" : "XM1J92",
-        "display" : "COVID-19 vaccine, virus like particle (VLP)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : "warning",
-  "error" : "The display \"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid\" is not a valid display for the code {http://snomed.info/sct}1119349007 - should be one of [\"Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product\",\"2019 novel coronavirus mRNA vaccine\",\"SARS-CoV-2 mRNA vaccine\",\"COVID-19 mRNA vaccine\",\"Vaccine product containing only Severe acute respiratory syndrome coronavirus 2 messenger ribonucleic acid (medicinal product)\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "420134006",
-  "display" : "Propensity to adverse reaction"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Propensity to adverse reactions",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus (organism)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : "warning",
-  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus (organism)"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : "warning",
-  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus (organism)"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : "warning",
-  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus (organism)"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : "warning",
-  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code {http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"] (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "840539006",
-        "display" : "COVID-19"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 1 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-gen 2021</p><p>All codes from system <a href=\"http://hl7.org/fhir/R4/codesystem-snomedct.html\"><code>http://snomed.info/sct</code></a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-840539006\"> </a><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=840539006\">840539006</a></td><td>COVID-19</td><td/></tr></table></div>"
-  },
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:5d3a9f73-edfc-45eb-8c38-ad1888df10c6",
-    "timestamp" : "2021-03-27T18:31:54.185Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "840539006",
-      "display" : "COVID-19"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "260373001",
-        "display" : "Detected"
-      },
-      {
-        "code" : "260415000",
-        "display" : "Not detected"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:77dcf183-0990-48fa-a020-292b1dede4b0",
-    "timestamp" : "2021-03-23T21:33:14.637Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "260373001",
-      "display" : "Detected"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "260415000",
-      "display" : "Not detected"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "258500001",
-        "display" : "Nasopharyngeal swab"
-      },
-      {
-        "code" : "258411007",
-        "display" : "Nasopharyngeal aspirate"
-      },
-      {
-        "code" : "258467004",
-        "display" : "Nasopharyngeal washings"
-      },
-      {
-        "code" : "461911000124106",
-        "display" : "Oropharyngeal swab"
-      },
-      {
-        "code" : "472881004",
-        "display" : "Pharyngeal swab"
-      },
-      {
-        "code" : "871810001",
-        "display" : "Mid-turbinate nasal swab"
-      },
-      {
-        "code" : "445297001",
-        "display" : "Swab of internal nose"
-      },
-      {
-        "code" : "697989009",
-        "display" : "Anterior nares swab"
-      },
-      {
-        "code" : "258529004",
-        "display" : "Throat swab"
-      },
-      {
-        "code" : "445447003",
-        "display" : "Specimen from trachea obtained by aspiration"
-      },
-      {
-        "code" : "309171007",
-        "display" : "Lower respiratory fluid sample"
-      },
-      {
-        "code" : "258607008",
-        "display" : "Bronchoalveolar lavage fluid sample"
-      },
-      {
-        "code" : "119342007",
-        "display" : "Saliva specimen"
-      },
-      {
-        "code" : "119334006",
-        "display" : "Sputum specimen"
-      },
-      {
-        "code" : "119297000",
-        "display" : "Blood specimen"
-      },
-      {
-        "code" : "119361006",
-        "display" : "Plasma specimen"
-      },
-      {
-        "code" : "119364003",
-        "display" : "Serum specimen"
-      },
-      {
-        "code" : "122555007",
-        "display" : "Venous blood specimen"
-      },
-      {
-        "code" : "122592007",
-        "display" : "Acellular blood (serum or plasma) specimen"
-      },
-      {
-        "code" : "122554006",
-        "display" : "Capillary blood specimen"
-      },
-      {
-        "code" : "440500007",
-        "display" : "Dried blood spot specimen"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:0261ce66-d7af-40e2-ba7c-a7c5e039fee3",
-    "timestamp" : "2021-03-26T09:10:16.777Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "258500001",
-      "display" : "Nasopharyngeal swab"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "258411007",
-      "display" : "Nasopharyngeal aspirate"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "258467004",
-      "display" : "Nasopharyngeal washings"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "461911000124106",
-      "display" : "Oropharyngeal swab"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "472881004",
-      "display" : "Pharyngeal swab"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "871810001",
-      "display" : "Mid-turbinate nasal swab"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "445297001",
-      "display" : "Swab of internal nose"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "697989009",
-      "display" : "Anterior nares swab"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "258529004",
-      "display" : "Throat swab"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "445447003",
-      "display" : "Specimen from trachea obtained by aspiration"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "309171007",
-      "display" : "Lower respiratory fluid sample"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "258607008",
-      "display" : "Bronchoalveolar lavage fluid sample"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119342007",
-      "display" : "Saliva specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119334006",
-      "display" : "Sputum specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119297000",
-      "display" : "Blood specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119361006",
-      "display" : "Plasma specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "119364003",
-      "display" : "Serum specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "122555007",
-      "display" : "Venous blood specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "122592007",
-      "display" : "Acellular blood (serum or plasma) specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "122554006",
-      "display" : "Capillary blood specimen"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "440500007",
-      "display" : "Dried blood spot specimen"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1119349007",
-        "display" : "SARS-CoV-2 mRNA vaccine"
-      },
-      {
-        "code" : "1119305005",
-        "display" : "SARS-CoV-2 antigen vaccine"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:94add0e9-2af5-4eda-a95d-4b5cc0bc74fc",
-    "timestamp" : "2021-03-27T18:32:00.638Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "1119349007",
-      "display" : "SARS-CoV-2 mRNA vaccine"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1119305005",
-      "display" : "SARS-CoV-2 antigen vaccine"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "260415000",
-        "display" : "Not detected"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:b93af8a9-a934-4a4b-aad2-edab37dc94fd",
-    "timestamp" : "2021-04-01T17:10:35.419Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "260415000",
-      "display" : "Not detected"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "840539006",
-        "display" : "COVID-19"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus (organism)"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "840539006",
-        "display" : "COVID-19"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The display \"2019 novel coronavirus (organism)\" is not a valid display for the code ,{http://snomed.info/sct}840533007 - should be one of [2019-nCoV,\"2019 novel coronavirus\",\"Severe acute respiratory syndrome coronavirus 2 (organism)\",SARS-CoV-2,\"Severe acute respiratory syndrome coronavirus 2\"]; The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
   "severity" : null,
@@ -3556,11 +1714,740 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "1119349007",
   "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "420134006",
+  "display" : "Propensity to adverse reaction"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Propensity to adverse reactions",
   "severity" : null,
   "error" : ""
 }
@@ -3580,7 +2467,329 @@ v: {
   "system" : "http://snomed.info/sct",
   "code" : "840533007",
   "display" : "2019 novel coronavirus"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
 v: {
   "display" : "2019-nCoV",
   "severity" : null,
@@ -3611,21 +2820,49 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "1240581000000104"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 detected (finding)",
+  "display" : "2019-nCoV",
   "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1240591000000102"
-}, "valueSet" :null, "lang":"en-US", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 not detected",
-  "severity" : null,
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:87e5fa5e-016a-443c-b244-0ad23f2cb61b",
+    "timestamp" : "2021-04-28T18:01:05.593Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "840539006",
+      "display" : "COVID-19"
+    }]
+  }
+},
   "error" : ""
 }
 -------------------------------------------------------------------------------------
@@ -3650,8 +2887,8 @@ e: {
   "resourceType" : "ValueSet",
   "status" : "active",
   "expansion" : {
-    "identifier" : "urn:uuid:1dde0316-2ba1-4ad4-b31e-e2451124a40b",
-    "timestamp" : "2021-04-08T17:19:27.560Z",
+    "identifier" : "urn:uuid:b1f72af7-307b-4d32-b098-3935e9884d09",
+    "timestamp" : "2021-04-28T18:01:06.358Z",
     "parameter" : [{
       "name" : "limitedExpansion",
       "valueBoolean" : true
@@ -3672,6 +2909,62 @@ e: {
     }]
   }
 },
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d016a9cd-d914-4ff3-93b6-2c1534485511",
+    "timestamp" : "2021-04-28T18:01:10.843Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1119349007",
+      "display" : "SARS-CoV-2 mRNA vaccine"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1119305005",
+      "display" : "SARS-CoV-2 antigen vaccine"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840539006"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Disease caused by 2019 novel coronavirus",
+  "severity" : null,
   "error" : ""
 }
 -------------------------------------------------------------------------------------

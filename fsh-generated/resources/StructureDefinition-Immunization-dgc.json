@@ -6,7 +6,7 @@
   "name": "ImmunizationDGC",
   "title": "Immunization (Digital Green Certificate)",
   "status": "active",
-  "description": "This profile defines how to represent Immunizations in FHIR for building a Smart vaccination Card.",
+  "description": "This profile defines how to represent Immunizations in FHIR for building a Digital Green Certificate.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
