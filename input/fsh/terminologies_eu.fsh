@@ -1,7 +1,4 @@
-
-
-
-
+// updated 2021-05-25: according to https://ec.europa.eu/health/sites/default/files/ehealth/docs/digital-green-certificates_dt-specifications_en.pdf
 
 //------------------------------------------------
 
@@ -16,6 +13,7 @@ Description:   "Vaccine List (COVID-19)"
 * $atc#J07BX03 "covid-19 vaccines"
 
 //------------------------------------------------
+/*
 Instance: Covid19VaccinesSnomedToICD11Map
 InstanceOf: ConceptMap
 Title:	       "COVID-19 Vaccines SNOMED CT To ICD11 Map"
@@ -27,13 +25,7 @@ Description:   "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * description = "COVID-19 Vaccines SNOMED CT To ICD11 Map"
 * sourceUri = $sct
 * targetUri = "http://id.who.int/icd11/mms" // MMS, or should it be Foundation Component?
-* group[+].element[+].code = #1119349007
-* group[=].element[=].target[+].code = #hejsan
-* group[=].element[=].target[=].equivalence = #equivalent
-* group[+].element[+].code = #1119305005
-* group[=].element[=].target[+].code = #hoppsan
-* group[=].element[=].target[=].equivalence = #equivalent
-
+*/
 //------------------------------------------------
 
 ValueSet:      Covid19VaccineNames
@@ -42,18 +34,20 @@ Title:	       "Vaccine Name List (COVID-19)"
 Description:   "Vaccine Name List (COVID-19)"
 // Are these codes correct and relevant, are there alternative codes?
 * ^status = #draft
-* $ema#EU/1/20/1528 "Comirnaty"
-* $ema#EU/1/20/1507 "COVID-19 Vaccine Moderna"
+* $ec-drug#EU/1/20/1528 "Comirnaty"
+* $ec-drug#EU/1/20/1507 "COVID-19 Vaccine Moderna"
 // https://www.ema.europa.eu/en/medicines/human/EPAR/vaxzevria-previously-covid-19-vaccine-astrazeneca
-* $ema#EU/1/21/1529 "Vaxzevria"
-* $ema#EU/1/20/1525	 "COVID-19 Vaccine Janssen"
-* $tempVaccine-eu#sputnik-v "Sputnik V"
-* $tempVaccine-eu#CVnCoV "CVnCoV"
-* $tempVaccine-eu#Convidecia "Convidecia"
-* $tempVaccine-eu#EpiVacCorona "EpiVacCorona"	
-* $tempVaccine-eu#BBIBP-CorV "BBIBP-CorV"
-* $tempVaccine-eu#CoronaVac "CoronaVac" 
-
+* $ec-drug#EU/1/21/1529 "Vaxzevria"
+* $ec-drug#EU/1/20/1525	 "COVID-19 Vaccine Janssen"
+* $ec-temp-vaccine#Sputnik-V "Sputnik V"
+* $ec-temp-vaccine#CVnCoV "CVnCoV"
+* $ec-temp-vaccine#Convidecia "Convidecia"
+* $ec-temp-vaccine#EpiVacCorona "EpiVacCorona"	
+* $ec-temp-vaccine#BBIBP-CorV "BBIBP-CorV"
+* $ec-temp-vaccine#CoronaVac "CoronaVac" 
+* $ec-temp-vaccine#InactivatedSARS-CoV-2-Vero-Cell "Inactivated SARSCoV-2 (Vero Cell)"
+* $ec-temp-vaccine#NVX-CoV2373 "NVX-CoV2373"
+* $ec-temp-vaccine#Covaxin "Covaxin (also known as BBV152 A, B, C)"
 
 ValueSet:      Covid19VaccineAuthHolders
 Id:	       vaccines-covid-19-auth-holders
@@ -71,6 +65,9 @@ Description:   "Vaccine marketing authorization holder or Vaccine manufacturer (
 * $spor#ORG-100010771	"Sinopharm Weiqida Europe Pharmaceutical s.r.o. - Prague location"
 * $spor#ORG-100024420	"Sinopharm Zhijun (Shenzhen) Pharmaceutical Co. Ltd. - Shenzhen location"
 * $spor#ORG-100032020	"Novavax CZ AS"
+* $ec-temp-vaccine-manufacturer#Gamaleya-Research-Institute "Gamaleya Research Institute"
+* $ec-temp-vaccine-manufacturer#Sinovac-Biotech "Sinovac Biotech"
+* $ec-temp-vaccine-manufacturer#Bharat-Biotech "Bharat Biotech"
 
 //------------------------------------------------
 // lab method/type value set
@@ -153,8 +150,8 @@ Id:	       covid-19-lab-result
 Title:	       "COVID-19 Lab Result"
 Description:   "COVID-19 Lab Result"
 * ^status = #draft
-* $sct#1240581000000104	"Severe acute respiratory syndrome coronavirus 2 detected"
-* $sct#1240591000000102 "Severe acute respiratory syndrome coronavirus 2 not detected"
+* $sct#260373001 "Detected"
+* $sct#260415000 "Not detected"
 
 
 //------------------------------------------------
