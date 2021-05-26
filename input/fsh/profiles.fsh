@@ -132,6 +132,8 @@ Description: "This profile defines how to represent Test Results in a Digital Gr
 //-------------------------------------------------------------------------------------------
 * subject only Reference($Patient-uv-ips)
 * code from LoincCovid19Tests (extensible)
+* method 1..1 
+* method from Covid19LabMethods (required)
 * effective[x] only dateTime
 
 //++++++++++++++++++++++++++++++++++++++++++
