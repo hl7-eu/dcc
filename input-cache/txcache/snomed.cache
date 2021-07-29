@@ -51,2919 +51,65 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "449019003",
-        "display" : "Acellular pertussis vaccine (product)"
-      },
-      {
-        "code" : "333549004",
-        "display" : "Adsorbed diphtheria+tetanus vaccine injection suspension 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "347664008",
-        "display" : "Adsorbed tetanus vaccine injection solution ampule (product)"
-      },
-      {
-        "code" : "333641007",
-        "display" : "Adsorbed tetanus vaccine injection solution prefilled syringe (product)"
-      },
-      {
-        "code" : "346313005",
-        "display" : "Allergen extract vaccine (product)"
-      },
-      {
-        "code" : "333521006",
-        "display" : "Anthrax vaccine (product)"
-      },
-      {
-        "code" : "333522004",
-        "display" : "Anthrax vaccine injection solution 0.5mL ampule (product)"
-      },
-      {
-        "code" : "400563009",
-        "display" : "Anthrax vaccine, adsorbed injection solution 5mL vial (product)"
-      },
-      {
-        "code" : "11185009",
-        "display" : "Autogenous vaccine - autogenous bacterin (product)"
-      },
-      {
-        "code" : "62354009",
-        "display" : "Bronchitis vaccine (product)"
-      },
-      {
-        "code" : "7230005",
-        "display" : "Brucella vaccine (product)"
-      },
-      {
-        "code" : "409580000",
-        "display" : "CVD 103-HgR live attenuated oral cholera vaccine (product)"
-      },
-      {
-        "code" : "346728008",
-        "display" : "Cat allergy initial kit (product)"
-      },
-      {
-        "code" : "346747006",
-        "display" : "Cat allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346364006",
-        "display" : "Cat allergy vaccine (product)"
-      },
-      {
-        "code" : "35736007",
-        "display" : "Cholera vaccine (product)"
-      },
-      {
-        "code" : "449240007",
-        "display" : "Diphtheria + acellular pertussis adsorbed + inactivated polio + tetanus toxoids vaccine (product)"
-      },
-      {
-        "code" : "412373007",
-        "display" : "Diphtheria + pertussis + tetanus + Haemophilus influenzae type b vaccine (product)"
-      },
-      {
-        "code" : "421245007",
-        "display" : "Diphtheria + pertussis + tetanus vaccine (product)"
-      },
-      {
-        "code" : "427806004",
-        "display" : "Diphtheria + tetanus + haemophilus influenzae type b vaccine (product)"
-      },
-      {
-        "code" : "414002009",
-        "display" : "Diphtheria + tetanus + inactivated poliovirus vaccine (product)"
-      },
-      {
-        "code" : "414003004",
-        "display" : "Diphtheria + tetanus + pertussis + inactivated poliovirus vaccine (product)"
-      },
-      {
-        "code" : "414004005",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis + haemophilus influenzae b vaccine (product)"
-      },
-      {
-        "code" : "426842004",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus + recombinant haemophilus influenzae type B vaccine (product)"
-      },
-      {
-        "code" : "427542001",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "414005006",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis vaccine (product)"
-      },
-      {
-        "code" : "426081003",
-        "display" : "Diphtheria + tetanus + pertussis + recombinant hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "414006007",
-        "display" : "Diphtheria + tetanus + poliomyelitis vaccine (product)"
-      },
-      {
-        "code" : "350327004",
-        "display" : "Diphtheria + tetanus vaccine (product)"
-      },
-      {
-        "code" : "346402006",
-        "display" : "Diphtheria single antigen vaccine (product)"
-      },
-      {
-        "code" : "426361005",
-        "display" : "Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "427682002",
-        "display" : "Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis toxoid 25micrograms injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "428214002",
-        "display" : "Diphtheria vaccine (product)"
-      },
-      {
-        "code" : "396457007",
-        "display" : "Diphtheria, acellular pertussis, hepatitis B and inactivated polio vaccine (product)"
-      },
-      {
-        "code" : "346729000",
-        "display" : "Dog allergy initial kit (product)"
-      },
-      {
-        "code" : "346748001",
-        "display" : "Dog allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346405008",
-        "display" : "Dog allergy vaccine (product)"
-      },
-      {
-        "code" : "409152009",
-        "display" : "Dried smallpox vaccine, calf lymph type 1 vial + diluent 0.25mL syringe (product)"
-      },
-      {
-        "code" : "346730005",
-        "display" : "Grass allergy initial kit (product)"
-      },
-      {
-        "code" : "346750009",
-        "display" : "Grass allergy maintenance kit (product)"
-      },
-      {
-        "code" : "68113000",
-        "display" : "Haemophilus b oligosaccharide conjugate(diphtheria CRM>197< protein conjugate) vaccine (product)"
-      },
-      {
-        "code" : "766203003",
-        "display" : "Haemophilus b polysaccharide 10micrograms/tetanus toxoid 30micrograms powder for conventional release solution for injection vial (product)"
-      },
-      {
-        "code" : "48028008",
-        "display" : "Haemophilus b polysaccharide conjugate (diphtheria toxoid conjugate) vaccine (product)"
-      },
-      {
-        "code" : "333693009",
-        "display" : "Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine prefilled syringe (product)"
-      },
-      {
-        "code" : "333696001",
-        "display" : "Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial (product)"
-      },
-      {
-        "code" : "333691006",
-        "display" : "Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial+prefilled syringe (product)"
-      },
-      {
-        "code" : "426971004",
-        "display" : "Haemophilus influenzae Type b + recombinant hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "425555004",
-        "display" : "Haemophilus influenzae Type b + tetanus vaccine (product)"
-      },
-      {
-        "code" : "333680004",
-        "display" : "Haemophilus influenzae Type b vaccine (product)"
-      },
-      {
-        "code" : "347647005",
-        "display" : "Haemophilus influenzae Type b vaccine injection (pdr for recon)+diluent (product)"
-      },
-      {
-        "code" : "698026000",
-        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide Meningococcal Protein Conjugate Vaccine/Hepatitis B Surface Antigen Vaccine (product)"
-      },
-      {
-        "code" : "423912009",
-        "display" : "Haemophilus influenzae type b + Meningococcal group C vaccine (product)"
-      },
-      {
-        "code" : "427048007",
-        "display" : "Haemophilus influenzae type b 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "427514003",
-        "display" : "Haemophilus influenzae type b 7.5micrograms/recombinant hepatitis B virus surface antigen 5micrograms injection solution 0.5mL vial (product)"
-      },
-      {
-        "code" : "333708002",
-        "display" : "Hepatitis A 1440u//typhoid 25mcg vaccine injection solution 1mL prefilled syringe (product)"
-      },
-      {
-        "code" : "406324009",
-        "display" : "Hepatitis A vaccine injection suspension 0.5 mL prefilled syringe (product)"
-      },
-      {
-        "code" : "406325005",
-        "display" : "Hepatitis A vaccine injection suspension 1 mL prefilled syringe (product)"
-      },
-      {
-        "code" : "348045000",
-        "display" : "Hepatitis A vaccine injection suspension prefilled syringe (product)"
-      },
-      {
-        "code" : "14745005",
-        "display" : "Hepatitis A virus vaccine (product)"
-      },
-      {
-        "code" : "333702001",
-        "display" : "Hepatitis A+B vaccine (product)"
-      },
-      {
-        "code" : "333707007",
-        "display" : "Hepatitis A+typhoid vaccine (product)"
-      },
-      {
-        "code" : "333569009",
-        "display" : "Hepatitis B vaccine 10micrograms/mL injection suspension 1mL prefilled syringe (product)"
-      },
-      {
-        "code" : "333568001",
-        "display" : "Hepatitis B vaccine 10micrograms/mL injection suspension 1mL vial (product)"
-      },
-      {
-        "code" : "333573007",
-        "display" : "Hepatitis B vaccine 40micrograms/mL injection suspension 1ml vial (product)"
-      },
-      {
-        "code" : "412403009",
-        "display" : "Hepatitis B virus recombinant vaccine (product)"
-      },
-      {
-        "code" : "34689006",
-        "display" : "Hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "346731009",
-        "display" : "Horse allergy initial kit (product)"
-      },
-      {
-        "code" : "346751008",
-        "display" : "Horse allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346467003",
-        "display" : "Horse dander allergy vaccine (product)"
-      },
-      {
-        "code" : "346468008",
-        "display" : "House dust allergy vaccine (product)"
-      },
-      {
-        "code" : "346733007",
-        "display" : "House mite allergy initial kit (product)"
-      },
-      {
-        "code" : "346753006",
-        "display" : "House mite allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346469000",
-        "display" : "House mite allergy vaccine (product)"
-      },
-      {
-        "code" : "424519000",
-        "display" : "Human papillomavirus vaccine (product)"
-      },
-      {
-        "code" : "448897007",
-        "display" : "Inactivated Influenza split virion subtype H1N1v-like strain adjuvant vaccine (product)"
-      },
-      {
-        "code" : "451022006",
-        "display" : "Inactivated Influenza split virion subtype H1N1v-like strain unadjuvanted vaccine (product)"
-      },
-      {
-        "code" : "346525009",
-        "display" : "Inactivated Influenza surface antigen sub-unit vaccine (product)"
-      },
-      {
-        "code" : "348047008",
-        "display" : "Inactivated Influenza surface antigen sub-unit vaccine prefilled syringe (product)"
-      },
-      {
-        "code" : "419562000",
-        "display" : "Inactivated Influenza surface antigen virosome vaccine (product)"
-      },
-      {
-        "code" : "418707004",
-        "display" : "Inactivated Influenza surface antigen virosome vaccine prefilled syringe (product)"
-      },
-      {
-        "code" : "408752008",
-        "display" : "Inactivated influenza split virion vaccine (product)"
-      },
-      {
-        "code" : "125688000",
-        "display" : "Inactivated poliovirus vaccine (product)"
-      },
-      {
-        "code" : "409579003",
-        "display" : "Inactivated whole-cell/recombinant-B-subunit cholera vaccine (product)"
-      },
-      {
-        "code" : "348046004",
-        "display" : "Influenza (split virion) vaccine injection suspension 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "443161002",
-        "display" : "Influenza A virus subtype H1N1 monovalent vaccine 0.5mL injection solution (product)"
-      },
-      {
-        "code" : "443651005",
-        "display" : "Influenza A virus subtype H1N1 vaccine (product)"
-      },
-      {
-        "code" : "346524008",
-        "display" : "Influenza split virion vaccine (product)"
-      },
-      {
-        "code" : "427036009",
-        "display" : "Influenza virus H5N1 vaccine (product)"
-      },
-      {
-        "code" : "427077008",
-        "display" : "Influenza virus H5N1 vaccine injection solution 5mL multi-dose vial (product)"
-      },
-      {
-        "code" : "46233009",
-        "display" : "Influenza virus vaccine (product)"
-      },
-      {
-        "code" : "400788004",
-        "display" : "Influenza virus vaccine triv 45mcg/0.5mL injection solution 0.5mL syringe (product)"
-      },
-      {
-        "code" : "400564003",
-        "display" : "Influenza virus vaccine trivalent 45mcg/0.5mL injection solution 5mL vial (product)"
-      },
-      {
-        "code" : "409269001",
-        "display" : "Intranasal influenza live virus vaccine (product)"
-      },
-      {
-        "code" : "333697005",
-        "display" : "Japanese B encephalitis vaccine (product)"
-      },
-      {
-        "code" : "333698000",
-        "display" : "Japanese B encephalitis vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "326303007",
-        "display" : "Lactobacill acidophil vaccine (product)"
-      },
-      {
-        "code" : "442560004",
-        "display" : "Live adenovirus type 4 vaccine oral dosage form (product)"
-      },
-      {
-        "code" : "442561000",
-        "display" : "Live adenovirus type 7 vaccine oral dosage form (product)"
-      },
-      {
-        "code" : "440075005",
-        "display" : "Live measles + rubella vaccine injection dose form (product)"
-      },
-      {
-        "code" : "125690004",
-        "display" : "Live poliovirus vaccine (product)"
-      },
-      {
-        "code" : "428688001",
-        "display" : "Live smallpox vaccine powder 3mL vial + diluent (product)"
-      },
-      {
-        "code" : "116083002",
-        "display" : "Lyme disease vaccine (product)"
-      },
-      {
-        "code" : "377089008",
-        "display" : "Lyme disease vaccine recombi 60mcg/mL injection solution 0.5mL ampule (product)"
-      },
-      {
-        "code" : "376208003",
-        "display" : "Lyme disease vaccine recombi 6mcg/mL injection solution 5mL ampule (product)"
-      },
-      {
-        "code" : "419550004",
-        "display" : "Measles + mumps + rubella + varicella vaccine (product)"
-      },
-      {
-        "code" : "386012008",
-        "display" : "Measles vaccine (product)"
-      },
-      {
-        "code" : "400449000",
-        "display" : "Measles virus vaccine, live, 0.5mL/vial powder for injection (product)"
-      },
-      {
-        "code" : "61153008",
-        "display" : "Measles, mumps and rubella vaccine (product)"
-      },
-      {
-        "code" : "347649008",
-        "display" : "Measles/mumps/rubella vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "419771007",
-        "display" : "Measles/mumps/rubella/varicella vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "373869007",
-        "display" : "Melanoma vaccine (product)"
-      },
-      {
-        "code" : "421281005",
-        "display" : "Meningococcal A+C vaccine (product)"
-      },
-      {
-        "code" : "359068008",
-        "display" : "Meningococcal C conjugate vaccine (product)"
-      },
-      {
-        "code" : "333668007",
-        "display" : "Meningococcal C conjugate vaccine injection solution prefilled syringe (product)"
-      },
-      {
-        "code" : "333670003",
-        "display" : "Meningococcal C conjugate vaccine injection solution vial (product)"
-      },
-      {
-        "code" : "333669004",
-        "display" : "Meningococcal C conjugate vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "422069000",
-        "display" : "Meningococcal group C vaccine (product)"
-      },
-      {
-        "code" : "420261000",
-        "display" : "Meningococcal groups A+C+W135+Y vaccine (product)"
-      },
-      {
-        "code" : "347659009",
-        "display" : "Meningococcal polysaccharide vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "423531006",
-        "display" : "Meningococcus vaccine (product)"
-      },
-      {
-        "code" : "123686003",
-        "display" : "Mixed bacterial vaccine (product)"
-      },
-      {
-        "code" : "125696005",
-        "display" : "Mixed respiratory vaccine (product)"
-      },
-      {
-        "code" : "90043005",
-        "display" : "Mumps live virus vaccine (product)"
-      },
-      {
-        "code" : "376997008",
-        "display" : "Mumps virus vaccine live injection solution 0.5mL vial (product)"
-      },
-      {
-        "code" : "428601009",
-        "display" : "Paratyphoid vaccine (product)"
-      },
-      {
-        "code" : "409568008",
-        "display" : "Pentavalent botulinum toxoid vaccine (product)"
-      },
-      {
-        "code" : "61602008",
-        "display" : "Pertussis vaccine (product)"
-      },
-      {
-        "code" : "11866009",
-        "display" : "Plague vaccine (product)"
-      },
-      {
-        "code" : "448964007",
-        "display" : "Pneumococcal 13-valent conjugate vaccine (product)"
-      },
-      {
-        "code" : "125714002",
-        "display" : "Pneumococcal 7-valent conjugate vaccine (product)"
-      },
-      {
-        "code" : "135643009",
-        "display" : "Pneumococcal polysaccharide conjugated vaccine (product)"
-      },
-      {
-        "code" : "135642004",
-        "display" : "Pneumococcal polysaccharide vaccine (product)"
-      },
-      {
-        "code" : "333598008",
-        "display" : "Pneumococcal vaccine (product)"
-      },
-      {
-        "code" : "333603000",
-        "display" : "Poliomyelitis inactivated vaccine injection (product)"
-      },
-      {
-        "code" : "111164008",
-        "display" : "Poliovirus vaccine (product)"
-      },
-      {
-        "code" : "320835005",
-        "display" : "Pollen allergy preparations (product)"
-      },
-      {
-        "code" : "70447008",
-        "display" : "Polyvalent pneumococcal vaccine (product)"
-      },
-      {
-        "code" : "400287005",
-        "display" : "Polyvalent pneumococcal vaccine injection solution 0.5mL syringe (product)"
-      },
-      {
-        "code" : "430410002",
-        "display" : "Product containing Influenza virus vaccine in nasal dose form (medicinal product form)"
-      },
-      {
-        "code" : "64296005",
-        "display" : "Product containing Staphylococcus toxoid vaccine (medicinal product)"
-      },
-      {
-        "code" : "125580002",
-        "display" : "Product containing antigen of whole cell pertussis and diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)"
-      },
-      {
-        "code" : "418268006",
-        "display" : "Product containing attenuated Bacillus Calmette Guerin (medicinal product)"
-      },
-      {
-        "code" : "68208009",
-        "display" : "Product containing diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)"
-      },
-      {
-        "code" : "58098008",
-        "display" : "Product containing tetanus toxoid adsorbed (medicinal product)"
-      },
-      {
-        "code" : "105949007",
-        "display" : "Product containing toxoid (product)"
-      },
-      {
-        "code" : "427533008",
-        "display" : "Q fever vaccine (product)"
-      },
-      {
-        "code" : "333607004",
-        "display" : "Rabies inactivated vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "333606008",
-        "display" : "Rabies vaccine (product)"
-      },
-      {
-        "code" : "125715001",
-        "display" : "Rabies vaccine, adsorbed (product)"
-      },
-      {
-        "code" : "3526007",
-        "display" : "Rabies vaccine, human (product)"
-      },
-      {
-        "code" : "425638005",
-        "display" : "Recombinant hepatitis B virus surface antigen 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "13178004",
-        "display" : "Rickettsial vaccine (product)"
-      },
-      {
-        "code" : "45355008",
-        "display" : "Rocky Mountain spotted fever vaccine (product)"
-      },
-      {
-        "code" : "766567004",
-        "display" : "Rotavirus live vaccine powder for conventional release oral suspension 1mL (product)"
-      },
-      {
-        "code" : "116077000",
-        "display" : "Rotavirus vaccine (product)"
-      },
-      {
-        "code" : "347653005",
-        "display" : "Rubella live vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "386013003",
-        "display" : "Rubella vaccine (product)"
-      },
-      {
-        "code" : "358640003",
-        "display" : "Silver birch allergy initial kit (product)"
-      },
-      {
-        "code" : "358641004",
-        "display" : "Silver birch allergy maintenance kit (product)"
-      },
-      {
-        "code" : "33234009",
-        "display" : "Smallpox vaccine (product)"
-      },
-      {
-        "code" : "333620001",
-        "display" : "Smallpox vaccine injection solution vial (product)"
-      },
-      {
-        "code" : "81970008",
-        "display" : "Swine influenza virus vaccine (product)"
-      },
-      {
-        "code" : "375054005",
-        "display" : "Tetanus toxoid, adsorbed 20u/mL 0.5mL injection solution ampule (product)"
-      },
-      {
-        "code" : "333621002",
-        "display" : "Tetanus vaccine (product)"
-      },
-      {
-        "code" : "333699008",
-        "display" : "Tick-borne encephalitis vaccine (product)"
-      },
-      {
-        "code" : "333700009",
-        "display" : "Tick-borne encephalitis vaccine injection solution prefilled syringe (product)"
-      },
-      {
-        "code" : "346734001",
-        "display" : "Timothy grass allergy initial kit (product)"
-      },
-      {
-        "code" : "346754000",
-        "display" : "Timothy grass allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346735000",
-        "display" : "Treemix allergy initial kit (product)"
-      },
-      {
-        "code" : "346755004",
-        "display" : "Treemix allergy maintenance kit (product)"
-      },
-      {
-        "code" : "420538001",
-        "display" : "Tuberculosis vaccine (product)"
-      },
-      {
-        "code" : "412324003",
-        "display" : "Typhoid VI polysaccharide vaccine (product)"
-      },
-      {
-        "code" : "346696005",
-        "display" : "Typhoid live oral vaccine (product)"
-      },
-      {
-        "code" : "346639000",
-        "display" : "Typhoid polysaccharide vaccine (product)"
-      },
-      {
-        "code" : "348070000",
-        "display" : "Typhoid polysaccharide vaccine 25micrograms injection suspension 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "89428009",
-        "display" : "Typhoid vaccine (product)"
-      },
-      {
-        "code" : "346697001",
-        "display" : "Typhoid whole cell vaccine (product)"
-      },
-      {
-        "code" : "52628005",
-        "display" : "Typhoid-paratyphoid vaccine (product)"
-      },
-      {
-        "code" : "37146000",
-        "display" : "Typhus vaccine (product)"
-      },
-      {
-        "code" : "10332002",
-        "display" : "Vaccine - bacterin - toxoid (product)"
-      },
-      {
-        "code" : "669007",
-        "display" : "Vaccinia virus vaccine (product)"
-      },
-      {
-        "code" : "412530002",
-        "display" : "Varicella virus live vaccine (product)"
-      },
-      {
-        "code" : "108729007",
-        "display" : "Varicella virus vaccine (product)"
-      },
-      {
-        "code" : "407746005",
-        "display" : "Varicella-zoster live attenuated vaccine (product)"
-      },
-      {
-        "code" : "407933006",
-        "display" : "Varicella-zoster live attenuated vaccine injection (pdr for recon)+solvent (product)"
-      },
-      {
-        "code" : "407737004",
-        "display" : "Varicella-zoster vaccine (product)"
-      },
-      {
-        "code" : "370459009",
-        "display" : "West Nile virus vaccine (product)"
-      },
-      {
-        "code" : "333652001",
-        "display" : "Yellow fever live vaccine injection solution vial (product)"
-      },
-      {
-        "code" : "56844000",
-        "display" : "Yellow fever vaccine (product)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#1119349007) is not valid (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "449019003",
-        "display" : "Acellular pertussis vaccine (product)"
-      },
-      {
-        "code" : "333549004",
-        "display" : "Adsorbed diphtheria+tetanus vaccine injection suspension 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "347664008",
-        "display" : "Adsorbed tetanus vaccine injection solution ampule (product)"
-      },
-      {
-        "code" : "333641007",
-        "display" : "Adsorbed tetanus vaccine injection solution prefilled syringe (product)"
-      },
-      {
-        "code" : "346313005",
-        "display" : "Allergen extract vaccine (product)"
-      },
-      {
-        "code" : "333521006",
-        "display" : "Anthrax vaccine (product)"
-      },
-      {
-        "code" : "333522004",
-        "display" : "Anthrax vaccine injection solution 0.5mL ampule (product)"
-      },
-      {
-        "code" : "400563009",
-        "display" : "Anthrax vaccine, adsorbed injection solution 5mL vial (product)"
-      },
-      {
-        "code" : "11185009",
-        "display" : "Autogenous vaccine - autogenous bacterin (product)"
-      },
-      {
-        "code" : "62354009",
-        "display" : "Bronchitis vaccine (product)"
-      },
-      {
-        "code" : "7230005",
-        "display" : "Brucella vaccine (product)"
-      },
-      {
-        "code" : "409580000",
-        "display" : "CVD 103-HgR live attenuated oral cholera vaccine (product)"
-      },
-      {
-        "code" : "346728008",
-        "display" : "Cat allergy initial kit (product)"
-      },
-      {
-        "code" : "346747006",
-        "display" : "Cat allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346364006",
-        "display" : "Cat allergy vaccine (product)"
-      },
-      {
-        "code" : "35736007",
-        "display" : "Cholera vaccine (product)"
-      },
-      {
-        "code" : "449240007",
-        "display" : "Diphtheria + acellular pertussis adsorbed + inactivated polio + tetanus toxoids vaccine (product)"
-      },
-      {
-        "code" : "412373007",
-        "display" : "Diphtheria + pertussis + tetanus + Haemophilus influenzae type b vaccine (product)"
-      },
-      {
-        "code" : "421245007",
-        "display" : "Diphtheria + pertussis + tetanus vaccine (product)"
-      },
-      {
-        "code" : "427806004",
-        "display" : "Diphtheria + tetanus + haemophilus influenzae type b vaccine (product)"
-      },
-      {
-        "code" : "414002009",
-        "display" : "Diphtheria + tetanus + inactivated poliovirus vaccine (product)"
-      },
-      {
-        "code" : "414003004",
-        "display" : "Diphtheria + tetanus + pertussis + inactivated poliovirus vaccine (product)"
-      },
-      {
-        "code" : "414004005",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis + haemophilus influenzae b vaccine (product)"
-      },
-      {
-        "code" : "426842004",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus + recombinant haemophilus influenzae type B vaccine (product)"
-      },
-      {
-        "code" : "427542001",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis + recombinant hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "414005006",
-        "display" : "Diphtheria + tetanus + pertussis + poliomyelitis vaccine (product)"
-      },
-      {
-        "code" : "426081003",
-        "display" : "Diphtheria + tetanus + pertussis + recombinant hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "414006007",
-        "display" : "Diphtheria + tetanus + poliomyelitis vaccine (product)"
-      },
-      {
-        "code" : "350327004",
-        "display" : "Diphtheria + tetanus vaccine (product)"
-      },
-      {
-        "code" : "346402006",
-        "display" : "Diphtheria single antigen vaccine (product)"
-      },
-      {
-        "code" : "426361005",
-        "display" : "Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "427682002",
-        "display" : "Diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis toxoid 25micrograms injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "428214002",
-        "display" : "Diphtheria vaccine (product)"
-      },
-      {
-        "code" : "396457007",
-        "display" : "Diphtheria, acellular pertussis, hepatitis B and inactivated polio vaccine (product)"
-      },
-      {
-        "code" : "346729000",
-        "display" : "Dog allergy initial kit (product)"
-      },
-      {
-        "code" : "346748001",
-        "display" : "Dog allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346405008",
-        "display" : "Dog allergy vaccine (product)"
-      },
-      {
-        "code" : "409152009",
-        "display" : "Dried smallpox vaccine, calf lymph type 1 vial + diluent 0.25mL syringe (product)"
-      },
-      {
-        "code" : "346730005",
-        "display" : "Grass allergy initial kit (product)"
-      },
-      {
-        "code" : "346750009",
-        "display" : "Grass allergy maintenance kit (product)"
-      },
-      {
-        "code" : "68113000",
-        "display" : "Haemophilus b oligosaccharide conjugate(diphtheria CRM>197< protein conjugate) vaccine (product)"
-      },
-      {
-        "code" : "766203003",
-        "display" : "Haemophilus b polysaccharide 10micrograms/tetanus toxoid 30micrograms powder for conventional release solution for injection vial (product)"
-      },
-      {
-        "code" : "48028008",
-        "display" : "Haemophilus b polysaccharide conjugate (diphtheria toxoid conjugate) vaccine (product)"
-      },
-      {
-        "code" : "333693009",
-        "display" : "Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine prefilled syringe (product)"
-      },
-      {
-        "code" : "333696001",
-        "display" : "Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial (product)"
-      },
-      {
-        "code" : "333691006",
-        "display" : "Haemophilus influenzae Type b (Hib)/diphtheria/tetanus/pertussis vaccine vial+prefilled syringe (product)"
-      },
-      {
-        "code" : "426971004",
-        "display" : "Haemophilus influenzae Type b + recombinant hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "425555004",
-        "display" : "Haemophilus influenzae Type b + tetanus vaccine (product)"
-      },
-      {
-        "code" : "333680004",
-        "display" : "Haemophilus influenzae Type b vaccine (product)"
-      },
-      {
-        "code" : "347647005",
-        "display" : "Haemophilus influenzae Type b vaccine injection (pdr for recon)+diluent (product)"
-      },
-      {
-        "code" : "698026000",
-        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide Meningococcal Protein Conjugate Vaccine/Hepatitis B Surface Antigen Vaccine (product)"
-      },
-      {
-        "code" : "423912009",
-        "display" : "Haemophilus influenzae type b + Meningococcal group C vaccine (product)"
-      },
-      {
-        "code" : "427048007",
-        "display" : "Haemophilus influenzae type b 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/pertussis 25micrograms/recombinant hepatitis B virus surface antigen 10micrograms/inactivated poliomyelitis injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "427514003",
-        "display" : "Haemophilus influenzae type b 7.5micrograms/recombinant hepatitis B virus surface antigen 5micrograms injection solution 0.5mL vial (product)"
-      },
-      {
-        "code" : "333708002",
-        "display" : "Hepatitis A 1440u//typhoid 25mcg vaccine injection solution 1mL prefilled syringe (product)"
-      },
-      {
-        "code" : "406324009",
-        "display" : "Hepatitis A vaccine injection suspension 0.5 mL prefilled syringe (product)"
-      },
-      {
-        "code" : "406325005",
-        "display" : "Hepatitis A vaccine injection suspension 1 mL prefilled syringe (product)"
-      },
-      {
-        "code" : "348045000",
-        "display" : "Hepatitis A vaccine injection suspension prefilled syringe (product)"
-      },
-      {
-        "code" : "14745005",
-        "display" : "Hepatitis A virus vaccine (product)"
-      },
-      {
-        "code" : "333702001",
-        "display" : "Hepatitis A+B vaccine (product)"
-      },
-      {
-        "code" : "333707007",
-        "display" : "Hepatitis A+typhoid vaccine (product)"
-      },
-      {
-        "code" : "333569009",
-        "display" : "Hepatitis B vaccine 10micrograms/mL injection suspension 1mL prefilled syringe (product)"
-      },
-      {
-        "code" : "333568001",
-        "display" : "Hepatitis B vaccine 10micrograms/mL injection suspension 1mL vial (product)"
-      },
-      {
-        "code" : "333573007",
-        "display" : "Hepatitis B vaccine 40micrograms/mL injection suspension 1ml vial (product)"
-      },
-      {
-        "code" : "412403009",
-        "display" : "Hepatitis B virus recombinant vaccine (product)"
-      },
-      {
-        "code" : "34689006",
-        "display" : "Hepatitis B virus vaccine (product)"
-      },
-      {
-        "code" : "346731009",
-        "display" : "Horse allergy initial kit (product)"
-      },
-      {
-        "code" : "346751008",
-        "display" : "Horse allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346467003",
-        "display" : "Horse dander allergy vaccine (product)"
-      },
-      {
-        "code" : "346468008",
-        "display" : "House dust allergy vaccine (product)"
-      },
-      {
-        "code" : "346733007",
-        "display" : "House mite allergy initial kit (product)"
-      },
-      {
-        "code" : "346753006",
-        "display" : "House mite allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346469000",
-        "display" : "House mite allergy vaccine (product)"
-      },
-      {
-        "code" : "424519000",
-        "display" : "Human papillomavirus vaccine (product)"
-      },
-      {
-        "code" : "448897007",
-        "display" : "Inactivated Influenza split virion subtype H1N1v-like strain adjuvant vaccine (product)"
-      },
-      {
-        "code" : "451022006",
-        "display" : "Inactivated Influenza split virion subtype H1N1v-like strain unadjuvanted vaccine (product)"
-      },
-      {
-        "code" : "346525009",
-        "display" : "Inactivated Influenza surface antigen sub-unit vaccine (product)"
-      },
-      {
-        "code" : "348047008",
-        "display" : "Inactivated Influenza surface antigen sub-unit vaccine prefilled syringe (product)"
-      },
-      {
-        "code" : "419562000",
-        "display" : "Inactivated Influenza surface antigen virosome vaccine (product)"
-      },
-      {
-        "code" : "418707004",
-        "display" : "Inactivated Influenza surface antigen virosome vaccine prefilled syringe (product)"
-      },
-      {
-        "code" : "408752008",
-        "display" : "Inactivated influenza split virion vaccine (product)"
-      },
-      {
-        "code" : "125688000",
-        "display" : "Inactivated poliovirus vaccine (product)"
-      },
-      {
-        "code" : "409579003",
-        "display" : "Inactivated whole-cell/recombinant-B-subunit cholera vaccine (product)"
-      },
-      {
-        "code" : "348046004",
-        "display" : "Influenza (split virion) vaccine injection suspension 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "443161002",
-        "display" : "Influenza A virus subtype H1N1 monovalent vaccine 0.5mL injection solution (product)"
-      },
-      {
-        "code" : "443651005",
-        "display" : "Influenza A virus subtype H1N1 vaccine (product)"
-      },
-      {
-        "code" : "346524008",
-        "display" : "Influenza split virion vaccine (product)"
-      },
-      {
-        "code" : "427036009",
-        "display" : "Influenza virus H5N1 vaccine (product)"
-      },
-      {
-        "code" : "427077008",
-        "display" : "Influenza virus H5N1 vaccine injection solution 5mL multi-dose vial (product)"
-      },
-      {
-        "code" : "46233009",
-        "display" : "Influenza virus vaccine (product)"
-      },
-      {
-        "code" : "400788004",
-        "display" : "Influenza virus vaccine triv 45mcg/0.5mL injection solution 0.5mL syringe (product)"
-      },
-      {
-        "code" : "400564003",
-        "display" : "Influenza virus vaccine trivalent 45mcg/0.5mL injection solution 5mL vial (product)"
-      },
-      {
-        "code" : "409269001",
-        "display" : "Intranasal influenza live virus vaccine (product)"
-      },
-      {
-        "code" : "333697005",
-        "display" : "Japanese B encephalitis vaccine (product)"
-      },
-      {
-        "code" : "333698000",
-        "display" : "Japanese B encephalitis vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "326303007",
-        "display" : "Lactobacill acidophil vaccine (product)"
-      },
-      {
-        "code" : "442560004",
-        "display" : "Live adenovirus type 4 vaccine oral dosage form (product)"
-      },
-      {
-        "code" : "442561000",
-        "display" : "Live adenovirus type 7 vaccine oral dosage form (product)"
-      },
-      {
-        "code" : "440075005",
-        "display" : "Live measles + rubella vaccine injection dose form (product)"
-      },
-      {
-        "code" : "125690004",
-        "display" : "Live poliovirus vaccine (product)"
-      },
-      {
-        "code" : "428688001",
-        "display" : "Live smallpox vaccine powder 3mL vial + diluent (product)"
-      },
-      {
-        "code" : "116083002",
-        "display" : "Lyme disease vaccine (product)"
-      },
-      {
-        "code" : "377089008",
-        "display" : "Lyme disease vaccine recombi 60mcg/mL injection solution 0.5mL ampule (product)"
-      },
-      {
-        "code" : "376208003",
-        "display" : "Lyme disease vaccine recombi 6mcg/mL injection solution 5mL ampule (product)"
-      },
-      {
-        "code" : "419550004",
-        "display" : "Measles + mumps + rubella + varicella vaccine (product)"
-      },
-      {
-        "code" : "386012008",
-        "display" : "Measles vaccine (product)"
-      },
-      {
-        "code" : "400449000",
-        "display" : "Measles virus vaccine, live, 0.5mL/vial powder for injection (product)"
-      },
-      {
-        "code" : "61153008",
-        "display" : "Measles, mumps and rubella vaccine (product)"
-      },
-      {
-        "code" : "347649008",
-        "display" : "Measles/mumps/rubella vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "419771007",
-        "display" : "Measles/mumps/rubella/varicella vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "373869007",
-        "display" : "Melanoma vaccine (product)"
-      },
-      {
-        "code" : "421281005",
-        "display" : "Meningococcal A+C vaccine (product)"
-      },
-      {
-        "code" : "359068008",
-        "display" : "Meningococcal C conjugate vaccine (product)"
-      },
-      {
-        "code" : "333668007",
-        "display" : "Meningococcal C conjugate vaccine injection solution prefilled syringe (product)"
-      },
-      {
-        "code" : "333670003",
-        "display" : "Meningococcal C conjugate vaccine injection solution vial (product)"
-      },
-      {
-        "code" : "333669004",
-        "display" : "Meningococcal C conjugate vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "422069000",
-        "display" : "Meningococcal group C vaccine (product)"
-      },
-      {
-        "code" : "420261000",
-        "display" : "Meningococcal groups A+C+W135+Y vaccine (product)"
-      },
-      {
-        "code" : "347659009",
-        "display" : "Meningococcal polysaccharide vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "423531006",
-        "display" : "Meningococcus vaccine (product)"
-      },
-      {
-        "code" : "123686003",
-        "display" : "Mixed bacterial vaccine (product)"
-      },
-      {
-        "code" : "125696005",
-        "display" : "Mixed respiratory vaccine (product)"
-      },
-      {
-        "code" : "90043005",
-        "display" : "Mumps live virus vaccine (product)"
-      },
-      {
-        "code" : "376997008",
-        "display" : "Mumps virus vaccine live injection solution 0.5mL vial (product)"
-      },
-      {
-        "code" : "428601009",
-        "display" : "Paratyphoid vaccine (product)"
-      },
-      {
-        "code" : "409568008",
-        "display" : "Pentavalent botulinum toxoid vaccine (product)"
-      },
-      {
-        "code" : "61602008",
-        "display" : "Pertussis vaccine (product)"
-      },
-      {
-        "code" : "11866009",
-        "display" : "Plague vaccine (product)"
-      },
-      {
-        "code" : "448964007",
-        "display" : "Pneumococcal 13-valent conjugate vaccine (product)"
-      },
-      {
-        "code" : "125714002",
-        "display" : "Pneumococcal 7-valent conjugate vaccine (product)"
-      },
-      {
-        "code" : "135643009",
-        "display" : "Pneumococcal polysaccharide conjugated vaccine (product)"
-      },
-      {
-        "code" : "135642004",
-        "display" : "Pneumococcal polysaccharide vaccine (product)"
-      },
-      {
-        "code" : "333598008",
-        "display" : "Pneumococcal vaccine (product)"
-      },
-      {
-        "code" : "333603000",
-        "display" : "Poliomyelitis inactivated vaccine injection (product)"
-      },
-      {
-        "code" : "111164008",
-        "display" : "Poliovirus vaccine (product)"
-      },
-      {
-        "code" : "320835005",
-        "display" : "Pollen allergy preparations (product)"
-      },
-      {
-        "code" : "70447008",
-        "display" : "Polyvalent pneumococcal vaccine (product)"
-      },
-      {
-        "code" : "400287005",
-        "display" : "Polyvalent pneumococcal vaccine injection solution 0.5mL syringe (product)"
-      },
-      {
-        "code" : "430410002",
-        "display" : "Product containing Influenza virus vaccine in nasal dose form (medicinal product form)"
-      },
-      {
-        "code" : "64296005",
-        "display" : "Product containing Staphylococcus toxoid vaccine (medicinal product)"
-      },
-      {
-        "code" : "125580002",
-        "display" : "Product containing antigen of whole cell pertussis and diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)"
-      },
-      {
-        "code" : "418268006",
-        "display" : "Product containing attenuated Bacillus Calmette Guerin (medicinal product)"
-      },
-      {
-        "code" : "68208009",
-        "display" : "Product containing diphtheria toxoid and tetanus toxoid adsorbed (medicinal product)"
-      },
-      {
-        "code" : "58098008",
-        "display" : "Product containing tetanus toxoid adsorbed (medicinal product)"
-      },
-      {
-        "code" : "105949007",
-        "display" : "Product containing toxoid (product)"
-      },
-      {
-        "code" : "427533008",
-        "display" : "Q fever vaccine (product)"
-      },
-      {
-        "code" : "333607004",
-        "display" : "Rabies inactivated vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "333606008",
-        "display" : "Rabies vaccine (product)"
-      },
-      {
-        "code" : "125715001",
-        "display" : "Rabies vaccine, adsorbed (product)"
-      },
-      {
-        "code" : "3526007",
-        "display" : "Rabies vaccine, human (product)"
-      },
-      {
-        "code" : "425638005",
-        "display" : "Recombinant hepatitis B virus surface antigen 10micrograms/diphtheria toxoid 30 iu/tetanus toxoid 40 iu/acellular pertussis 25micrograms injection solution 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "13178004",
-        "display" : "Rickettsial vaccine (product)"
-      },
-      {
-        "code" : "45355008",
-        "display" : "Rocky Mountain spotted fever vaccine (product)"
-      },
-      {
-        "code" : "766567004",
-        "display" : "Rotavirus live vaccine powder for conventional release oral suspension 1mL (product)"
-      },
-      {
-        "code" : "116077000",
-        "display" : "Rotavirus vaccine (product)"
-      },
-      {
-        "code" : "347653005",
-        "display" : "Rubella live vaccine powder and solvent for injection solution vial (product)"
-      },
-      {
-        "code" : "386013003",
-        "display" : "Rubella vaccine (product)"
-      },
-      {
-        "code" : "358640003",
-        "display" : "Silver birch allergy initial kit (product)"
-      },
-      {
-        "code" : "358641004",
-        "display" : "Silver birch allergy maintenance kit (product)"
-      },
-      {
-        "code" : "33234009",
-        "display" : "Smallpox vaccine (product)"
-      },
-      {
-        "code" : "333620001",
-        "display" : "Smallpox vaccine injection solution vial (product)"
-      },
-      {
-        "code" : "81970008",
-        "display" : "Swine influenza virus vaccine (product)"
-      },
-      {
-        "code" : "375054005",
-        "display" : "Tetanus toxoid, adsorbed 20u/mL 0.5mL injection solution ampule (product)"
-      },
-      {
-        "code" : "333621002",
-        "display" : "Tetanus vaccine (product)"
-      },
-      {
-        "code" : "333699008",
-        "display" : "Tick-borne encephalitis vaccine (product)"
-      },
-      {
-        "code" : "333700009",
-        "display" : "Tick-borne encephalitis vaccine injection solution prefilled syringe (product)"
-      },
-      {
-        "code" : "346734001",
-        "display" : "Timothy grass allergy initial kit (product)"
-      },
-      {
-        "code" : "346754000",
-        "display" : "Timothy grass allergy maintenance kit (product)"
-      },
-      {
-        "code" : "346735000",
-        "display" : "Treemix allergy initial kit (product)"
-      },
-      {
-        "code" : "346755004",
-        "display" : "Treemix allergy maintenance kit (product)"
-      },
-      {
-        "code" : "420538001",
-        "display" : "Tuberculosis vaccine (product)"
-      },
-      {
-        "code" : "412324003",
-        "display" : "Typhoid VI polysaccharide vaccine (product)"
-      },
-      {
-        "code" : "346696005",
-        "display" : "Typhoid live oral vaccine (product)"
-      },
-      {
-        "code" : "346639000",
-        "display" : "Typhoid polysaccharide vaccine (product)"
-      },
-      {
-        "code" : "348070000",
-        "display" : "Typhoid polysaccharide vaccine 25micrograms injection suspension 0.5mL prefilled syringe (product)"
-      },
-      {
-        "code" : "89428009",
-        "display" : "Typhoid vaccine (product)"
-      },
-      {
-        "code" : "346697001",
-        "display" : "Typhoid whole cell vaccine (product)"
-      },
-      {
-        "code" : "52628005",
-        "display" : "Typhoid-paratyphoid vaccine (product)"
-      },
-      {
-        "code" : "37146000",
-        "display" : "Typhus vaccine (product)"
-      },
-      {
-        "code" : "10332002",
-        "display" : "Vaccine - bacterin - toxoid (product)"
-      },
-      {
-        "code" : "669007",
-        "display" : "Vaccinia virus vaccine (product)"
-      },
-      {
-        "code" : "412530002",
-        "display" : "Varicella virus live vaccine (product)"
-      },
-      {
-        "code" : "108729007",
-        "display" : "Varicella virus vaccine (product)"
-      },
-      {
-        "code" : "407746005",
-        "display" : "Varicella-zoster live attenuated vaccine (product)"
-      },
-      {
-        "code" : "407933006",
-        "display" : "Varicella-zoster live attenuated vaccine injection (pdr for recon)+solvent (product)"
-      },
-      {
-        "code" : "407737004",
-        "display" : "Varicella-zoster vaccine (product)"
-      },
-      {
-        "code" : "370459009",
-        "display" : "West Nile virus vaccine (product)"
-      },
-      {
-        "code" : "333652001",
-        "display" : "Yellow fever live vaccine injection solution vial (product)"
-      },
-      {
-        "code" : "56844000",
-        "display" : "Yellow fever vaccine (product)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "descendent-of",
-        "value" : "787859002"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "filter" : [{
-        "property" : "concept",
-        "op" : "descendent-of",
-        "value" : "787859002"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://www.whocc.no/atc",
-      "concept" : [{
-        "code" : "J07BX03",
-        "display" : "covid-19 vaccines"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1119349007",
-        "display" : "SARS-CoV-2 mRNA vaccine"
-      },
-      {
-        "code" : "1119305005",
-        "display" : "SARS-CoV-2 antigen vaccine"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "840539006",
-        "display" : "COVID-19"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "1119349007",
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "SARS-CoV-2"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "420134006",
-  "display" : "Propensity to adverse reaction"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "Propensity to adverse reactions",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20190731",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "186150001",
-        "display" : "Enteritis caused by rotavirus (disorder)"
-      },
-      {
-        "code" : "56717001",
-        "display" : "Tuberculosis (disorder)"
-      },
-      {
-        "code" : "27836007",
-        "display" : "Pertussis (disorder)"
-      },
-      {
-        "code" : "372244006",
-        "display" : "Malignant melanoma (disorder)"
-      },
-      {
-        "code" : "36989005",
-        "display" : "Mumps (disorder)"
-      },
-      {
-        "code" : "38907003",
-        "display" : "Varicella (disorder)"
-      },
-      {
-        "code" : "23502006",
-        "display" : "Lyme disease (disorder)"
-      },
-      {
-        "code" : "14189004",
-        "display" : "Measles (disorder)"
-      },
-      {
-        "code" : "25225006",
-        "display" : "Disease caused by Adenovirus (disorder)"
-      },
-      {
-        "code" : "442438000",
-        "display" : "Influenza caused by Influenza A virus (disorder)"
-      },
-      {
-        "code" : "24662006",
-        "display" : "Influenza caused by Influenza B virus (disorder)"
-      },
-      {
-        "code" : "6142004",
-        "display" : "Influenza (disorder)"
-      },
-      {
-        "code" : "240532009",
-        "display" : "Human papillomavirus infection (disorder)"
-      },
-      {
-        "code" : "4834000",
-        "display" : "Typhoid fever (disorder)"
-      },
-      {
-        "code" : "76902006",
-        "display" : "Tetanus (disorder)"
-      },
-      {
-        "code" : "32398004",
-        "display" : "Bronchitis (disorder)"
-      },
-      {
-        "code" : "70036007",
-        "display" : "Haemophilus influenzae pneumonia (disorder)"
-      },
-      {
-        "code" : "398102009",
-        "display" : "Acute poliomyelitis (disorder)"
-      },
-      {
-        "code" : "40468003",
-        "display" : "Viral hepatitis, type A (disorder)"
-      },
-      {
-        "code" : "66071002",
-        "display" : "Viral hepatitis type B (disorder)"
-      },
-      {
-        "code" : "50711007",
-        "display" : "Viral hepatitis type C (disorder)"
-      },
-      {
-        "code" : "397430003",
-        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
-      },
-      {
-        "code" : "409498004",
-        "display" : "Anthrax (disorder)"
-      },
-      {
-        "code" : "75702008",
-        "display" : "Brucellosis (disorder)"
-      },
-      {
-        "code" : "63650001",
-        "display" : "Cholera (disorder)"
-      },
-      {
-        "code" : "709410003",
-        "display" : "Haemophilus influenzae type b infection (disorder)"
-      },
-      {
-        "code" : "442696006",
-        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
-      },
-      {
-        "code" : "772810003",
-        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
-      },
-      {
-        "code" : "713083002",
-        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
-      },
-      {
-        "code" : "772828001",
-        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
-      },
-      {
-        "code" : "450715004",
-        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
-      },
-      {
-        "code" : "707448003",
-        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
-      },
-      {
-        "code" : "52947006",
-        "display" : "Japanese encephalitis virus disease (disorder)"
-      },
-      {
-        "code" : "36653000",
-        "display" : "Rubella (disorder)"
-      },
-      {
-        "code" : "67924001",
-        "display" : "Smallpox (disorder)"
-      },
-      {
-        "code" : "23511006",
-        "display" : "Meningococcal infectious disease (disorder)"
-      },
-      {
-        "code" : "85904008",
-        "display" : "Paratyphoid fever (disorder)"
-      },
-      {
-        "code" : "398565003",
-        "display" : "Infection caused by Clostridium botulinum (disorder)"
-      },
-      {
-        "code" : "58750007",
-        "display" : "Plague (disorder)"
-      },
-      {
-        "code" : "186788009",
-        "display" : "Q fever (disorder)"
-      },
-      {
-        "code" : "14168008",
-        "display" : "Rabies (disorder)"
-      },
-      {
-        "code" : "37246009",
-        "display" : "Disease caused by rickettsiae (disorder)"
-      },
-      {
-        "code" : "186772009",
-        "display" : "Rocky Mountain spotted fever (disorder)"
-      },
-      {
-        "code" : "18624000",
-        "display" : "Disease caused by Rotavirus (disorder)"
-      },
-      {
-        "code" : "712986001",
-        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
-      },
-      {
-        "code" : "240613006",
-        "display" : "Typhus group rickettsial disease (disorder)"
-      },
-      {
-        "code" : "111852003",
-        "display" : "Vaccinia (disorder)"
-      },
-      {
-        "code" : "417093003",
-        "display" : "Disease caused by West Nile virus (disorder)"
-      },
-      {
-        "code" : "6541001",
-        "display" : "Yellow fever (disorder)"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus"
-}, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "840539006",
-        "display" : "COVID-19"
-      }]
-    }]
-  }
-}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "",
-  "severity" : "error",
-  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
-  "code" : "840533007",
-  "display" : "2019 novel coronavirus"
-}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
-v: {
-  "display" : "2019-nCoV",
-  "severity" : null,
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "840539006",
-        "display" : "COVID-19"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:87e5fa5e-016a-443c-b244-0ad23f2cb61b",
-    "timestamp" : "2021-04-28T18:01:05.593Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "840539006",
-      "display" : "COVID-19"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1240581000000104",
-        "display" : "Severe acute respiratory syndrome coronavirus 2 detected"
-      },
-      {
-        "code" : "1240591000000102",
-        "display" : "Severe acute respiratory syndrome coronavirus 2 not detected"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:b1f72af7-307b-4d32-b098-3935e9884d09",
-    "timestamp" : "2021-04-28T18:01:06.358Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "1240581000000104",
-      "display" : "Severe acute respiratory syndrome coronavirus 2 detected"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1240591000000102",
-      "display" : "Severe acute respiratory syndrome coronavirus 2 not detected"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"hierarchical" : true, "valueSet" :{
-  "resourceType" : "ValueSet",
-  "compose" : {
-    "include" : [{
-      "system" : "http://snomed.info/sct",
-      "concept" : [{
-        "code" : "1119349007",
-        "display" : "SARS-CoV-2 mRNA vaccine"
-      },
-      {
-        "code" : "1119305005",
-        "display" : "SARS-CoV-2 antigen vaccine"
-      }]
-    }]
-  }
-}}####
-e: {
-  "valueSet" : {
-  "resourceType" : "ValueSet",
-  "status" : "active",
-  "expansion" : {
-    "identifier" : "urn:uuid:d016a9cd-d914-4ff3-93b6-2c1534485511",
-    "timestamp" : "2021-04-28T18:01:10.843Z",
-    "parameter" : [{
-      "name" : "limitedExpansion",
-      "valueBoolean" : true
-    },
-    {
-      "name" : "version",
-      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
-    }],
-    "contains" : [{
-      "system" : "http://snomed.info/sct",
-      "code" : "1119349007",
-      "display" : "SARS-CoV-2 mRNA vaccine"
-    },
-    {
-      "system" : "http://snomed.info/sct",
-      "code" : "1119305005",
-      "display" : "SARS-CoV-2 antigen vaccine"
-    }]
-  }
-},
-  "error" : ""
-}
--------------------------------------------------------------------------------------
-{"code" : {
-  "system" : "http://snomed.info/sct",
   "code" : "840539006"
 }, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Disease caused by 2019 novel coronavirus",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "787859002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "787859002"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
   "severity" : null,
   "error" : ""
 }
@@ -3788,6 +934,54 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "J07BX03",
+        "display" : "covid-19 vaccines"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#1119349007) is not valid in the value set 'AtcCovid19Vaccines' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "1119349007"
 }, "valueSet" :{
   "resourceType" : "ValueSet",
@@ -3807,6 +1001,17 @@ v: {
 }, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
 v: {
   "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
   "severity" : null,
   "error" : ""
 }
@@ -4048,6 +1253,509 @@ v: {
 -------------------------------------------------------------------------------------
 {"code" : {
   "system" : "http://snomed.info/sct",
+  "code" : "840533007"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "1119349007",
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "SARS-CoV-2"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "420134006",
+  "display" : "Propensity to adverse reaction"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "Propensity to adverse reactions",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
   "code" : "840533007",
   "display" : "2019 novel coronavirus"
 }, "valueSet" :{
@@ -4161,6 +1869,385 @@ v: {
 v: {
   "display" : "2019-nCoV",
   "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "186150001",
+        "display" : "Enteritis caused by rotavirus (disorder)"
+      },
+      {
+        "code" : "56717001",
+        "display" : "Tuberculosis (disorder)"
+      },
+      {
+        "code" : "27836007",
+        "display" : "Pertussis (disorder)"
+      },
+      {
+        "code" : "372244006",
+        "display" : "Malignant melanoma (disorder)"
+      },
+      {
+        "code" : "36989005",
+        "display" : "Mumps (disorder)"
+      },
+      {
+        "code" : "38907003",
+        "display" : "Varicella (disorder)"
+      },
+      {
+        "code" : "23502006",
+        "display" : "Lyme disease (disorder)"
+      },
+      {
+        "code" : "14189004",
+        "display" : "Measles (disorder)"
+      },
+      {
+        "code" : "25225006",
+        "display" : "Disease caused by Adenovirus (disorder)"
+      },
+      {
+        "code" : "442438000",
+        "display" : "Influenza caused by Influenza A virus (disorder)"
+      },
+      {
+        "code" : "24662006",
+        "display" : "Influenza caused by Influenza B virus (disorder)"
+      },
+      {
+        "code" : "6142004",
+        "display" : "Influenza (disorder)"
+      },
+      {
+        "code" : "240532009",
+        "display" : "Human papillomavirus infection (disorder)"
+      },
+      {
+        "code" : "4834000",
+        "display" : "Typhoid fever (disorder)"
+      },
+      {
+        "code" : "76902006",
+        "display" : "Tetanus (disorder)"
+      },
+      {
+        "code" : "32398004",
+        "display" : "Bronchitis (disorder)"
+      },
+      {
+        "code" : "70036007",
+        "display" : "Haemophilus influenzae pneumonia (disorder)"
+      },
+      {
+        "code" : "398102009",
+        "display" : "Acute poliomyelitis (disorder)"
+      },
+      {
+        "code" : "40468003",
+        "display" : "Viral hepatitis, type A (disorder)"
+      },
+      {
+        "code" : "66071002",
+        "display" : "Viral hepatitis type B (disorder)"
+      },
+      {
+        "code" : "50711007",
+        "display" : "Viral hepatitis type C (disorder)"
+      },
+      {
+        "code" : "397430003",
+        "display" : "Diphtheria caused by Corynebacterium diphtheriae (disorder)"
+      },
+      {
+        "code" : "409498004",
+        "display" : "Anthrax (disorder)"
+      },
+      {
+        "code" : "75702008",
+        "display" : "Brucellosis (disorder)"
+      },
+      {
+        "code" : "63650001",
+        "display" : "Cholera (disorder)"
+      },
+      {
+        "code" : "709410003",
+        "display" : "Haemophilus influenzae type b infection (disorder)"
+      },
+      {
+        "code" : "442696006",
+        "display" : "Influenza caused by Influenza A virus subtype H1N1 (disorder)"
+      },
+      {
+        "code" : "772810003",
+        "display" : "Influenza caused by Influenza A virus subtype H3N2 (disorder)"
+      },
+      {
+        "code" : "713083002",
+        "display" : "Influenza caused by Influenza A virus subtype H5 (disorder)"
+      },
+      {
+        "code" : "772828001",
+        "display" : "Influenza caused by Influenza A virus subtype H5N1 (disorder)"
+      },
+      {
+        "code" : "450715004",
+        "display" : "Influenza caused by Influenza A virus subtype H7 (disorder)"
+      },
+      {
+        "code" : "707448003",
+        "display" : "Influenza caused by Influenza A virus subtype H7N9 (disorder)"
+      },
+      {
+        "code" : "52947006",
+        "display" : "Japanese encephalitis virus disease (disorder)"
+      },
+      {
+        "code" : "36653000",
+        "display" : "Rubella (disorder)"
+      },
+      {
+        "code" : "67924001",
+        "display" : "Smallpox (disorder)"
+      },
+      {
+        "code" : "23511006",
+        "display" : "Meningococcal infectious disease (disorder)"
+      },
+      {
+        "code" : "85904008",
+        "display" : "Paratyphoid fever (disorder)"
+      },
+      {
+        "code" : "398565003",
+        "display" : "Infection caused by Clostridium botulinum (disorder)"
+      },
+      {
+        "code" : "58750007",
+        "display" : "Plague (disorder)"
+      },
+      {
+        "code" : "186788009",
+        "display" : "Q fever (disorder)"
+      },
+      {
+        "code" : "14168008",
+        "display" : "Rabies (disorder)"
+      },
+      {
+        "code" : "37246009",
+        "display" : "Disease caused by rickettsiae (disorder)"
+      },
+      {
+        "code" : "186772009",
+        "display" : "Rocky Mountain spotted fever (disorder)"
+      },
+      {
+        "code" : "18624000",
+        "display" : "Disease caused by Rotavirus (disorder)"
+      },
+      {
+        "code" : "712986001",
+        "display" : "Encephalitis caused by tick-borne encephalitis virus (disorder)"
+      },
+      {
+        "code" : "240613006",
+        "display" : "Typhus group rickettsial disease (disorder)"
+      },
+      {
+        "code" : "111852003",
+        "display" : "Vaccinia (disorder)"
+      },
+      {
+        "code" : "417093003",
+        "display" : "Disease caused by West Nile virus (disorder)"
+      },
+      {
+        "code" : "6541001",
+        "display" : "Yellow fever (disorder)"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code provided (http://snomed.info/sct#840533007) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "840533007",
+  "display" : "2019 novel coronavirus"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"ALL_CHECKS"}####
+v: {
+  "display" : "2019-nCoV",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "840539006",
+        "display" : "COVID-19"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:d51e6829-8b03-4c9d-a73b-49636985a9a9",
+    "timestamp" : "2021-07-29T16:51:27.785Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "840539006",
+      "display" : "Disease caused by 2019 novel coronavirus"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1240581000000104",
+        "display" : "Severe acute respiratory syndrome coronavirus 2 detected"
+      },
+      {
+        "code" : "1240591000000102",
+        "display" : "Severe acute respiratory syndrome coronavirus 2 not detected"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:7a161e69-be9f-498f-ba02-e5186407d381",
+    "timestamp" : "2021-07-29T16:51:28.551Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1240581000000104",
+      "display" : "Severe acute respiratory syndrome coronavirus 2 detected (finding)"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1240591000000102",
+      "display" : "Severe acute respiratory syndrome coronavirus 2 not detected"
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1119349007",
+        "display" : "SARS-CoV-2 mRNA vaccine"
+      },
+      {
+        "code" : "1119305005",
+        "display" : "SARS-CoV-2 antigen vaccine"
+      }]
+    }]
+  }
+}}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "language" : "en",
+  "status" : "active",
+  "expansion" : {
+    "identifier" : "urn:uuid:b85446c5-b201-4015-8264-614ac281f43d",
+    "timestamp" : "2021-07-29T16:51:33.457Z",
+    "parameter" : [{
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    },
+    {
+      "name" : "version",
+      "valueString" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"
+    }],
+    "contains" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "1119349007",
+      "display" : "Severe acute respiratory syndrome coronavirus 2 mRNA only vaccine product"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "1119305005",
+      "display" : "2019 novel coronavirus antigen vaccine"
+    }]
+  }
+},
   "error" : ""
 }
 -------------------------------------------------------------------------------------
