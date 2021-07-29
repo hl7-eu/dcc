@@ -6,7 +6,7 @@
   "title": "ATC Vaccine List (COVID-19)",
   "description": "Vaccine List (COVID-19) from [ATC]",
   "version": "0.0.1",
-  "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/atc-vaccines-covid-19",
+  "url": "http://hl7.eu/fhir/ig/dcc/ValueSet/atc-vaccines-covid-19",
   "compose": {
     "include": [
       {

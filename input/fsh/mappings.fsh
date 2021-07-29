@@ -1,8 +1,8 @@
 Mapping: patient-to-md
 Id: patient-to-md
 Title: "Vaccination Certificate (Medical)"
-Source: PatientDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
+Source: PatientDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificate"
 
 * identifier -> "vaccinationCertificate.subject.identifier"
 * name -> "vaccinationCertificate.subject.name"
@@ -12,8 +12,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
 Mapping: patient-to-bc
 Id: patient-to-bc
 Title: "Vaccination Certificate (Border Control)"
-Source: PatientDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
+Source: PatientDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificateBc"
 
 * identifier -> "vaccinationCertificateBc.subject.identifier"
 * name -> "vaccinationCertificateBc.subject.name"
@@ -23,8 +23,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
 Mapping: patient-to-pv
 Id: patient-to-pv
 Title: "Vaccination Certificate (Private Venue)"
-Source: PatientDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
+Source: PatientDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificatePv"
 
 // * identifier -> "vaccinationCertificatePv.subject.identifier"
 * name -> "vaccinationCertificatePv.subject.name"
@@ -34,8 +34,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
 Mapping: immunization-to-md
 Id: immunization-to-md
 Title: "Vaccination Certificate (Medical)"
-Source: ImmunizationDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
+Source: ImmunizationDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificate"
 
 * -> "vaccinationCertificate.vaccination"
 * vaccineCode.coding -> "vaccinationCertificate.vaccination.vaccineCode"
@@ -57,8 +57,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
 Mapping: immunization-to-bc
 Id: immunization-to-bc
 Title: "Vaccination Certificate (Border Control)"
-Source: ImmunizationDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
+Source: ImmunizationDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificateBc"
 
 * -> "vaccinationCertificateBc.vaccination"
 * vaccineCode.coding -> "vaccinationCertificateBc.vaccination.vaccineCode"
@@ -78,8 +78,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
 Mapping: immunization-to-pv
 Id: immunization-to-pv
 Title: "Vaccination Certificate (Private Venue)"
-Source: ImmunizationDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
+Source: ImmunizationDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificatePv"
 
 * -> "vaccinationCertificatePv.vaccination"
 // * vaccineCode.coding -> "vaccinationCertificatePv.vaccination.vaccineCode"
@@ -100,8 +100,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
 Mapping: location-to-md
 Id: location-to-md
 Title: "Vaccination Certificate (Medical)"
-Source: LocationDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
+Source: LocationDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificate"
 
 * -> "vaccinationCertificate.vaccination.administeringCentre"
 * address.country -> "vaccinationCertificate.vaccination.countryOfVaccination"
@@ -109,8 +109,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificate"
 Mapping: location-to-bc
 Id: location-to-bc
 Title: "Vaccination Certificate (Border Control)"
-Source: LocationDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
+Source: LocationDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificateBc"
 
 // * -> "vaccinationCertificateBc.vaccination.administeringCentre"
 * address.country -> "vaccinationCertificateBc.vaccination.countryOfVaccination"
@@ -118,8 +118,8 @@ Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificateBc"
 Mapping: location-to-pv
 Id: location-to-pv
 Title: "Vaccination Certificate (Private Venue)"
-Source: LocationDGC
-Target: "http://hl7.eu/fhir/ig/dgc/StructureDefinition/vaccinationCertificatePv"
+Source: LocationDCC
+Target: "http://hl7.eu/fhir/ig/dcc/StructureDefinition/vaccinationCertificatePv"
 
 // * -> "vaccinationCertificateBc.vaccination.administeringCentre"
 // * address.country -> "vaccinationCertificateBc.vaccination.countryOfVaccination"

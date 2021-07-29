@@ -1,10 +1,10 @@
 {
- "name": "VaccinationCertificateIg",
+ "name": "DigitalCovidCertificateIg",
  "version" : "0.1.0",  
- "canonical" : "http://hl7.eu/fhir/poc/svc",
- "url" : "http://hl7.eu/fhir/poc/svc",
- "title" : "Vaccination Certificate PoC FHIR Implementation Guide",
- "description": "Vaccination Certificate PoC FHIR Implementation Guide",
+ "canonical" : "http://hl7.eu/fhir/ig/dcc",
+ "url" : "http://hl7.eu/fhir/ig/dcc",
+ "title" : "EU Digital Covid Certificate FHIR Implementation Guide",
+ "description": "EU Digital Covid Certificate FHIR Implementation Guide",
  "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.uv.ips": "dev"

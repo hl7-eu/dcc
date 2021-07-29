@@ -2,15 +2,15 @@
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir"
                    	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<id value="hl7.eu.fhir.dgc"/>
+	<id value="hl7.eu.fhir.dcc"/>
 	<!--  <extension url="http://hl7.org/fhir/tools/StructureDefinition/igpublisher-spreadsheet">
     <valueString value="resources-spreadsheet.xml"/>
   </extension>-->
-	<url value="http://hl7.eu/fhir/ig/dgc/ImplementationGuide/hl7.eu.fhir.dgc"/>
+	<url value="http://hl7.eu/fhir/ig/dcc/ImplementationGuide/hl7.eu.fhir.dcc"/>
 	<!-- This version will propagate to all artifacts unless the "propagate-version" extension is overridden -->
 	<version value="0.0.1"/>
-	<name value="DigitalGreenCertificateIg"/>
-	<title value="EU Digital Green Certificate FHIR Implementation Guide"/>
+	<name value="DigitalCovidCertificateIg"/>
+	<title value="EU Digital Covid Certificate FHIR Implementation Guide"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<publisher value="Giorgio Cangioli"/>
@@ -21,7 +21,7 @@
 			<value value="mailto:giorgio.cangioli@gmail.com"/>
 		</telecom>
 	</contact>
-	<description value="EU Digital Green Certificate FHIR Implementation Guide"/>
+	<description value="EU Digital Covid Certificate FHIR Implementation Guide"/>
 	<jurisdiction>
 		<!-- This will drive SNOMED release used -->
 		<coding>
@@ -36,7 +36,7 @@
 			<code value="001"/>
 		</coding>
 	</jurisdiction>
-	<packageId value="hl7.eu.fhir.dgc"/>
+	<packageId value="hl7.eu.fhir.dcc"/>
 	<!-- This should be changed to 'not-open-source' or another license if appropriate for non-HL7-published content -->
 	<license value="CC0-1.0"/>
 	<!-- This is whatever FHIR version(s) the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
@@ -58,7 +58,7 @@
 			</reference>
 			<name value="Two doses (Immunization)"/>
 			<description value="Czech vaccination example: 2 doses"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -66,7 +66,7 @@
 			</reference>
 			<name value="Only first dose given (Immunization)"/>
 			<description value="Czech vaccination example: 1 dose given, second dose planned"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -74,7 +74,7 @@
 			</reference>
 			<name value="Second dose not given (Immunization)"/>
 			<description value="Vaccination example: second dose not given (only immunization events)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -82,7 +82,7 @@
 			</reference>
 			<name value="Second dose not given (ImmunizationRecommendation)"/>
 			<description value="Vaccination example: second dose not given (Immunization and ImmunizationRecommendation)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -90,7 +90,7 @@
 			</reference>
 			<name value="Only planned vaccinations (ImmunizationRecommendation)"/>
 			<description value="Vaccination example: only planned vaccinations"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -98,7 +98,7 @@
 			</reference>
 			<name value="Second dose not given due to adverse reaction"/>
 			<description value="Vaccination example: second dose not given due to adverse reaction(Immunization and ImmunizationRecommendation)"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -106,7 +106,7 @@
 			</reference>
 			<name value="Only first dose given + QR (Immunization)"/>
 			<description value="Czech vaccination example: 1 dose given, second dose planned with QR code"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -114,7 +114,7 @@
 			</reference>
 			<name value="Two doses given (Immunization)"/>
 			<description value="Italian vaccination example: 2 dose given"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -122,7 +122,7 @@
 			</reference>
 			<name value="Patient"/>
 			<description value="Example of Italian patient"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Patient-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Patient-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -130,7 +130,7 @@
 			</reference>
 			<name value="Organization"/>
 			<description value="Example of Italian Organization (azienda sanitaria)"/>
-			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Bundle-dgc"/> -->
+			<!-- <exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Bundle-dcc"/> -->
 		</resource>
 		<resource>
 			<reference>
@@ -138,7 +138,7 @@
 			</reference>
 			<name value="Immunization"/>
 			<description value="Example of Vaccination with COVID-19 mRNA vaccine"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Immunization-dcc"/>
 		</resource>
 		<resource>
 			<reference>
@@ -146,7 +146,7 @@
 			</reference>
 			<name value="Immunization"/>
 			<description value="Example of Vaccination with COVID-19 mRNA vaccine"/>
-			<exampleCanonical value="http://hl7.eu/fhir/ig/dgc/StructureDefinition/Immunization-dgc"/>
+			<exampleCanonical value="http://hl7.eu/fhir/ig/dcc/StructureDefinition/Immunization-dcc"/>
 		</resource>
 		<!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's
       inappropriate to use the defaults.  Feel free to provide feedback about the defaults... -->
@@ -157,7 +157,7 @@
 			<generation value="html"/>
 			<page>
 				<nameUrl value="index.html"/>
-				<title value="EU Digital Green Certificate - Home Page"/>
+				<title value="EU Digital Covid Certificate - Home Page"/>
 				<generation value="markdown"/>
 			</page>
 			<page>

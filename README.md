@@ -1,2 +1,2 @@
-# Europen Digital Green Certificate
-EU Digital Green Certificate
+# Europen Digital COVID Certificate
+EU Digital Covid  Certificate (fka Digital Green Certificate)

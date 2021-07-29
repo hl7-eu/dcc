@@ -6,7 +6,7 @@
   "title": "LOINC Test List (COVID-19)",
   "description": "Test List (COVID-19) from [LOINC]",
   "version": "0.0.1",
-  "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/loinc-tests-covid-19",
+  "url": "http://hl7.eu/fhir/ig/dcc/ValueSet/loinc-tests-covid-19",
   "compose": {
     "include": [
       {

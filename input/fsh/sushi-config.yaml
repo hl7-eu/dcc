@@ -11,10 +11,10 @@
 # │  http://build.fhir.org/ig/HL7/fhir-shorthand/branches/beta/sushi.html#ig-development           │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: hl7.eu.fhir.dgc
-canonical: http://hl7.eu/fhir/ig/dgc
+canonical: http://hl7.eu/fhir/ig/dcc
 version: 0.0.1
-name: DigitalGreenCertificateIg
-title: EU Digital Green Certificate FHIR Implementation Guide
+name: DigitalCovidCertificateIg
+title: EU Digital Covid Certificate FHIR Implementation Guide
 status: active
 publisher: Giorgio Cangioli
 contact:
@@ -22,7 +22,7 @@ contact:
     telecom:
       - system: email
         value: mailto:giorgio.cangioli@gmail.com
-description: EU Digital Green Certificate FHIR Implementation Guide
+description: EU Digital Covid Certificate FHIR Implementation Guide
 license: CC0-1.0
 fhirVersion: 4.0.1
 dependencies:

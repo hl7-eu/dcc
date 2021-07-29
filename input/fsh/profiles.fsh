@@ -3,36 +3,36 @@
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  CompositionDGC
+Profile:  CompositionDCC
 Parent: $clinicaldocument
-Id: Composition-dgc
-Title: "Composition (Digital Green Certificate)"
+Id: Composition-dcc
+Title: "Composition (Digital Covid Certificate)"
 Description: "This profile defines how to represent a vaccination certificate in FHIR by using a Composition resource"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 * ^publisher = "Giorgio Cangioli"
 * ^purpose = "An International Patient Summary (IPS) document is an electronic health record extract containing essential healthcare information about a subject of care, comprising at least the required elements of the IPS dataset. The IPS dataset is minimal and non-exhaustive; specialty-agnostic and condition-independent; but still clinically relevant. As specified in EN 17269 and ISO/DIS 27269, it is designed for supporting the use case scenario for ‘unplanned, cross border care’, but it is not limited to it. It is intended to be international, i.e., to provide generic solutions for global application beyond a particular region or country."
 * . MS
-* . ^short = "Digital Green Certificate composition"
-* . ^definition = "Digital Green Certificate composition. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
+* . ^short = "Digital Covid Certificate composition"
+* . ^definition = "Digital Covid Certificate composition. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
 * text MS
 * identifier MS
 * status MS
 * type only $CodeableConcept-uv-ips
 * type = $loinc#82593-5
 * type MS
-* type ^short = "Kind of composition (\"Digital Green Certificate\")"
-* type ^definition = "Specifies that this composition refers to a Digital Green Certificate (Loinc \"11369-6\")"
+* type ^short = "Kind of composition (\"Digital Covid Certificate\")"
+* type ^definition = "Specifies that this composition refers to a Digital Covid Certificate (Loinc \"11369-6\")"
 * subject only Reference($Patient-uv-ips)
 * subject MS
 * subject ^definition = "Who or what the composition is about. \r\nIn general a composition can be about a person, (patient or healthcare practitioner), a device (e.g. a machine) or even a group of subjects (such as a document about a herd of livestock, or a set of patients that share a common exposure).\r\nFor the IPS the subject is always the patient."
 * subject.reference 1.. MS
 * date MS
-* author ^short = "Who and/or what authored the Digital Green Certificate"
-* author ^definition = "Identifies who is responsible for the information in the Digital Green Certificate, not necessarily who typed it in."
+* author ^short = "Who and/or what authored the Digital Covid Certificate"
+* author ^definition = "Identifies who is responsible for the information in the Digital Covid Certificate, not necessarily who typed it in."
 * title MS
-* title ^short = "Digital Green Certificate"
-* title ^definition = "Official human-readable label for the composition.\r\n\r\nFor this document should be \"Digital Green Certificate\" or any equivalent translation"
+* title ^short = "Digital Covid Certificate"
+* title ^definition = "Official human-readable label for the composition.\r\n\r\nFor this document should be \"Digital Covid Certificate\" or any equivalent translation"
 * attester MS
 * attester.mode MS
 * attester.time MS
@@ -45,8 +45,8 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section ^slicing.discriminator[0].path = "code"
 * section ^slicing.ordered = false
 * section ^slicing.rules = #open
-* section ^short = "Sections composing the Digital Green Certificate"
-* section ^definition = "The root of the sections that make up the Digital Green Certificate composition."
+* section ^short = "Sections composing the Digital Covid Certificate"
+* section ^definition = "The root of the sections that make up the Digital Covid Certificate composition."
 * section contains   sectionImmunizations 0..1 and sectionResults 0..1
 
 
@@ -66,14 +66,14 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section[sectionImmunizations].entry ^definition = "It defines the patient's current immunization status and pertinent immunization history.\r\nThe primary use case for the Immunization Section is to enable communication of a patient's immunization status.\r\nIt may contain the entire immunization history that is relevant to the period of time being summarized. This entry shall be used to document that no information about immunizations is available, or that no immunizations are known."
 * section[sectionImmunizations].entry contains immunization 0.. MS and immunizationRecommendation 0.. MS
 // * section[sectionImmunizations].entry[immunization] 0..
-* section[sectionImmunizations].entry[immunization] only Reference(ImmunizationDGC)
+* section[sectionImmunizations].entry[immunization] only Reference(ImmunizationDCC)
 * section[sectionImmunizations].emptyReason ..0
 * section[sectionImmunizations].emptyReason ^mustSupport = false
 * section[sectionImmunizations].section ..0
 * section[sectionImmunizations].section ^mustSupport = false
 
 // * section[sectionImmunizations].entry[immunizationRecommendation] 0..
-* section[sectionImmunizations].entry[immunizationRecommendation] only Reference(ImmunizationRecommendationDGC)
+* section[sectionImmunizations].entry[immunizationRecommendation] only Reference(ImmunizationRecommendationDCC)
 * section[sectionImmunizations].emptyReason ..0
 * section[sectionImmunizations].emptyReason ^mustSupport = false
 * section[sectionImmunizations].section ..0
@@ -99,7 +99,7 @@ Description: "This profile defines how to represent a vaccination certificate in
 * section[sectionResults].entry ^definition = "Relevant observation results collected on the patient or produced on in-vitro biologic specimens collected from the patient. Some of these results may be laboratory results, others may be anatomic pathology results, others, radiology results, and others, clinical results."
 * section[sectionResults].entry contains observation 0.. MS and diagnosticReport 0..
 // * section[sectionResults].entry[observation] 0..
-* section[sectionResults].entry[observation] only Reference(ObservationDGC)
+* section[sectionResults].entry[observation] only Reference(ObservationDCC)
 * section[sectionResults].emptyReason ..0
 * section[sectionResults].emptyReason ^mustSupport = false
 * section[sectionResults].section ..0
@@ -114,21 +114,21 @@ Description: "This profile defines how to represent a vaccination certificate in
 
 
 //++++++++++++++++++++++++++++++++++++++++++
-Profile:  PatientDGC
+Profile:  PatientDCC
 Parent:   $Patient-uv-ips
-Id:       Patient-dgc
-Title:    "Patient (Digital Green Certificate)"
-Description: "This profile defines how to represent Patient Data in a Digital Green Certificate."
+Id:       Patient-dcc
+Title:    "Patient (Digital Covid Certificate)"
+Description: "This profile defines how to represent Patient Data in a Digital Covid Certificate."
 //-------------------------------------------------------------------------------------------
 
 // ---- maps are defined in the mapping.fsh file
 
 //++++++++++++++++++++++++++++++++++++++++++
-Profile:  ObservationDGC
+Profile:  ObservationDCC
 Parent:   $Observation-results-uv-ips
-Id:       Observation-dgc
-Title:    "Observation - Test Result (Digital Green Certificate)"
-Description: "This profile defines how to represent Test Results in a Digital Green Certificate."
+Id:       Observation-dcc
+Title:    "Observation - Test Result (Digital Covid Certificate)"
+Description: "This profile defines how to represent Test Results in a Digital Covid Certificate."
 //-------------------------------------------------------------------------------------------
 * subject only Reference($Patient-uv-ips)
 * code from LoincCovid19Tests (extensible)
@@ -139,9 +139,9 @@ Profile:  ObservationCovidImmunity
 Parent:   Observation
 Id:       Observation-CovidImmunity
 Title:    "Observation - Covid Immunity"
-Description: "This profile defines how to represent Covid with (presumed) Immunity in a Digital Green Certificate."
+Description: "This profile defines how to represent Covid with (presumed) Immunity in a Digital Covid Certificate."
 //-------------------------------------------------------------------------------------------
-* subject only Reference(PatientDGC)
+* subject only Reference(PatientDCC)
 * code from LoincDiseaseWithImmunity (extensible)
 * effective[x] only dateTime
 * valueCodeableConcept = $sct#840539006
@@ -151,9 +151,9 @@ Description: "This profile defines how to represent Covid with (presumed) Immuni
 /*++++++++++++++++++++++++++ NOT USED FOR THE TIME BEING ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Profile:  ImmunizationNotDone
 Parent:   Immunization
-Id:       Immunization-notDone-dgc
-Title:    "Immunization (Digital Green Certificate)"
-Description: "This profile defines how to represent Immunizations in FHIR for representing in a Digital Green Certificate a not given immunization."
+Id:       Immunization-notDone-dcc
+Title:    "Immunization (Digital Covid Certificate)"
+Description: "This profile defines how to represent Immunizations in FHIR for representing in a Digital Covid Certificate a not given immunization."
 
 //-------------------------------------------------------------------------------------------
 
@@ -167,11 +167,11 @@ Description: "This profile defines how to represent Immunizations in FHIR for re
 ==== */
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ImmunizationDGC
+Profile:  ImmunizationDCC
 Parent:   $Immunization-uv-ips
-Id:       Immunization-dgc
-Title:    "Immunization (Digital Green Certificate)"
-Description: "This profile defines how to represent Immunizations in FHIR for building a Digital Green Certificate."
+Id:       Immunization-dcc
+Title:    "Immunization (Digital Covid Certificate)"
+Description: "This profile defines how to represent Immunizations in FHIR for building a Digital Covid Certificate."
 
 //-------------------------------------------------------------------------------------------
 
@@ -191,7 +191,7 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 * patient MS
 * occurrenceDateTime MS
 * location MS // check is really needed
-* location only Reference(LocationDGC)
+* location only Reference(LocationDCC)
 // * manufacturer MS
 // * lotNumber MS
 * performer MS
@@ -208,11 +208,11 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 * protocolApplied.seriesDosesPositiveInt MS
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  ImmunizationRecommendationDGC
+Profile:  ImmunizationRecommendationDCC
 Parent:   ImmunizationRecommendation
-Id:       ImmunizationRecommendation-dgc
-Title:    "ImmunizationRecommendation (Digital Green Certificate)"
-Description: "This profile defines how to represent Immunization Recommandations in FHIR for building a Digital Green Certificate."
+Id:       ImmunizationRecommendation-dcc
+Title:    "ImmunizationRecommendation (Digital Covid Certificate)"
+Description: "This profile defines how to represent Immunization Recommandations in FHIR for building a Digital Covid Certificate."
 //-------------------------------------------------------------------------------------------
 
 * date MS
@@ -230,22 +230,22 @@ Description: "This profile defines how to represent Immunization Recommandations
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  LocationDGC
+Profile:  LocationDCC
 Parent:   Location
-Id:       Location-dgc
-Title:    "Location (Digital Green Certificate)"
-Description: "This profile defines how to represent Location in FHIR for building a Digital Green Certificate. This is used to describe optionally where the vaccination occured"
+Id:       Location-dcc
+Title:    "Location (Digital Covid Certificate)"
+Description: "This profile defines how to represent Location in FHIR for building a Digital Covid Certificate. This is used to describe optionally where the vaccination occured"
 
 //-------------------------------------------------------------------------------------------
 * address.country 1..1 MS
 
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  BinaryQRDGC
+Profile:  BinaryQRDCC
 Parent:   Binary
-Id:       Binary-qr-dgc
-Title:    "Binary QR code (Digital Green Certificate)"
-Description: "This profile defines how to represent the Digital Green Certificate QR code with a Binary resource"
+Id:       Binary-qr-dcc
+Title:    "Binary QR code (Digital Covid Certificate)"
+Description: "This profile defines how to represent the Digital Covid Certificate QR code with a Binary resource"
 
 //-------------------------------------------------------------------------------------------
 * contentType	MS // Σ	1..1	code	MimeType of the binary content ADD MIME types used
@@ -256,18 +256,18 @@ Description: "This profile defines how to represent the Digital Green Certificat
 
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Profile:  BundleDGC
+Profile:  BundleDCC
 Parent: Bundle
-Id: Bundle-dgc
-Title: "Bundle (Digital Green Certificate)"
+Id: Bundle-dcc
+Title: "Bundle (Digital Covid Certificate)"
 Description: "This profile defines how to represent a vaccination certificate in FHIR by using a Bundle resource"
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 * ^publisher = "Giorgio Cangioli"
-* ^purpose = "The Digital Green Certificate is designed to facilitate safe free movement inside the EU during the COVID-19 pandemic. The Digital Green Certificate will be a proof that a person has been vaccinated against COVID-19, received a negative test result or recovered from COVID-19"
+* ^purpose = "The Digital Covid Certificate is designed to facilitate safe free movement inside the EU during the COVID-19 pandemic. The Digital Covid Certificate will be a proof that a person has been vaccinated against COVID-19, received a negative test result or recovered from COVID-19"
 * . MS
-* . ^short = "Digital Green Certificate Bundle"
-* . ^definition = "Digital Green Certificate Bundle. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
+* . ^short = "Digital Covid Certificate Bundle"
+* . ^definition = "Digital Covid Certificate Bundle. \r\nA composition is a set of healthcare-related information that is assembled together into a single logical document that provides a single coherent statement of meaning, establishes its own context and that has clinical attestation with regard to who is making the statement. \r\nWhile a Composition defines the structure, it does not actually contain the content: rather the full content of a document is contained in a Bundle, of which the Composition is the first resource contained."
 * identifier 1.. MS
 * identifier.system = "http://hl7.eu/fhir/sid/uvci" // temporary solution
 * identifier.system ^short = "(temporary URL)"
@@ -293,25 +293,25 @@ Description: "This profile defines how to represent a vaccination certificate in
 	// and	binary 0..
 
 * entry[composition].resource 1..1 MS
-* entry[composition].resource only CompositionDGC
+* entry[composition].resource only CompositionDCC
 
 * entry[patient].resource 1..1 MS
-* entry[patient].resource only PatientDGC
+* entry[patient].resource only PatientDCC
 
 * entry[immunization].resource 1..1 MS
-// * entry[immunization].resource only ImmunizationDGC or ImmunizationNotDone
-* entry[immunization].resource only ImmunizationDGC
+// * entry[immunization].resource only ImmunizationDCC or ImmunizationNotDone
+* entry[immunization].resource only ImmunizationDCC
 
 * entry[immunizationRecommendation].resource 1..1 MS
-* entry[immunizationRecommendation].resource only ImmunizationRecommendationDGC
+* entry[immunizationRecommendation].resource only ImmunizationRecommendationDCC
 
 * entry[testResult].resource 1..1 MS
-* entry[testResult].resource only ObservationDGC
+* entry[testResult].resource only ObservationDCC
 
 * entry[immunity].resource 1..1 MS
 * entry[immunity].resource only ObservationCovidImmunity
 
 // * entry[binary].resource 1..1 MS
-// * entry[binary].resource only BinaryQRDGC
+// * entry[binary].resource only BinaryQRDCC
 
 

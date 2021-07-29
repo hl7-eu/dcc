@@ -7,7 +7,7 @@
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Code \"J12.82\" not found; The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "error" : "The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -18,7 +18,7 @@ v: {
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Code \"J12.82\" not found; The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
+  "error" : "The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'All codes known to the system' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------
 {"code" : {
@@ -40,6 +40,6 @@ v: {
 v: {
   "display" : "",
   "severity" : "error",
-  "error" : "Code \"J12.82\" not found; The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
+  "error" : "The code \"J12.82\" is not valid in the system http://hl7.org/fhir/sid/icd-10; The code provided (http://hl7.org/fhir/sid/icd-10#J12.82) is not valid in the value set 'Covid19Diseases' (from http://tx.fhir.org/r4)"
 }
 -------------------------------------------------------------------------------------

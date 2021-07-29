@@ -6,7 +6,7 @@
   "title": "SNOMED CT Vaccine List (COVID-19)",
   "description": "Vaccine List (COVID-19) from [SNOMED CT]",
   "version": "0.0.1",
-  "url": "http://hl7.eu/fhir/ig/dgc/ValueSet/sct-vaccines-covid-19",
+  "url": "http://hl7.eu/fhir/ig/dcc/ValueSet/sct-vaccines-covid-19",
   "compose": {
     "include": [
       {
