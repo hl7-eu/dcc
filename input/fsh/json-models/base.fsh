@@ -37,11 +37,11 @@ Usage: #definition
 
 * differential.element[2].id = "HC1.nam"
 * differential.element[2].path = "HC1.nam"
-* differential.element[2].short = "Surname(s), forename(s) - in that order"
-* differential.element[2].definition = "Surname(s), forename(s) - in that order"
+* differential.element[2].short = "Person name"
+* differential.element[2].definition = "Person name: Surname(s), forename(s) - in that order"
 * differential.element[2].min = 1
 * differential.element[2].max = "1"
-* differential.element[2].type.code = #string
+* differential.element[2].type.code = #http://hl7.eu/fhir/ig/dcc/StructureDefinition/PersonName
 
 
 * differential.element[3].id = "HC1.dob"
