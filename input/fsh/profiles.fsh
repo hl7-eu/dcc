@@ -132,6 +132,8 @@ Description: "This profile defines how to represent Test Results in a Digital Co
 //-------------------------------------------------------------------------------------------
 * subject only Reference($Patient-uv-ips)
 * code from LoincCovid19Tests (extensible)
+* method 1..1 
+* method from Covid19LabMethods (required)
 * effective[x] only dateTime
 
 //++++++++++++++++++++++++++++++++++++++++++
@@ -181,10 +183,13 @@ Description: "This profile defines how to represent Immunizations in FHIR for bu
 * vaccineCode.coding ^slicing.rules = #open
 * vaccineCode.coding ^short = "Type of vaccine"
 * vaccineCode.coding ^definition = "Vaccine code: it might be a code describing the kind of vaccine (e.g. ATC, ICD 11); it might be one of the IDMP identifiers; it might be a jurisdictional product code"
-* vaccineCode.coding contains   atcVaccines 0..1 and sctVaccines 0..1 // and icd11Vaccines 0..1
-* vaccineCode.coding[atcVaccines] from AtcCovid19Vaccines
-* vaccineCode.coding[sctVaccines] from SctCovid19Vaccines
+// * vaccineCode.coding contains   atcVaccines 0..1 and sctVaccines 0..1 // and icd11Vaccines 0..1
+// * vaccineCode.coding[atcVaccines] from AtcCovid19Vaccines
+// * vaccineCode.coding[sctVaccines] from SctCovid19Vaccines
 //* vaccineCode.coding[icd11Vaccines] from Icd11Covid19Vaccines  icd11 has not been selected by SGS
+* vaccineCode.coding contains vaccineProphylaxisCodes 1..1 and ecRegVaccines 1..1
+* vaccineCode.coding[vaccineProphylaxisCodes] from Covid19Vaccines
+* vaccineCode.coding[ecRegVaccines] from Covid19VaccineNames
 
 * vaccineCode.text ^short = "Name of the vaccine" // brandName
 
